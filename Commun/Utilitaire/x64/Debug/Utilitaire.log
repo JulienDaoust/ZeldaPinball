@@ -1,0 +1,45 @@
+﻿La génération a démarré 2014-12-05 12:42:27.
+     1>Projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\Utilitaire.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\Externe\FreeImage\include /I..\Externe\glm\include /I. /I../Externe/Assimp/include /IOpenGL /IModele /I../Externe/GLEW/include /Zi /nologo /W3 /WX- /Od /D WIN32 /D GLEW_BUILD /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Vue\Camera.cpp Vue\ProjectionOrtho.cpp Vue\ProjectionPerspective.cpp Vue\VueOrtho.cpp Vue\VuePerspective.cpp
+         ProjectionPerspective.cpp
+         ProjectionOrtho.cpp
+         Camera.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         VuePerspective.cpp
+         VueOrtho.cpp
+         Génération de code en cours...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\x64\Debug\Utilitaire.lib" FreeImage.lib /LIBPATH:..\Externe\FreeImage\lib /NOLOGO /MACHINE:X64 x64\Debug\AideCollision.obj
+         x64\Debug\CEcritureFichierBinaire.obj
+         x64\Debug\CLectureFichierBinaire.obj
+         x64\Debug\CompteurAffichage.obj
+         x64\Debug\Droite3D.obj
+         x64\Debug\Materiau.obj
+         x64\Debug\Mesh.obj
+         x64\Debug\Modele3D.obj
+         x64\Debug\Noeud.obj
+         x64\Debug\ModeleStorage_CPU_Local.obj
+         x64\Debug\ModeleStorage_List.obj
+         x64\Debug\AideGL.obj
+         x64\Debug\BoiteEnvironnement.obj
+         x64\Debug\EtatOpenGL.obj
+         x64\Debug\OpenGL_Debug.obj
+         x64\Debug\OpenGL_Programme.obj
+         x64\Debug\OpenGL_Nuanceur.obj
+         x64\Debug\Plan3D.obj
+         x64\Debug\Utilitaire.obj
+         x64\Debug\ProjectionPerspective.obj
+         x64\Debug\VuePerspective.obj
+         x64\Debug\Camera.obj
+         x64\Debug\Projection.obj
+         x64\Debug\ProjectionOrtho.obj
+         x64\Debug\Vue.obj
+         x64\Debug\VueOrtho.obj
+         Utilitaire.vcxproj -> C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\x64\Debug\Utilitaire.lib
+     1>Génération du projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\Utilitaire.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:04.80

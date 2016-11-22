@@ -1,0 +1,128 @@
+\hypertarget{class_arbre_rendu_i_n_f2990}{\section{Arbre\-Rendu\-I\-N\-F2990 Class Reference}
+\label{class_arbre_rendu_i_n_f2990}\index{Arbre\-Rendu\-I\-N\-F2990@{Arbre\-Rendu\-I\-N\-F2990}}
+}
+
+
+Classe qui représente l'arbre de rendu spécifique au projet de I\-N\-F2990.  
+
+
+
+
+{\ttfamily \#include $<$Arbre\-Rendu\-I\-N\-F2990.\-h$>$}
+
+Inheritance diagram for Arbre\-Rendu\-I\-N\-F2990\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_arbre_rendu_i_n_f2990}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__inf2990_ga67528b7fa54e8ef8f96ef2e0bad06d2d}{Arbre\-Rendu\-I\-N\-F2990} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+virtual \hyperlink{group__inf2990_gaa67526b2fd719f6bcef7a4547bd25c7b}{$\sim$\-Arbre\-Rendu\-I\-N\-F2990} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga678d89e1f12ae16ee7dcf6de3db637a3}{initialiser} ()
+\begin{DoxyCompactList}\small\item\em Initialise l'arbre de rendu à son état initial. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_gac81819245675d0f2ec89725c0e19e8f4}{obtenir\-Noeud\-Selectionnes} ()
+\begin{DoxyCompactList}\small\item\em retourne lesnoeuds selectionnés \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_gaaffc85d521eb2d1a001b6bc5793fe9ab}{obtenir\-Noeud\-Palette\-G\-J1} ()
+\begin{DoxyCompactList}\small\item\em Retourne les palettes gauche du joueur 1. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_ga059dbf2c008c0362200ac66baf590c51}{obtenir\-Noeud\-Palette\-D\-J1} ()
+\begin{DoxyCompactList}\small\item\em Retourne les palettes droite du joueur 1. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_gad2258c446abb582ab0a2113e0e3516c5}{obtenir\-Noeud\-Palette\-G\-J2} ()
+\begin{DoxyCompactList}\small\item\em Retourne les palettes gauche du joueur 1. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_gad018fb03680e485d859ee4f54d3c4bde}{obtenir\-Noeud\-Palette\-D\-J2} ()
+\begin{DoxyCompactList}\small\item\em Retourne les palettes droite du joueur 2. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_ga9082fbe0365c1ba02be91caada61b56d}{obtenir\-Noeud\-Ressort} ()
+\begin{DoxyCompactList}\small\item\em Retourne les ressorts. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_ga4b325c56715d639504b84fa4f03af888}{obtenir\-Noeud\-Generateur\-Bille} ()
+\begin{DoxyCompactList}\small\item\em Retourne les generateurs de billes. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ \hyperlink{group__inf2990_ga72adf59460440b73a88e6119f5d5b4c7}{obtenir\-Noeud\-Portail} ()
+\begin{DoxyCompactList}\small\item\em Retourne les generateurs de billes. \end{DoxyCompactList}\item 
+\hyperlink{class_noeud_portail}{Noeud\-Portail} $\ast$ \hyperlink{group__inf2990_gaa31bddefc5fef2820e19567e5a1bf837}{obtenir\-Noeud\-Frere} (\hyperlink{class_noeud_portail}{Noeud\-Portail} $\ast$portail)
+\begin{DoxyCompactList}\small\item\em Permet de parcourir l'arbre pour obtenir le deuxieme portail d'une paire. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gab5bb3b5417ce69eb2186af74f64812e2}{obtenir\-Points\-Campagne} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points pour passer a la prochaine campagne. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gab8cfd98a1cb68e1dd3c13a8e7ed67518}{obtenir\-Points\-Bille} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points pour avoir une bille gratuite. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gad2753d0c059d1672a38db0fcb259e2bb}{obtenir\-Difficulte} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir la difficulté \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gaf8d29ac622fde29e983484dd96f94383}{obtenir\-Points\-Collision} (std\-::string objet)
+\begin{DoxyCompactList}\small\item\em Retourne les points dun certain type de collision. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga8ca4c7b2c52387246b8f202e17667eb5}{assigner\-Points\-Campagne} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points pour passer a la prochaine campagne. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gaf5d9a7e096d19d87f46c981d69fb3c1f}{assigner\-Points\-Bille} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points pour avoir une bille gratuite. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gaf50dab6537c65f123281e02abfaf1235}{assigner\-Points\-Butoir\-Cir} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points d'un butoir circulaire. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga561f50b4be3658c7864f8aeb5908a9c5}{assigner\-Points\-Butoir\-Tri} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points d'un butoir triangulaire. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga0589442c1a30ba017a6ec00d0ec1224f}{assigner\-Points\-Cible} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points d'une cible. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga61245075a6239c1e0ed17070a7266e82}{assigner\-Difficulte} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner la difficulte dun niveau. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga8e8afd5c8f54924cf5b8bf9ff566e226}{obtenir\-Points\-Butoir\-Cir} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points d'un butoir circulaire. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gab6950fbadcb23518c5d90492f2ed9d49}{obtenir\-Points\-Butoir\-Tri} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points d'un butoir triangulaire. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga98f17dbf250c022253f3e5f44d07b0c7}{obtenir\-Points\-Cible} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points d'une cible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga1035430c1c08b95d17f891ae89b33b80}{N\-O\-M\-\_\-\-A\-R\-A\-I\-G\-N\-E\-E} \{ \char`\"{}araignee\char`\"{} \}
+\begin{DoxyCompactList}\small\item\em La chaîne représentant le type des araignées. \end{DoxyCompactList}\item 
+static const std\-::string \hyperlink{group__inf2990_gae849656178f4dad34106f525bf37341a}{N\-O\-M\-\_\-\-C\-O\-N\-E\-C\-U\-B\-E} \{ \char`\"{}conecube\char`\"{} \}
+\begin{DoxyCompactList}\small\item\em La chaîne représentant le type des cones-\/cubes. \end{DoxyCompactList}\item 
+static const std\-::string \hyperlink{group__inf2990_ga94c12dcc43f98c6a9ea01d5000731146}{N\-O\-M\-\_\-\-P\-A\-L\-E\-T\-T\-E\-\_\-\-J\-O\-U\-E\-U\-R1\-\_\-\-G\-A\-U\-C\-H\-E} \{ \char`\"{}palette\-Joueur1\-Gauche\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga07688cfa3d08eba55f99bec99dd3b5f4}{N\-O\-M\-\_\-\-P\-A\-L\-E\-T\-T\-E\-\_\-\-J\-O\-U\-E\-U\-R1\-\_\-\-D\-R\-O\-I\-T\-E} \{ \char`\"{}palette\-Joueur1\-Droite\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga4cf6c9537ed786e75d8a31d0865bdd7d}{N\-O\-M\-\_\-\-P\-A\-L\-E\-T\-T\-E\-\_\-\-J\-O\-U\-E\-U\-R2\-\_\-\-G\-A\-U\-C\-H\-E} \{ \char`\"{}palette\-Joueur2\-Gauche\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_gace9339a7f67639dd836f63ce5b5ddc3a}{N\-O\-M\-\_\-\-P\-A\-L\-E\-T\-T\-E\-\_\-\-J\-O\-U\-E\-U\-R2\-\_\-\-D\-R\-O\-I\-T\-E} \{ \char`\"{}palette\-Joueur2\-Droite\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga7a9591f0a8d8d0544643244069165449}{N\-O\-M\-\_\-\-P\-L\-A\-Q\-U\-E} \{ \char`\"{}plaque\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga4a9ce7cdb45866b2e0f8949b1d5c770e}{N\-O\-M\-\_\-\-B\-U\-T\-O\-I\-R\-\_\-\-T\-R\-I\-A\-N\-G\-U\-L\-A\-I\-R\-E\-\_\-\-G\-A\-U\-C\-H\-E} \{ \char`\"{}butoir\-Triangulaire\-Gauche\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga13ca7796c90860832152b79e0520f05c}{N\-O\-M\-\_\-\-B\-U\-T\-O\-I\-R\-\_\-\-T\-R\-I\-A\-N\-G\-U\-L\-A\-I\-R\-E\-\_\-\-D\-R\-O\-I\-T} \{ \char`\"{}butoir\-Triangulaire\-Droit\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga238e91f014658127ac61896db91b68fd}{N\-O\-M\-\_\-\-B\-U\-T\-O\-I\-R\-\_\-\-C\-I\-R\-C\-U\-L\-A\-I\-R\-E} \{ \char`\"{}butoir\-Circulaire\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_gaf1c5c5096c35d15a9076ca3e7ccfde37}{N\-O\-M\-\_\-\-C\-I\-B\-L\-E} \{ \char`\"{}cible\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga78db47e8a4ca3320937c2b88c7bb0340}{N\-O\-M\-\_\-\-R\-E\-S\-S\-O\-R\-T} \{ \char`\"{}ressort\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_gab810bf89263e4dbd2542d6139c95e1a3}{N\-O\-M\-\_\-\-G\-E\-N\-E\-R\-A\-T\-E\-U\-R\-\_\-\-B\-I\-L\-L\-E} \{ \char`\"{}generateur\-Bille\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_gaf5ad7533d8b32b30f07700ed4e3c2dbb}{N\-O\-M\-\_\-\-T\-R\-O\-U} \{ \char`\"{}trou\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga71a649e3d19417d31752a25c002dc4d6}{N\-O\-M\-\_\-\-P\-O\-R\-T\-A\-I\-L} \{ \char`\"{}portail\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga4d9c8c9bfa165dde522834dec2882039}{N\-O\-M\-\_\-\-M\-U\-R} \{ \char`\"{}mur\char`\"{} \}
+\item 
+static const std\-::string \hyperlink{group__inf2990_ga97be26afc6aa5e5ce5c1e66623a27f9d}{N\-O\-M\-\_\-\-B\-I\-L\-L\-E} \{ \char`\"{}bille\char`\"{} \}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe qui représente l'arbre de rendu spécifique au projet de I\-N\-F2990. 
+
+Cette classe s'occupe de configurer les usines des noeuds qui seront utilisés par le projet.
+
+\begin{DoxyAuthor}{Author}
+Martin Bisson 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2007-\/03-\/23 
+\end{DoxyDate}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\hyperlink{_arbre_rendu_i_n_f2990_8h}{Arbre\-Rendu\-I\-N\-F2990.\-h}\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\hyperlink{_arbre_rendu_i_n_f2990_8cpp}{Arbre\-Rendu\-I\-N\-F2990.\-cpp}\end{DoxyCompactItemize}

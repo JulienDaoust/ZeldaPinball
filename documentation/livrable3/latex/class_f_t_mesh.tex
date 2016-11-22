@@ -1,0 +1,128 @@
+\hypertarget{class_f_t_mesh}{\section{F\-T\-Mesh Class Reference}
+\label{class_f_t_mesh}\index{F\-T\-Mesh@{F\-T\-Mesh}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Vectoriser.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_mesh_aa78f98bec8f9cd15d0255c326b7cf62d}{F\-T\-Mesh} ()
+\item 
+\hyperlink{class_f_t_mesh_a7282fec857e649bf91c91b2957f292ac}{$\sim$\-F\-T\-Mesh} ()
+\item 
+void \hyperlink{class_f_t_mesh_a4a503faa60d78f67cd487611b0f44b68}{Add\-Point} (const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E x, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E y, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E z)
+\item 
+const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E $\ast$ \hyperlink{class_f_t_mesh_a41c229d00a0edd342fff2577c7024dae}{Combine} (const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E x, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E y, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E z)
+\item 
+void \hyperlink{class_f_t_mesh_a03ddbeb4313ce4353c477d0afcdc4a1e}{Begin} (G\-Lenum mesh\-Type)
+\item 
+void \hyperlink{class_f_t_mesh_a1ead56fbe963c5976ea3c268b8b0544d}{End} ()
+\item 
+void \hyperlink{class_f_t_mesh_a2e07adc55441296e88b6886c153c50fd}{Error} (G\-Lenum e)
+\item 
+size\-\_\-t \hyperlink{class_f_t_mesh_a21075ff9bd0534574aede7f72fd33281}{Tesselation\-Count} () const 
+\item 
+const \hyperlink{class_f_t_tesselation}{F\-T\-Tesselation} $\ast$const \hyperlink{class_f_t_mesh_a5d8f540f3f6497209b91b53a3daa4190}{Tesselation} (size\-\_\-t index) const 
+\item 
+const \hyperlink{class_f_t_list}{Point\-List} \& \hyperlink{class_f_t_mesh_ac75f054b4e430c12d1f098070713acbb}{Temp\-Point\-List} () const 
+\item 
+G\-Lenum \hyperlink{class_f_t_mesh_ac706276fad2215121ffb1fdf1acffa8f}{Error} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_mesh}{F\-T\-Mesh} is a container of \hyperlink{class_f_t_tesselation}{F\-T\-Tesselation}'s that make up a polygon glyph 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_mesh_aa78f98bec8f9cd15d0255c326b7cf62d}{\index{F\-T\-Mesh@{F\-T\-Mesh}!F\-T\-Mesh@{F\-T\-Mesh}}
+\index{F\-T\-Mesh@{F\-T\-Mesh}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{F\-T\-Mesh}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Mesh\-::\-F\-T\-Mesh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_aa78f98bec8f9cd15d0255c326b7cf62d}
+Default constructor \hypertarget{class_f_t_mesh_a7282fec857e649bf91c91b2957f292ac}{\index{F\-T\-Mesh@{F\-T\-Mesh}!$\sim$\-F\-T\-Mesh@{$\sim$\-F\-T\-Mesh}}
+\index{$\sim$\-F\-T\-Mesh@{$\sim$\-F\-T\-Mesh}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{$\sim$\-F\-T\-Mesh}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Mesh\-::$\sim$\-F\-T\-Mesh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_a7282fec857e649bf91c91b2957f292ac}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_mesh_a4a503faa60d78f67cd487611b0f44b68}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Add\-Point@{Add\-Point}}
+\index{Add\-Point@{Add\-Point}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Add\-Point}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Mesh\-::\-Add\-Point (
+\begin{DoxyParamCaption}
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{x, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{y, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_a4a503faa60d78f67cd487611b0f44b68}
+Add a point to the mesh \hypertarget{class_f_t_mesh_a03ddbeb4313ce4353c477d0afcdc4a1e}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Begin@{Begin}}
+\index{Begin@{Begin}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Begin}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Mesh\-::\-Begin (
+\begin{DoxyParamCaption}
+\item[{G\-Lenum}]{mesh\-Type}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_a03ddbeb4313ce4353c477d0afcdc4a1e}
+Begin a new polygon \hypertarget{class_f_t_mesh_a41c229d00a0edd342fff2577c7024dae}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Combine@{Combine}}
+\index{Combine@{Combine}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Combine}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E $\ast$ F\-T\-Mesh\-::\-Combine (
+\begin{DoxyParamCaption}
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{x, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{y, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_a41c229d00a0edd342fff2577c7024dae}
+Create a combine point for the glu\-Tesselator \hypertarget{class_f_t_mesh_a1ead56fbe963c5976ea3c268b8b0544d}{\index{F\-T\-Mesh@{F\-T\-Mesh}!End@{End}}
+\index{End@{End}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{End}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Mesh\-::\-End (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_mesh_a1ead56fbe963c5976ea3c268b8b0544d}
+End a polygon \hypertarget{class_f_t_mesh_a2e07adc55441296e88b6886c153c50fd}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Error@{Error}}
+\index{Error@{Error}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Mesh\-::\-Error (
+\begin{DoxyParamCaption}
+\item[{G\-Lenum}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_mesh_a2e07adc55441296e88b6886c153c50fd}
+Record a glu\-Tesselation error \hypertarget{class_f_t_mesh_ac706276fad2215121ffb1fdf1acffa8f}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Error@{Error}}
+\index{Error@{Error}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}G\-Lenum F\-T\-Mesh\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_mesh_ac706276fad2215121ffb1fdf1acffa8f}
+Get the G\-L E\-R\-R\-O\-R returned by the glu tesselator \hypertarget{class_f_t_mesh_ac75f054b4e430c12d1f098070713acbb}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Temp\-Point\-List@{Temp\-Point\-List}}
+\index{Temp\-Point\-List@{Temp\-Point\-List}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Temp\-Point\-List}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Point\-List}\& F\-T\-Mesh\-::\-Temp\-Point\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_mesh_ac75f054b4e430c12d1f098070713acbb}
+Return the temporary point list. For testing only. \hypertarget{class_f_t_mesh_a5d8f540f3f6497209b91b53a3daa4190}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Tesselation@{Tesselation}}
+\index{Tesselation@{Tesselation}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Tesselation}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-Tesselation} $\ast$const F\-T\-Mesh\-::\-Tesselation (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_mesh_a5d8f540f3f6497209b91b53a3daa4190}
+Get a tesselation by index \hypertarget{class_f_t_mesh_a21075ff9bd0534574aede7f72fd33281}{\index{F\-T\-Mesh@{F\-T\-Mesh}!Tesselation\-Count@{Tesselation\-Count}}
+\index{Tesselation\-Count@{Tesselation\-Count}!FTMesh@{F\-T\-Mesh}}
+\subsubsection[{Tesselation\-Count}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Mesh\-::\-Tesselation\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_mesh_a21075ff9bd0534574aede7f72fd33281}
+The number of tesselations in the mesh 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Vectoriser.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Vectoriser.\-cpp\end{DoxyCompactItemize}

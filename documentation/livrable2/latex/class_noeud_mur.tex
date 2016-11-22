@@ -1,0 +1,175 @@
+\hypertarget{class_noeud_mur}{\section{Noeud\-Mur Class Reference}
+\label{class_noeud_mur}\index{Noeud\-Mur@{Noeud\-Mur}}
+}
+
+
+Classe qui représente un exemple de noeud de l'arbre de rendu.  
+
+
+
+
+{\ttfamily \#include $<$Noeud\-Mur.\-h$>$}
+
+Inheritance diagram for Noeud\-Mur\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_noeud_mur}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_noeud_mur_aeab2deec90548c0bdca5eb86beb629cf}{Noeud\-Mur} (const std\-::string \&type\-Noeud)
+\begin{DoxyCompactList}\small\item\em Constructeur à partir du type du noeud. \end{DoxyCompactList}\item 
+\hyperlink{class_noeud_mur_a169060e04a6423e7f025d475afd7d9ea}{$\sim$\-Noeud\-Mur} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_noeud_mur_a521a3062875ea6ed1645485412a70c7b}{afficher\-Concret} () const 
+\begin{DoxyCompactList}\small\item\em Affiche le cube. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_noeud_mur_a416be055b332d2434106868d6fad7059}{animer} (float temps)
+\begin{DoxyCompactList}\small\item\em Effectue l'animation du cube. \end{DoxyCompactList}\item 
+virtual \\*
+aidecollision\-::\-Details\-Collision \hyperlink{class_noeud_mur_af403f22b11d921776de0c568b377b8f3}{collision} (\hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$noeud)
+\begin{DoxyCompactList}\small\item\em permet d'identifier les collisions \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_noeud_mur_a68307bc0a0de517d36b752aa228820da}{accepte} (\hyperlink{class_visiteur_abstrait}{Visiteur\-Abstrait} $\ast$Visiteur)
+\begin{DoxyCompactList}\small\item\em Accepte le Visiteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe qui représente un exemple de noeud de l'arbre de rendu. 
+
+\begin{DoxyAuthor}{Author}
+Tommy Sagala 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2014-\/09-\/17 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_noeud_mur_aeab2deec90548c0bdca5eb86beb629cf}{\index{Noeud\-Mur@{Noeud\-Mur}!Noeud\-Mur@{Noeud\-Mur}}
+\index{Noeud\-Mur@{Noeud\-Mur}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{Noeud\-Mur}]{\setlength{\rightskip}{0pt plus 5cm}Noeud\-Mur\-::\-Noeud\-Mur (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{type\-Noeud}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_mur_aeab2deec90548c0bdca5eb86beb629cf}
+
+
+Constructeur à partir du type du noeud. 
+
+Ce constructeur ne fait qu'appeler la version de la classe et base et donner des valeurs par défaut aux variables membres.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em type\-Noeud} & \-: Le type du noeud.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+Charger le modèle 3\-D \hypertarget{class_noeud_mur_a169060e04a6423e7f025d475afd7d9ea}{\index{Noeud\-Mur@{Noeud\-Mur}!$\sim$\-Noeud\-Mur@{$\sim$\-Noeud\-Mur}}
+\index{$\sim$\-Noeud\-Mur@{$\sim$\-Noeud\-Mur}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{$\sim$\-Noeud\-Mur}]{\setlength{\rightskip}{0pt plus 5cm}Noeud\-Mur\-::$\sim$\-Noeud\-Mur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_mur_a169060e04a6423e7f025d475afd7d9ea}
+
+
+Destructeur. 
+
+Ce destructeur désallouee la liste d'affichage du cube.
+
+\begin{DoxyReturn}{Returns}
+Aucune (destructeur). 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_noeud_mur_a68307bc0a0de517d36b752aa228820da}{\index{Noeud\-Mur@{Noeud\-Mur}!accepte@{accepte}}
+\index{accepte@{accepte}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{accepte}]{\setlength{\rightskip}{0pt plus 5cm}bool Noeud\-Mur\-::accepte (
+\begin{DoxyParamCaption}
+\item[{{\bf Visiteur\-Abstrait} $\ast$}]{Visiteur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_noeud_mur_a68307bc0a0de517d36b752aa228820da}
+
+
+Accepte le Visiteur. 
+
+Cette fonction permet au Visiteur de traverse l'arbre
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_gab0f486a6ff58b4f4048549f37fbfde48}{Noeud\-Abstrait}.
+
+\hypertarget{class_noeud_mur_a521a3062875ea6ed1645485412a70c7b}{\index{Noeud\-Mur@{Noeud\-Mur}!afficher\-Concret@{afficher\-Concret}}
+\index{afficher\-Concret@{afficher\-Concret}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{afficher\-Concret}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Mur\-::afficher\-Concret (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_mur_a521a3062875ea6ed1645485412a70c7b}
+
+
+Affiche le cube. 
+
+Cette fonction effectue le véritable rendu de l'objet.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_gad440d00734a92e1bd99cdee2ac62bb68}{Noeud\-Composite}.
+
+\hypertarget{class_noeud_mur_a416be055b332d2434106868d6fad7059}{\index{Noeud\-Mur@{Noeud\-Mur}!animer@{animer}}
+\index{animer@{animer}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{animer}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Mur\-::animer (
+\begin{DoxyParamCaption}
+\item[{float}]{temps}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_mur_a416be055b332d2434106868d6fad7059}
+
+
+Effectue l'animation du cube. 
+
+
+
+Reimplemented from \hyperlink{group__inf2990_ga57f31e1a0fd79628d04651001014fd41}{Noeud\-Composite}.
+
+\hypertarget{class_noeud_mur_af403f22b11d921776de0c568b377b8f3}{\index{Noeud\-Mur@{Noeud\-Mur}!collision@{collision}}
+\index{collision@{collision}!NoeudMur@{Noeud\-Mur}}
+\subsubsection[{collision}]{\setlength{\rightskip}{0pt plus 5cm}aidecollision\-::\-Details\-Collision Noeud\-Mur\-::collision (
+\begin{DoxyParamCaption}
+\item[{{\bf Noeud\-Abstrait} $\ast$}]{noeud}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_mur_af403f22b11d921776de0c568b377b8f3}
+
+
+permet d'identifier les collisions 
+
+Cette fonction retourne les informations de collisions
+
+\begin{DoxyReturn}{Returns}
+aidecollision\-::\-Details\-Collision 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_ga660e81ed471db3e9b435db914456d00a}{Noeud\-Abstrait}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_mur_8h}{Noeud\-Mur.\-h}\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_mur_8cpp}{Noeud\-Mur.\-cpp}\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_plaque_8h}{Noeud\-Plaque.\-h}\end{DoxyCompactItemize}

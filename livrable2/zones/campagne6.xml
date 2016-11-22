@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<Billard>
+    <cote_difficulte cote="6" />
+    <points_zone_suivante point="10000" />
+    <points_bille_gratuite point="2000" />
+    <points_butoir_circulaire point="10" />
+    <points_butoir_triangulaire point="100" />
+    <points_cible point="500" />
+    <Noeud_Tablier>
+        <type>plaque</type>
+        <position_relative x="0" y="0" z="0" />
+        <taille_relative x="1" y="1" z="1" />
+        <angle_rotation angle="0" />
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-38.5666" y="-0.364299" z="0" />
+            <taille_relative x="133.698" y="1" z="1" />
+            <angle_rotation angle="-89.805" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-0.455063" y="-67.2131" z="0" />
+            <taille_relative x="75.7714" y="1" z="1" />
+            <angle_rotation angle="-0.550949" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="37.4289" y="-0.910747" z="0" />
+            <taille_relative x="133.333" y="1" z="1" />
+            <angle_rotation angle="90" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-0.79636" y="65.9381" z="0" />
+            <taille_relative x="76.4514" y="1" z="1" />
+            <angle_rotation angle="-0.273021" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-1.70648" y="-56.6485" z="0" />
+            <taille_relative x="4.97096" y="4.97096" z="4.97096" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-1.93402" y="39.1621" z="-0" />
+            <taille_relative x="4.97096" y="4.97096" z="4.97096" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-12.4005" y="46.4481" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-13.083" y="34.0619" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="7.6223" y="33.3333" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="7.39477" y="46.8124" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-5.34699" y="51.5483" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="1.25142" y="51.184" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-4.89192" y="28.2332" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="1.25142" y="28.2332" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-11.4903" y="-48.9982" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-11.4903" y="-56.6485" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-11.7179" y="-63.2058" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="7.6223" y="-63.9344" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="8.07736" y="-56.6485" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="6.9397" y="-49.3625" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>generateurBille</type>
+            <position_relative x="-35.8362" y="-43.5337" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="90" />
+        </Noeud>
+        <Noeud>
+            <type>generateurBille</type>
+            <position_relative x="-35.8362" y="-43.5337" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="90" />
+        </Noeud>
+        <Noeud>
+            <type>ressort</type>
+            <position_relative x="-36.0637" y="-67.5774" z="0" />
+            <taille_relative x="0.5" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-33.2196" y="-58.8342" z="0" />
+            <taille_relative x="16.0308" y="1" z="1" />
+            <angle_rotation angle="89.1868" />
+        </Noeud>
+        <Noeud>
+            <type>portail</type>
+            <position_relative x="-35.8362" y="-16.9399" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>portail</type>
+            <position_relative x="34.471" y="-23.4973" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur1Gauche</type>
+            <position_relative x="-15.5859" y="-36.612" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="-30" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur1Gauche</type>
+            <position_relative x="-26.9625" y="4.18944" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="-30" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur2Droite</type>
+            <position_relative x="8.30489" y="-37.3406" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="30" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur2Droite</type>
+            <position_relative x="14.2207" y="4.91803" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="30" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-33.3334" y="56.2841" z="0.06" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="31.5131" y="55.9198" z="0.06" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-16.2684" y="57.7413" z="0.06" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="13.9932" y="58.8342" z="0.06" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-28.7827" y="-62.4772" z="0.03" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="32.6507" y="-62.1129" z="0.06" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireGauche</type>
+            <position_relative x="-32.8783" y="42.8051" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireGauche</type>
+            <position_relative x="-26.5074" y="25.6831" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireDroit</type>
+            <position_relative x="26.5074" y="44.9909" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireDroit</type>
+            <position_relative x="20.8191" y="24.2259" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="25.8248" y="-63.5701" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="33.5609" y="-50.4554" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="34.2435" y="5.64663" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+    </Noeud_Tablier>
+</Billard>

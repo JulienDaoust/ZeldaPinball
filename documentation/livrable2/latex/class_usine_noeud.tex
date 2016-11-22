@@ -1,0 +1,91 @@
+\hypertarget{class_usine_noeud}{\section{Usine\-Noeud Class Reference}
+\label{class_usine_noeud}\index{Usine\-Noeud@{Usine\-Noeud}}
+}
+
+
+Classe de base abstraite des usines qui seront utilisées pour créer les différents noeuds de l'arbre de rendu.  
+
+
+
+
+{\ttfamily \#include $<$Usine\-Noeud.\-h$>$}
+
+Inheritance diagram for Usine\-Noeud\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_usine_noeud}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_usine_noeud_a1599bf38e75c61c68af55fc4d1e1059c}{$\sim$\-Usine\-Noeud} ()
+\begin{DoxyCompactList}\small\item\em Destructeur vide déclaré virtuel pour les classes dérivées. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ \hyperlink{class_usine_noeud_a47c1970af3739268f5e4a35cb451d528}{creer\-Noeud} () const =0
+\begin{DoxyCompactList}\small\item\em Fonction à surcharger pour la création d'un noeud. \end{DoxyCompactList}\item 
+const std\-::string \& \hyperlink{group__inf2990_ga78cfb214df5805c43d4ca4b71411d060}{obtenir\-Nom} () const 
+\begin{DoxyCompactList}\small\item\em Retourne le nom associé à l'usine. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_usine_noeud_ad596eb4296099f9e9afa55988577606e}{Usine\-Noeud} (const std\-::string \&\hyperlink{group__inf2990_gabe308d273ff51ad86ff02ef3ba3b6f0e}{nom})
+\begin{DoxyCompactList}\small\item\em Constructeur qui prend le nom associé à l'usine. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de base abstraite des usines qui seront utilisées pour créer les différents noeuds de l'arbre de rendu. 
+
+\begin{DoxyAuthor}{Author}
+Martin Bisson 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2007-\/01-\/28 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_usine_noeud_a1599bf38e75c61c68af55fc4d1e1059c}{\index{Usine\-Noeud@{Usine\-Noeud}!$\sim$\-Usine\-Noeud@{$\sim$\-Usine\-Noeud}}
+\index{$\sim$\-Usine\-Noeud@{$\sim$\-Usine\-Noeud}!UsineNoeud@{Usine\-Noeud}}
+\subsubsection[{$\sim$\-Usine\-Noeud}]{\setlength{\rightskip}{0pt plus 5cm}virtual Usine\-Noeud\-::$\sim$\-Usine\-Noeud (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_usine_noeud_a1599bf38e75c61c68af55fc4d1e1059c}
+
+
+Destructeur vide déclaré virtuel pour les classes dérivées. 
+
+\hypertarget{class_usine_noeud_ad596eb4296099f9e9afa55988577606e}{\index{Usine\-Noeud@{Usine\-Noeud}!Usine\-Noeud@{Usine\-Noeud}}
+\index{Usine\-Noeud@{Usine\-Noeud}!UsineNoeud@{Usine\-Noeud}}
+\subsubsection[{Usine\-Noeud}]{\setlength{\rightskip}{0pt plus 5cm}Usine\-Noeud\-::\-Usine\-Noeud (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{nom}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{class_usine_noeud_ad596eb4296099f9e9afa55988577606e}
+
+
+Constructeur qui prend le nom associé à l'usine. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_usine_noeud_a47c1970af3739268f5e4a35cb451d528}{\index{Usine\-Noeud@{Usine\-Noeud}!creer\-Noeud@{creer\-Noeud}}
+\index{creer\-Noeud@{creer\-Noeud}!UsineNoeud@{Usine\-Noeud}}
+\subsubsection[{creer\-Noeud}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Noeud\-Abstrait}$\ast$ Usine\-Noeud\-::creer\-Noeud (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_usine_noeud_a47c1970af3739268f5e4a35cb451d528}
+
+
+Fonction à surcharger pour la création d'un noeud. 
+
+
+
+Implemented in \hyperlink{group__inf2990_gadbb88ecf8cab875cb4bd575ee63b8ba8}{Usine\-Noeud\-Araignee}, \hyperlink{group__inf2990_ga18090824797dbb6f67bee418f30708de}{Usine\-Noeud\-Bille}, \hyperlink{group__inf2990_gaf2e62a421d627e3665588c2ed0cf575b}{Usine\-Noeud\-Cone\-Cube}, \hyperlink{group__inf2990_gaf8f4f232dc719fa0cb93e187cd389378}{Usine\-Noeud\-Generateur\-Bille}, \hyperlink{group__inf2990_ga1a0b1206bc3e52ba839f9765108f246d}{Usine\-Noeud\-Mur}, \hyperlink{group__inf2990_gae8e5c6ef3af589ce9a9b313f03993130}{Usine\-Noeud\-Plaque}, \hyperlink{group__inf2990_gaf6eec2bb7996beba8c59cb9720567d55}{Usine\-Noeud\-Portail}, \hyperlink{group__inf2990_ga9a85817dd649a1d7ccd50e66b9f6720c}{Usine\-Noeud\-Ressort}, \hyperlink{group__inf2990_gafed024ae472c3e925a1c5f7536af31ab}{Usine\-Noeud\-Trou}, \hyperlink{class_usine_noeud_butoir_circulaire_aac3561f040a3153bb982b5447cf16dea}{Usine\-Noeud\-Butoir\-Circulaire}, \hyperlink{class_usine_noeud_butoir_triangulaire_droit_ac727aefea2ad1bf362a57133d930cc9d}{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}, \hyperlink{class_usine_noeud_butoir_triangulaire_gauche_ae306e5e0300228862651819358ed9d65}{Usine\-Noeud\-Butoir\-Triangulaire\-Gauche}, \hyperlink{class_usine_noeud_cible_a6bbd1ea2b5eecf8de06d88bde8788e2a}{Usine\-Noeud\-Cible}, \hyperlink{class_usine_noeud_palette_joueur1_droite_a1f584fbc8f465e0b0a4d3ca49c38d7d8}{Usine\-Noeud\-Palette\-Joueur1\-Droite}, \hyperlink{class_usine_noeud_palette_joueur1_gauche_a80e2583bad9fe2e0e0161c57645c627d}{Usine\-Noeud\-Palette\-Joueur1\-Gauche}, \hyperlink{class_usine_noeud_palette_joueur2_droite_a4672586365c3e6900b6bdb23672f7d88}{Usine\-Noeud\-Palette\-Joueur2\-Droite}, and \hyperlink{class_usine_noeud_palette_joueur2_gauche_a210595fe13fd12a7b6b1ee10dfe0243e}{Usine\-Noeud\-Palette\-Joueur2\-Gauche}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Usines/\hyperlink{_usine_noeud_8h}{Usine\-Noeud.\-h}\end{DoxyCompactItemize}

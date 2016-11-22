@@ -1,0 +1,169 @@
+\hypertarget{class_f_t_vectoriser}{\section{F\-T\-Vectoriser Class Reference}
+\label{class_f_t_vectoriser}\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Vectoriser.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_vectoriser_a32ca6ea1d5e99fa0337f4e2430a336cb}{F\-T\-Vectoriser} (const \hyperlink{struct_f_t___glyph_slot_rec__}{F\-T\-\_\-\-Glyph\-Slot} glyph)
+\item 
+virtual \hyperlink{class_f_t_vectoriser_a76d1b9b2a0333b8cb5c21b25f51001dd}{$\sim$\-F\-T\-Vectoriser} ()
+\item 
+void \hyperlink{class_f_t_vectoriser_a3c74bd2dc8f6292a920d17d8e1d0266f}{Make\-Mesh} (F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E z\-Normal=F\-T\-G\-L\-\_\-\-F\-R\-O\-N\-T\-\_\-\-F\-A\-C\-I\-N\-G, int outset\-Type=0, float outset\-Size=0.\-0f)
+\item 
+const \hyperlink{class_f_t_mesh}{F\-T\-Mesh} $\ast$const \hyperlink{class_f_t_vectoriser_adbc45a678dcd5da1bdc122f18e1397a7}{Get\-Mesh} () const 
+\item 
+size\-\_\-t \hyperlink{class_f_t_vectoriser_aff1d33b51ede40e45f80d143cd4b7680}{Point\-Count} ()
+\item 
+size\-\_\-t \hyperlink{class_f_t_vectoriser_a9b65af714c20171fb61e9d62e802290a}{Contour\-Count} () const 
+\item 
+const \hyperlink{class_f_t_contour}{F\-T\-Contour} $\ast$const \hyperlink{class_f_t_vectoriser_ad0bc396b4fbc01046264e365646b4449}{Contour} (size\-\_\-t index) const 
+\item 
+size\-\_\-t \hyperlink{class_f_t_vectoriser_a73345585f77d37d84362ce2b60a18be9}{Contour\-Size} (int c) const 
+\item 
+int \hyperlink{class_f_t_vectoriser_a257790691ff01bcf7ca1a7f1e2362f8c}{Contour\-Flag} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_vectoriser}{F\-T\-Vectoriser} class is a helper class that converts font outlines into point data.
+
+\begin{DoxySeeAlso}{See Also}
+F\-T\-Extrude\-Glyph 
+
+F\-T\-Outline\-Glyph 
+
+F\-T\-Polygon\-Glyph 
+
+\hyperlink{class_f_t_contour}{F\-T\-Contour} 
+
+F\-T\-Point 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_vectoriser_a32ca6ea1d5e99fa0337f4e2430a336cb}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!F\-T\-Vectoriser@{F\-T\-Vectoriser}}
+\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{F\-T\-Vectoriser}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Vectoriser\-::\-F\-T\-Vectoriser (
+\begin{DoxyParamCaption}
+\item[{const {\bf F\-T\-\_\-\-Glyph\-Slot}}]{glyph}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_vectoriser_a32ca6ea1d5e99fa0337f4e2430a336cb}
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em glyph} & The freetype glyph to be processed \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_vectoriser_a76d1b9b2a0333b8cb5c21b25f51001dd}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!$\sim$\-F\-T\-Vectoriser@{$\sim$\-F\-T\-Vectoriser}}
+\index{$\sim$\-F\-T\-Vectoriser@{$\sim$\-F\-T\-Vectoriser}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{$\sim$\-F\-T\-Vectoriser}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Vectoriser\-::$\sim$\-F\-T\-Vectoriser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_f_t_vectoriser_a76d1b9b2a0333b8cb5c21b25f51001dd}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_vectoriser_ad0bc396b4fbc01046264e365646b4449}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Contour@{Contour}}
+\index{Contour@{Contour}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Contour}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-Contour} $\ast$const F\-T\-Vectoriser\-::\-Contour (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_vectoriser_ad0bc396b4fbc01046264e365646b4449}
+Return a contour at index
+
+\begin{DoxyReturn}{Returns}
+the number of contours 
+\end{DoxyReturn}
+\hypertarget{class_f_t_vectoriser_a9b65af714c20171fb61e9d62e802290a}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Contour\-Count@{Contour\-Count}}
+\index{Contour\-Count@{Contour\-Count}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Contour\-Count}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Vectoriser\-::\-Contour\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_vectoriser_a9b65af714c20171fb61e9d62e802290a}
+Get the count of contours in this outline
+
+\begin{DoxyReturn}{Returns}
+the number of contours 
+\end{DoxyReturn}
+\hypertarget{class_f_t_vectoriser_a257790691ff01bcf7ca1a7f1e2362f8c}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Contour\-Flag@{Contour\-Flag}}
+\index{Contour\-Flag@{Contour\-Flag}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Contour\-Flag}]{\setlength{\rightskip}{0pt plus 5cm}int F\-T\-Vectoriser\-::\-Contour\-Flag (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_vectoriser_a257790691ff01bcf7ca1a7f1e2362f8c}
+Get the flag for the tesselation rule for this outline
+
+\begin{DoxyReturn}{Returns}
+The contour flag 
+\end{DoxyReturn}
+\hypertarget{class_f_t_vectoriser_a73345585f77d37d84362ce2b60a18be9}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Contour\-Size@{Contour\-Size}}
+\index{Contour\-Size@{Contour\-Size}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Contour\-Size}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Vectoriser\-::\-Contour\-Size (
+\begin{DoxyParamCaption}
+\item[{int}]{c}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_vectoriser_a73345585f77d37d84362ce2b60a18be9}
+Get the number of points in a specific contour in this outline
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The contour index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the number of points in contour\mbox{[}c\mbox{]} 
+\end{DoxyReturn}
+\hypertarget{class_f_t_vectoriser_adbc45a678dcd5da1bdc122f18e1397a7}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Get\-Mesh@{Get\-Mesh}}
+\index{Get\-Mesh@{Get\-Mesh}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Get\-Mesh}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-Mesh}$\ast$ const F\-T\-Vectoriser\-::\-Get\-Mesh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_vectoriser_adbc45a678dcd5da1bdc122f18e1397a7}
+Get the current mesh. \hypertarget{class_f_t_vectoriser_a3c74bd2dc8f6292a920d17d8e1d0266f}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Make\-Mesh@{Make\-Mesh}}
+\index{Make\-Mesh@{Make\-Mesh}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Make\-Mesh}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Vectoriser\-::\-Make\-Mesh (
+\begin{DoxyParamCaption}
+\item[{F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{z\-Normal = {\ttfamily FTGL\-\_\-FRONT\-\_\-FACING}, }
+\item[{int}]{outset\-Type = {\ttfamily 0}, }
+\item[{float}]{outset\-Size = {\ttfamily 0.0f}}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_vectoriser_a3c74bd2dc8f6292a920d17d8e1d0266f}
+Build an \hyperlink{class_f_t_mesh}{F\-T\-Mesh} from the vector outline data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em z\-Normal} & The direction of the z axis of the normal for this mesh F\-I\-X\-M\-E\-: change the following for a constant \\
+\hline
+{\em outset\-Type} & Specify the outset type contour 0 \-: Original 1 \-: Front 2 \-: Back \\
+\hline
+{\em outset\-Size} & Specify the outset size contour \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_vectoriser_aff1d33b51ede40e45f80d143cd4b7680}{\index{F\-T\-Vectoriser@{F\-T\-Vectoriser}!Point\-Count@{Point\-Count}}
+\index{Point\-Count@{Point\-Count}!FTVectoriser@{F\-T\-Vectoriser}}
+\subsubsection[{Point\-Count}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Vectoriser\-::\-Point\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_vectoriser_aff1d33b51ede40e45f80d143cd4b7680}
+Get the total count of points in this outline
+
+\begin{DoxyReturn}{Returns}
+the number of points 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Vectoriser.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Vectoriser.\-cpp\end{DoxyCompactItemize}

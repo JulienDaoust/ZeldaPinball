@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<Billard>
+    <Noeud_Tablier>
+        <type>plaque</type>
+        <position_relative x="0" y="0" z="0" />
+        <taille_relative x="90" y="160" z="90" />
+        <angle_rotation angle="0" />
+        <multiplicateur multi="1" />
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-45.0491" y="14.8997" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-66.1909" y="-0.429799" z="0" />
+            <taille_relative x="95.4437" y="1" z="1" />
+            <angle_rotation angle="88.6076" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>ressort</type>
+            <position_relative x="-42.0161" y="-28.0802" z="0" />
+            <taille_relative x="5" y="5" z="5" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="22.5691" y="1.7192" z="0" />
+            <taille_relative x="98.0469" y="1" z="1" />
+            <angle_rotation angle="88.123" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-26.3158" y="-49.5702" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>generateurBille</type>
+            <position_relative x="-6.15522" y="-48.1375" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+    </Noeud_Tablier>
+</Billard>

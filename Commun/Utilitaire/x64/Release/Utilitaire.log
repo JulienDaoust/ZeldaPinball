@@ -1,0 +1,43 @@
+﻿La génération a démarré 2014-12-17 19:23:50.
+     1>Projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\Utilitaire.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\Externe\FreeImage\include /I..\Externe\glm\include /I. /I../Externe/Assimp/include /IOpenGL /IModele /I../Externe/GLEW/include /Zi /nologo /W3 /WX- /O2 /GL /D WIN32 /D GLEW_BUILD /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Vue\Camera.cpp Vue\ProjectionOrtho.cpp Vue\ProjectionPerspective.cpp Vue\Vue.cpp Vue\VueOrtho.cpp Vue\VuePerspective.cpp
+         Camera.cpp
+         ProjectionOrtho.cpp
+         ProjectionPerspective.cpp
+         Vue.cpp
+         VueOrtho.cpp
+         VuePerspective.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\x64\Release\Utilitaire.lib" FreeImage.lib /LIBPATH:..\Externe\FreeImage\lib /NOLOGO /MACHINE:X64 /LTCG x64\Release\AideCollision.obj
+         x64\Release\CEcritureFichierBinaire.obj
+         x64\Release\CLectureFichierBinaire.obj
+         x64\Release\CompteurAffichage.obj
+         x64\Release\Droite3D.obj
+         x64\Release\Materiau.obj
+         x64\Release\Mesh.obj
+         x64\Release\Modele3D.obj
+         x64\Release\Noeud.obj
+         x64\Release\ModeleStorage_CPU_Local.obj
+         x64\Release\ModeleStorage_List.obj
+         x64\Release\AideGL.obj
+         x64\Release\BoiteEnvironnement.obj
+         x64\Release\EtatOpenGL.obj
+         x64\Release\OpenGL_Debug.obj
+         x64\Release\OpenGL_Programme.obj
+         x64\Release\OpenGL_Nuanceur.obj
+         x64\Release\Plan3D.obj
+         x64\Release\Utilitaire.obj
+         x64\Release\ProjectionPerspective.obj
+         x64\Release\VuePerspective.obj
+         x64\Release\Camera.obj
+         x64\Release\Projection.obj
+         x64\Release\ProjectionOrtho.obj
+         x64\Release\Vue.obj
+         x64\Release\VueOrtho.obj
+         Utilitaire.vcxproj -> C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\x64\Release\Utilitaire.lib
+     1>Génération du projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\Utilitaire.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:05.54

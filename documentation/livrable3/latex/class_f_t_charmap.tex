@@ -1,0 +1,140 @@
+\hypertarget{class_f_t_charmap}{\section{F\-T\-Charmap Class Reference}
+\label{class_f_t_charmap}\index{F\-T\-Charmap@{F\-T\-Charmap}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_charmap_a9d19837becbc83acf7f56a5980b2b644}{F\-T\-Charmap} (\hyperlink{class_f_t_face}{F\-T\-Face} $\ast$face)
+\item 
+virtual \hyperlink{class_f_t_charmap_afcbe1e49ed38810e8b9c2e116ddbbffc}{$\sim$\-F\-T\-Charmap} ()
+\item 
+F\-T\-\_\-\-Encoding \hyperlink{class_f_t_charmap_a4c119ad30110e00b6b3944288a702c84}{Encoding} () const 
+\item 
+bool \hyperlink{class_f_t_charmap_a4d182b0faeb7198b4f583b84eaf4cd55}{Char\-Map} (F\-T\-\_\-\-Encoding encoding)
+\item 
+unsigned int \hyperlink{class_f_t_charmap_a6084cc8ab267b9974980e14f17227f25}{Glyph\-List\-Index} (const unsigned int character\-Code)
+\item 
+unsigned int \hyperlink{class_f_t_charmap_ab77d9f06a9109608b1734010acecaefd}{Font\-Index} (const unsigned int character\-Code)
+\item 
+void \hyperlink{class_f_t_charmap_a374e41b6f8b07efb08e5c173cc707354}{Insert\-Index} (const unsigned int character\-Code, const size\-\_\-t container\-Index)
+\item 
+F\-T\-\_\-\-Error \hyperlink{class_f_t_charmap_a176e217e3e837db5fc4592ceff5ed488}{Error} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_charmap_a9d19837becbc83acf7f56a5980b2b644}{\index{F\-T\-Charmap@{F\-T\-Charmap}!F\-T\-Charmap@{F\-T\-Charmap}}
+\index{F\-T\-Charmap@{F\-T\-Charmap}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{F\-T\-Charmap}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Charmap\-::\-F\-T\-Charmap (
+\begin{DoxyParamCaption}
+\item[{{\bf F\-T\-Face} $\ast$}]{face}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_charmap_a9d19837becbc83acf7f56a5980b2b644}
+Constructor \hypertarget{class_f_t_charmap_afcbe1e49ed38810e8b9c2e116ddbbffc}{\index{F\-T\-Charmap@{F\-T\-Charmap}!$\sim$\-F\-T\-Charmap@{$\sim$\-F\-T\-Charmap}}
+\index{$\sim$\-F\-T\-Charmap@{$\sim$\-F\-T\-Charmap}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{$\sim$\-F\-T\-Charmap}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Charmap\-::$\sim$\-F\-T\-Charmap (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_f_t_charmap_afcbe1e49ed38810e8b9c2e116ddbbffc}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_charmap_a4d182b0faeb7198b4f583b84eaf4cd55}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Char\-Map@{Char\-Map}}
+\index{Char\-Map@{Char\-Map}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Char\-Map}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Charmap\-::\-Char\-Map (
+\begin{DoxyParamCaption}
+\item[{F\-T\-\_\-\-Encoding}]{encoding}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_charmap_a4d182b0faeb7198b4f583b84eaf4cd55}
+Sets the character map for the face. If an error occurs the object is not modified. Valid encodings as at Freetype 2.\-0.\-4 ft\-\_\-encoding\-\_\-none ft\-\_\-encoding\-\_\-symbol ft\-\_\-encoding\-\_\-unicode ft\-\_\-encoding\-\_\-latin\-\_\-2 ft\-\_\-encoding\-\_\-sjis ft\-\_\-encoding\-\_\-gb2312 ft\-\_\-encoding\-\_\-big5 ft\-\_\-encoding\-\_\-wansung ft\-\_\-encoding\-\_\-johab ft\-\_\-encoding\-\_\-adobe\-\_\-standard ft\-\_\-encoding\-\_\-adobe\-\_\-expert ft\-\_\-encoding\-\_\-adobe\-\_\-custom ft\-\_\-encoding\-\_\-apple\-\_\-roman
+
+
+\begin{DoxyParams}{Parameters}
+{\em encoding} & the Freetype encoding symbol. See above. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if charmap was valid and set correctly. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_charmap_a4c119ad30110e00b6b3944288a702c84}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Encoding@{Encoding}}
+\index{Encoding@{Encoding}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Encoding}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Encoding F\-T\-Charmap\-::\-Encoding (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_charmap_a4c119ad30110e00b6b3944288a702c84}
+Queries for the current character map code.
+
+\begin{DoxyReturn}{Returns}
+The current character map code. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_charmap_a176e217e3e837db5fc4592ceff5ed488}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Error@{Error}}
+\index{Error@{Error}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Error F\-T\-Charmap\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_charmap_a176e217e3e837db5fc4592ceff5ed488}
+Queries for errors.
+
+\begin{DoxyReturn}{Returns}
+The current error code. Zero means no error. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_charmap_ab77d9f06a9109608b1734010acecaefd}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Font\-Index@{Font\-Index}}
+\index{Font\-Index@{Font\-Index}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Font\-Index}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Charmap\-::\-Font\-Index (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_charmap_ab77d9f06a9109608b1734010acecaefd}
+Get the font glyph index of the input character.
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The character code of the requested glyph in the current encoding eg apple roman. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The glyph index for the character. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_charmap_a6084cc8ab267b9974980e14f17227f25}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Glyph\-List\-Index@{Glyph\-List\-Index}}
+\index{Glyph\-List\-Index@{Glyph\-List\-Index}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Glyph\-List\-Index}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Charmap\-::\-Glyph\-List\-Index (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_charmap_a6084cc8ab267b9974980e14f17227f25}
+Get the \hyperlink{class_f_t_glyph_container}{F\-T\-Glyph\-Container} index of the input character.
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The character code of the requested glyph in the current encoding eg apple roman. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \hyperlink{class_f_t_glyph_container}{F\-T\-Glyph\-Container} index for the character or zero if it wasn't found 
+\end{DoxyReturn}
+\hypertarget{class_f_t_charmap_a374e41b6f8b07efb08e5c173cc707354}{\index{F\-T\-Charmap@{F\-T\-Charmap}!Insert\-Index@{Insert\-Index}}
+\index{Insert\-Index@{Insert\-Index}!FTCharmap@{F\-T\-Charmap}}
+\subsubsection[{Insert\-Index}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Charmap\-::\-Insert\-Index (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code, }
+\item[{const size\-\_\-t}]{container\-Index}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_charmap_a374e41b6f8b07efb08e5c173cc707354}
+Set the \hyperlink{class_f_t_glyph_container}{F\-T\-Glyph\-Container} index of the character code.
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The character code of the requested glyph in the current encoding eg apple roman. \\
+\hline
+{\em container\-Index} & The index into the \hyperlink{class_f_t_glyph_container}{F\-T\-Glyph\-Container} of the character code. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Charmap.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Charmap.\-cpp\end{DoxyCompactItemize}

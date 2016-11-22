@@ -1,0 +1,20 @@
+# Blender v2.71 (sub 0) OBJ File: 'butoirTriangulairedroit.blend'
+# www.blender.org
+mtllib butoirTriangulairedroit.mtl
+o Cube.001
+v 1.340426 6.606639 0.999993
+v 1.340424 6.606638 -1.000006
+v -3.019448 -2.448278 -0.999994
+v -3.019444 -2.448273 1.000005
+v 0.939694 -0.342018 0.999998
+v 0.939694 -0.342018 0.999999
+v 0.939692 -0.342020 -1.000000
+v 0.939692 -0.342020 -1.000001
+usemtl Material.001
+s off
+f 1 2 3 4
+f 5 6 7 8
+f 1 5 8 2
+f 2 8 7 3
+f 3 7 6 4
+f 5 1 4 6

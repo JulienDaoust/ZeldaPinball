@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<Billard>
+    <Noeud_Tablier>
+        <type>plaque</type>
+        <position_relative x="0" y="0" z="0" />
+        <taille_relative x="90" y="90" z="90" />
+        <angle_rotation angle="0" />
+        <multiplicateur multi="1" />
+        <Noeud>
+            <type>generateurBille</type>
+            <position_relative x="14.0097" y="-12.1693" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="6.03865" y="-26.9841" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+        <Noeud>
+            <type>ressort</type>
+            <position_relative x="-19.0821" y="9.70018" z="-0" />
+            <taille_relative x="5" y="5" z="5" />
+            <angle_rotation angle="0" />
+            <multiplicateur multi="1" />
+        </Noeud>
+    </Noeud_Tablier>
+</Billard>

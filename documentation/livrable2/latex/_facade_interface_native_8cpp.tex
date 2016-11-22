@@ -1,0 +1,77 @@
+\hypertarget{_facade_interface_native_8cpp}{\section{X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Interface/\-Facade\-Interface\-Native.cpp File Reference}
+\label{_facade_interface_native_8cpp}\index{X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Interface/\-Facade\-Interface\-Native.\-cpp@{X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Interface/\-Facade\-Interface\-Native.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}Facade\-Interface\-Native.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Facade\-Modele.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}glm\textbackslash{}glm.\-hpp\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Aide\-G\-L.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Vue.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Arbre\-Rendu\-I\-N\-F2990.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Plaque.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Palette\-Joueur1\-Gauche.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Palette\-Joueur1\-Droite.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Palette\-Joueur2\-Gauche.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Palette\-Joueur2\-Droite.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Noeud\-Ressort.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Compteur\-Affichage.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include \char`\"{}Banc\-Tests.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{group__inf2990_gab7f5f39b522334aa53af43ba21a16719}{\-\_\-\-\_\-declspec} (dllexport) void \-\_\-\-\_\-cdecl initialiser\-Open\-G\-L(int $\ast$handle)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{group__inf2990_ga84b180f09e9802d980aa3f7cc71703da}{deplacement\-Y}
+\item 
+double \hyperlink{group__inf2990_ga3ae30ee1fbec5fb5bbf52c1051c78ea5}{deplacement\-Souris\-Y}
+\item 
+int \hyperlink{group__inf2990_ga6150e0515f7202e2fb518f7206ed97dc}{x}
+\item 
+int int \hyperlink{group__inf2990_ga0a2f84ed7838f07779ae24c5a9086d33}{y}
+\item 
+glm\-::dvec3 \hyperlink{group__inf2990_ga8a44174e0b3838fd7371a5056d3be30f}{point}
+\item 
+int \hyperlink{group__inf2990_gacaa234d01574a8d00c2c39f7cdc1b6bf}{min\-Y}
+\item 
+int int \hyperlink{group__inf2990_gaae341ebb372cc279ff44d3ebff2332f7}{max\-X}
+\item 
+int int int \hyperlink{group__inf2990_ga55923b57d480f3d35ec6619c8566851d}{max\-Y}
+\item 
+glm\-::dvec3 \hyperlink{group__inf2990_ga148f0495b376a94fb52a434f623807ce}{point\-Max}
+\item 
+int \hyperlink{group__inf2990_ga886daa12d11655f342168e87c7c0b1cb}{y1}
+\item 
+int int \hyperlink{group__inf2990_ga80fc5bd5a58b9c780825a71aaf7bdc98}{x2}
+\item 
+int int int \hyperlink{group__inf2990_ga8f9896eae807ca85f762f5bdba217d13}{y2}
+\item 
+glm\-::dvec3 \hyperlink{group__inf2990_ga2930a2e7279ddafa952e099dfdaf9c1c}{point2}
+\item 
+int \hyperlink{group__inf2990_gaec6212c78e758f9e3d2b541a93fb48db}{haut}
+\item 
+int int \hyperlink{group__inf2990_ga29faae59367e3f4370db2047cddebf36}{droite}
+\item 
+int int int \hyperlink{group__inf2990_gaa4f251586168c760977be5f90498a181}{bas}
+\item 
+glm\-::dvec3 \hyperlink{group__inf2990_ga4817d85459d792053d4e9a3d48cdfefa}{max}
+\item 
+\hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ \hyperlink{group__inf2990_ga73c0af62e16a0b2761de77bacfa4bc92}{noeud\-Plaque} = \hyperlink{group__inf2990_ga9d148f8472316f87cdd79baccc000de8}{Facade\-Modele\-::obtenir\-Instance}()-\/$>$obtenir\-Arbre\-Rendu\-I\-N\-F2990()-\/$>$chercher(\char`\"{}plaque\char`\"{})
+\item 
+\hyperlink{struct_boite_englobante}{Boite\-Englobante} \hyperlink{group__inf2990_ga37af6f4366c92beb79c261dfc6ccaff4}{boite\-Plaque} = \hyperlink{group__inf2990_ga73c0af62e16a0b2761de77bacfa4bc92}{noeud\-Plaque}-\/$>$obtenir\-Boite\-Englobante()
+\item 
+glm\-::dvec3 \hyperlink{group__inf2990_ga235a0775515e0c5dd3f12375fa0c302a}{point\-Final}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+I\-N\-F2990 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2014-\/08-\/16 
+\end{DoxyDate}

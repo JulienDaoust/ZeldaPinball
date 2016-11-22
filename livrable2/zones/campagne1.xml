@@ -1,0 +1,231 @@
+<?xml version="1.0" ?>
+<Billard>
+    <cote_difficulte cote="1" />
+    <points_zone_suivante point="10000" />
+    <points_bille_gratuite point="500" />
+    <points_butoir_circulaire point="100" />
+    <points_butoir_triangulaire point="100" />
+    <points_cible point="100" />
+    <Noeud_Tablier>
+        <type>plaque</type>
+        <position_relative x="0" y="0" z="0" />
+        <taille_relative x="1" y="1" z="1" />
+        <angle_rotation angle="0" />
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-37.2867" y="19.0828" z="0" />
+            <taille_relative x="97.3178" y="1.10011" z="1.10011" />
+            <angle_rotation angle="-89.8895" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-0.853242" y="67.3077" z="0" />
+            <taille_relative x="73.735" y="1" z="1" />
+            <angle_rotation angle="-1.14956" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="36.2628" y="21.4497" z="0" />
+            <taille_relative x="90.2381" y="1" z="1" />
+            <angle_rotation angle="-89.675" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="23.9761" y="-36.2426" z="0" />
+            <taille_relative x="35.5203" y="1" z="1" />
+            <angle_rotation angle="45.0714" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="-23.8055" y="-40.2367" z="0" />
+            <taille_relative x="34.3287" y="1" z="1" />
+            <angle_rotation angle="-35.8772" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur1Gauche</type>
+            <position_relative x="-11.7747" y="-46.4497" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="-30" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur1Droite</type>
+            <position_relative x="10.0683" y="-47.3373" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="30" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-31.7406" y="-62.7219" z="0" />
+            <taille_relative x="4.32579" y="4.32579" z="4.32579" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-17.2355" y="-62.1302" z="0" />
+            <taille_relative x="4.32579" y="4.32579" z="4.32579" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="-2.73038" y="-62.1302" z="0" />
+            <taille_relative x="4.32579" y="4.32579" z="4.32579" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="11.7747" y="-62.1302" z="0" />
+            <taille_relative x="4.32579" y="4.32579" z="4.32579" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>trou</type>
+            <position_relative x="26.2799" y="-62.1302" z="0" />
+            <taille_relative x="4.32579" y="4.32579" z="4.32579" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>generateurBille</type>
+            <position_relative x="31.3993" y="3.84615" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>ressort</type>
+            <position_relative x="32.2526" y="-32.5444" z="0" />
+            <taille_relative x="0.5" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>mur</type>
+            <position_relative x="28.157" y="-20.2663" z="0" />
+            <taille_relative x="19.8254" y="1" z="1" />
+            <angle_rotation angle="-89.0136" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireGauche</type>
+            <position_relative x="-30.0341" y="56.213" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="-64.8" />
+        </Noeud>
+        <Noeud>
+            <type>butoirTriangulaireDroit</type>
+            <position_relative x="19.4539" y="2.36686" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-4.60751" y="54.142" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-16.2116" y="41.716" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="-12.5427" y="27.3669" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="1.96246" y="45.4142" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="8.7884" y="13.1657" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>butoirCirculaire</type>
+            <position_relative x="7.93515" y="35.0592" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="19.4539" y="56.8047" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="24.5734" y="51.7751" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="28.3276" y="46.7456" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-31.7406" y="7.39645" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-28.3276" y="2.36686" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-22.8669" y="-5.02959" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="21.5017" y="-14.2012" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="11.7747" y="-14.7929" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-6.48464" y="0.591716" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>paletteJoueur2Gauche</type>
+            <position_relative x="-32.0819" y="19.2308" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="-30" />
+        </Noeud>
+        <Noeud>
+            <type>portail</type>
+            <position_relative x="-30.5461" y="-26.6272" z="0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>portail</type>
+            <position_relative x="29.6928" y="58.5799" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+        <Noeud>
+            <type>cible</type>
+            <position_relative x="-4.94881" y="36.9822" z="-0" />
+            <taille_relative x="1" y="1" z="1" />
+            <angle_rotation angle="0" />
+        </Noeud>
+    </Noeud_Tablier>
+</Billard>

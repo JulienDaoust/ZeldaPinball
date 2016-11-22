@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B861DACD-1D37-4C9D-A1D0-3468C9072C74}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterfaceGraphique</RootNamespace>
+    <AssemblyName>InterfaceGraphique</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Exe\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Exe\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoadScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadScreen.Designer.cs">
+      <DependentUpon>LoadScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patron state\ViewOrthoState.cs" />
+    <Compile Include="patron state\ViewPerspectiveState.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ZoneDeJeux.cs" />
+    <Compile Include="ConfigurationPartie.cs" />
+    <Compile Include="Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyPress.Designer.cs">
+      <DependentUpon>KeyPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCampagne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCampagne.Designer.cs">
+      <DependentUpon>MenuCampagne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPartieRapide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPartieRapide.Designer.cs">
+      <DependentUpon>MenuPartieRapide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModeEditeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModeEditeur.Designer.cs">
+      <DependentUpon>ModeEditeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartieRapide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartieRapide.Designer.cs">
+      <DependentUpon>PartieRapide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patron state\AbstractState.cs" />
+    <Compile Include="patron state\AddObjectState.cs" />
+    <Compile Include="patron state\DeletionState.cs" />
+    <Compile Include="patron state\DuplicationState.cs" />
+    <Compile Include="patron state\RotationState.cs" />
+    <Compile Include="patron state\SelectionState.cs" />
+    <Compile Include="patron state\TestState.cs" />
+    <Compile Include="patron state\TranslationStateSouris.cs" />
+    <Compile Include="patron state\TranslationState.cs" />
+    <Compile Include="patron state\ScaleState.cs" />
+    <Compile Include="patron state\ZoomState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Propriete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Propriete.Designer.cs">
+      <DependentUpon>Propriete.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyPress.resx">
+      <DependentUpon>KeyPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadScreen.resx">
+      <DependentUpon>LoadScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCampagne.resx">
+      <DependentUpon>MenuCampagne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPartieRapide.resx">
+      <DependentUpon>MenuPartieRapide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModeEditeur.resx">
+      <DependentUpon>ModeEditeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartieRapide.resx">
+      <DependentUpon>PartieRapide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Propriete.resx">
+      <DependentUpon>Propriete.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1411251228_wall_sticker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-fit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-close-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRed-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-view-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-view-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-view-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-tube-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-as-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbox-322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bille_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bille_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cible_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cible_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtC_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtC_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtG_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtG_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1D_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1D_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1G_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1G_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2D_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2D_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2G_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2g_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_64.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtD_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjetBtD_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portal_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trou.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trou_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-64.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-tube-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-641.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

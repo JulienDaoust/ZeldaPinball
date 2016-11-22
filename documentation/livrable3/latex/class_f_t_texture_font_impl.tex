@@ -1,0 +1,66 @@
+\hypertarget{class_f_t_texture_font_impl}{\section{F\-T\-Texture\-Font\-Impl Class Reference}
+\label{class_f_t_texture_font_impl}\index{F\-T\-Texture\-Font\-Impl@{F\-T\-Texture\-Font\-Impl}}
+}
+Inheritance diagram for F\-T\-Texture\-Font\-Impl\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_f_t_texture_font_impl}
+\end{center}
+\end{figure}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_f_t_texture_font_impl_a6e5537e5ce6f58e8f8244c9d0cd44d9f}{{\bfseries F\-T\-Texture\-Font\-Impl} (F\-T\-Font $\ast$ft\-Font, const char $\ast$font\-File\-Path)}\label{class_f_t_texture_font_impl_a6e5537e5ce6f58e8f8244c9d0cd44d9f}
+
+\item 
+\hypertarget{class_f_t_texture_font_impl_a4554181466170efa12b9a12e4936b61d}{{\bfseries F\-T\-Texture\-Font\-Impl} (F\-T\-Font $\ast$ft\-Font, const unsigned char $\ast$p\-Buffer\-Bytes, size\-\_\-t buffer\-Size\-In\-Bytes)}\label{class_f_t_texture_font_impl_a4554181466170efa12b9a12e4936b61d}
+
+\item 
+virtual bool \hyperlink{class_f_t_texture_font_impl_ac5ccaca6cc8a53292b5028a629e49244}{Face\-Size} (const unsigned int size, const unsigned int res=72)
+\item 
+\hypertarget{class_f_t_texture_font_impl_a8b53cbe2b70ad38af59a7d79945122d9}{virtual F\-T\-Point {\bfseries Render} (const char $\ast$s, const int len, F\-T\-Point position, F\-T\-Point spacing, int render\-Mode)}\label{class_f_t_texture_font_impl_a8b53cbe2b70ad38af59a7d79945122d9}
+
+\item 
+\hypertarget{class_f_t_texture_font_impl_aba852ac4cc9b759073b6370e059e6c11}{virtual F\-T\-Point {\bfseries Render} (const wchar\-\_\-t $\ast$s, const int len, F\-T\-Point position, F\-T\-Point spacing, int render\-Mode)}\label{class_f_t_texture_font_impl_aba852ac4cc9b759073b6370e059e6c11}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_f_t_texture_font_impl_a7870c341f7269dfae257e93406c17c92}{class {\bfseries F\-T\-Texture\-Font}}\label{class_f_t_texture_font_impl_a7870c341f7269dfae257e93406c17c92}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_texture_font_impl_ac5ccaca6cc8a53292b5028a629e49244}{\index{F\-T\-Texture\-Font\-Impl@{F\-T\-Texture\-Font\-Impl}!Face\-Size@{Face\-Size}}
+\index{Face\-Size@{Face\-Size}!FTTextureFontImpl@{F\-T\-Texture\-Font\-Impl}}
+\subsubsection[{Face\-Size}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Texture\-Font\-Impl\-::\-Face\-Size (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{size, }
+\item[{const unsigned int}]{res = {\ttfamily 72}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_f_t_texture_font_impl_ac5ccaca6cc8a53292b5028a629e49244}
+Set the char size for the current face.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the face size in points (1/72 inch) \\
+\hline
+{\em res} & the resolution of the target device. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if size was set correctly 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{class_f_t_font_impl}{F\-T\-Font\-Impl}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/\-F\-T\-Font/F\-T\-Texture\-Font\-Impl.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/\-F\-T\-Font/F\-T\-Texture\-Font.\-cpp\end{DoxyCompactItemize}

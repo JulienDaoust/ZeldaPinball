@@ -1,0 +1,11 @@
+# Blender v2.71 (sub 0) OBJ File: 'fond.blend'
+# www.blender.org
+mtllib fond.mtl
+o Plane
+v -40.000000 -71.000000 -0.000012
+v 40.000000 -71.000000 -0.000012
+v 40.000000 71.000000 0.000012
+v -40.000000 71.000000 0.000012
+usemtl Material.001
+s off
+f 1 2 3 4

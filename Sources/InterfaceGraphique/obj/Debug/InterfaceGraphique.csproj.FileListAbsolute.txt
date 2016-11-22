@@ -1,0 +1,17 @@
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.exe.config
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.exe
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.pdb
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.Configuration.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.KeyPress.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.LoadScreen.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.MenuCampagne.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.ConfigurerPartieRapide.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.ModeEditeur.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.MenuPrincipal.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.PartieRapide.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.Properties.Resources.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.Propriete.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.csproj.GenerateResource.Cache
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.exe
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.pdb
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Debug\InterfaceGraphique.csprojResolveAssemblyReference.cache

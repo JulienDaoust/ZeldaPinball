@@ -1,0 +1,23 @@
+diff a/Cadriciel/Sources/DLL/Interface/FacadeInterfaceNative.cpp b/Cadriciel/Sources/DLL/Interface/FacadeInterfaceNative.cpp	(rejected hunks)
+@@ -480,21 +480,6 @@
+ 
+ 	////////////////////////////////////////////////////////////////////////
+ 	///
+-	/// @fn	__declspec(dllexport) void __cdecl rotationSimple(double angle)
+-	///
+-	/// Cette fonction permet d'effectuer une rotation sur un objet
+-	///
+-	////////////////////////////////////////////////////////////////////////
+-	__declspec(dllexport) void __cdecl rotationSimple(double angle)
+-	{
+-		ArbreRenduINF2990* arbre = FacadeModele::obtenirInstance()->obtenirArbreRenduINF2990();
+-		std::vector<NoeudAbstrait*> vectNoeud = arbre->obtenirNoeudSelectionnes();
+-		NoeudAbstrait* noeud = *(vectNoeud.begin());
+-		noeud->assignerAngleRotation(angle);
+-	}
+-
+-	////////////////////////////////////////////////////////////////////////
+-	///
+ 	/// @fn	__declspec(dllexport) bool __cdecl �critureXML(char* nomFicher)
+ 	///
+ 	/// Cette fonction permet l'�criture du jeu sous format XML

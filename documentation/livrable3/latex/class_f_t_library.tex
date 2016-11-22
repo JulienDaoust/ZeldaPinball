@@ -1,0 +1,90 @@
+\hypertarget{class_f_t_library}{\section{F\-T\-Library Class Reference}
+\label{class_f_t_library}\index{F\-T\-Library@{F\-T\-Library}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Library.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+const \hyperlink{struct_f_t___library_rec__}{F\-T\-\_\-\-Library} $\ast$const \hyperlink{class_f_t_library_afef4db019eae5a4307201b7abc6a88c7}{Get\-Library} () const 
+\item 
+F\-T\-\_\-\-Error \hyperlink{class_f_t_library_ad01e538ba8e308dddda5c4ec808ee404}{Error} () const 
+\item 
+\hyperlink{class_f_t_library_a8d1ee3dc3c4916b5b428e934dc46e9d7}{$\sim$\-F\-T\-Library} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static const \hyperlink{class_f_t_library}{F\-T\-Library} \& \hyperlink{class_f_t_library_aa172665a8db8888851895bcb15aa8103}{Instance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_library}{F\-T\-Library} class is the global accessor for the Freetype library.
+
+This class encapsulates the Freetype Library. This is a singleton class and ensures that only one F\-T\-\_\-\-Library is in existence at any one time. All constructors are private therefore clients cannot create or instantiate this class themselves and must access it's methods via the static {\ttfamily \hyperlink{class_f_t_library_aa172665a8db8888851895bcb15aa8103}{F\-T\-Library\-::\-Instance()}} function.
+
+Just because this class returns a valid {\ttfamily \hyperlink{class_f_t_library}{F\-T\-Library}} object doesn't mean that the Freetype Library has been successfully initialised. Clients should check for errors. You can initialse the library A\-N\-D check for errors using the following code... {\ttfamily err = \hyperlink{class_f_t_library_aa172665a8db8888851895bcb15aa8103}{F\-T\-Library\-::\-Instance()}.\hyperlink{class_f_t_library_ad01e538ba8e308dddda5c4ec808ee404}{Error()};}
+
+\begin{DoxySeeAlso}{See Also}
+\char`\"{}\-Freetype 2 Documentation\char`\"{} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_library_a8d1ee3dc3c4916b5b428e934dc46e9d7}{\index{F\-T\-Library@{F\-T\-Library}!$\sim$\-F\-T\-Library@{$\sim$\-F\-T\-Library}}
+\index{$\sim$\-F\-T\-Library@{$\sim$\-F\-T\-Library}!FTLibrary@{F\-T\-Library}}
+\subsubsection[{$\sim$\-F\-T\-Library}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Library\-::$\sim$\-F\-T\-Library (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_library_a8d1ee3dc3c4916b5b428e934dc46e9d7}
+Destructor
+
+Disposes of the Freetype library 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_library_ad01e538ba8e308dddda5c4ec808ee404}{\index{F\-T\-Library@{F\-T\-Library}!Error@{Error}}
+\index{Error@{Error}!FTLibrary@{F\-T\-Library}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Error F\-T\-Library\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_library_ad01e538ba8e308dddda5c4ec808ee404}
+Queries the library for errors.
+
+\begin{DoxyReturn}{Returns}
+The current error code. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_library_afef4db019eae5a4307201b7abc6a88c7}{\index{F\-T\-Library@{F\-T\-Library}!Get\-Library@{Get\-Library}}
+\index{Get\-Library@{Get\-Library}!FTLibrary@{F\-T\-Library}}
+\subsubsection[{Get\-Library}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-\_\-\-Library}$\ast$ const F\-T\-Library\-::\-Get\-Library (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_library_afef4db019eae5a4307201b7abc6a88c7}
+Gets a pointer to the native Freetype library.
+
+\begin{DoxyReturn}{Returns}
+A handle to a Free\-Type library instance. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_library_aa172665a8db8888851895bcb15aa8103}{\index{F\-T\-Library@{F\-T\-Library}!Instance@{Instance}}
+\index{Instance@{Instance}!FTLibrary@{F\-T\-Library}}
+\subsubsection[{Instance}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-Library} \& F\-T\-Library\-::\-Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_f_t_library_aa172665a8db8888851895bcb15aa8103}
+Global acces point to the single \hyperlink{class_f_t_library}{F\-T\-Library} object.
+
+\begin{DoxyReturn}{Returns}
+The global {\ttfamily \hyperlink{class_f_t_library}{F\-T\-Library}} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Library.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Library.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,356 @@
+\hypertarget{class_facade_modele}{\section{Facade\-Modele Class Reference}
+\label{class_facade_modele}\index{Facade\-Modele@{Facade\-Modele}}
+}
+
+
+Classe qui constitue une interface (une façade) sur l'ensemble du modèle et des classes qui le composent.  
+
+
+
+
+{\ttfamily \#include $<$Facade\-Modele.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__inf2990_gabf12ccafbabf1049cb8327cf78699a1b}{initialiser\-Open\-G\-L} (H\-W\-N\-D h\-Wnd)
+\begin{DoxyCompactList}\small\item\em Crée un contexte Open\-G\-L et initialise celui-\/ci. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga4967547e0683bfdca700118df1c18bca}{charger\-Configuration} () const 
+\begin{DoxyCompactList}\small\item\em Charge la configuration à partir d'un fichier X\-M\-L. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga277d8d9cea21e20fb366a0d48525f2c9}{enregistrer\-Configuration} () const 
+\begin{DoxyCompactList}\small\item\em Enregistre la configuration courante dans un fichier X\-M\-L. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gac7b831ce13626514e9637c4533d7c15d}{liberer\-Open\-G\-L} ()
+\begin{DoxyCompactList}\small\item\em Libère le contexte Open\-G\-L. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gac884e818dab5fe049a37b3f6f1c5d8c6}{afficher} () const 
+\begin{DoxyCompactList}\small\item\em Affiche le contenu du modèle. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga23bed5e3b226e446cfee30084150f7f7}{afficher\-Base} () const 
+\begin{DoxyCompactList}\small\item\em Affiche la base du contenu du modèle. \end{DoxyCompactList}\item 
+\hyperlink{classvue_1_1_vue}{vue\-::\-Vue} $\ast$ \hyperlink{group__inf2990_gaa56cf96b7e381e0f14e2c9a55be913bf}{obtenir\-Vue} ()
+\begin{DoxyCompactList}\small\item\em Retourne la vue courante. \end{DoxyCompactList}\item 
+const \hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{group__inf2990_gaf578161d03b2157cdaa3182900ff61cc}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} () const 
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+\hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{group__inf2990_ga12d5594db6a9507b24c7e1ffcd6751af}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} ()
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga95523dfbf5e2ba135243e839882261a8}{ajouter\-Noeud} (std\-::string nom, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point)
+\begin{DoxyCompactList}\small\item\em ajoute un noeud à l'arbre de rendu \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gac2bf7998153ed24c89d838c1a6de0251}{ajouter\-Noeud\-Mur} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point1, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point2)
+\begin{DoxyCompactList}\small\item\em ajoute un noeud mur à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga7767d8336c0ff82148d4f18a69bfe764}{void \hyperlink{group__inf2990_ga7767d8336c0ff82148d4f18a69bfe764}{selection\-Simple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{group__inf2990_ga7767d8336c0ff82148d4f18a69bfe764}
+
+\begin{DoxyCompactList}\small\item\em selection par clique \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga4125d2d6269b3c660d797fd6ac2fb16c}{selection\-Multiple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} min, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} max)
+\begin{DoxyCompactList}\small\item\em selection par rectangle élastique \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga4c2a991fe2297e44eeee0de111fb08d2}{reinitialiser} ()
+\begin{DoxyCompactList}\small\item\em Réinitialise la scène. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga24dcb4e32cf104797158b398bafbfbb7}{animer} (float temps)
+\begin{DoxyCompactList}\small\item\em Anime la scène. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}{void \hyperlink{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}{initialiser\-Open\-G\-L} (H\-W\-N\-D h\-Wnd)}\label{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}
+
+\begin{DoxyCompactList}\small\item\em Crée un contexte Open\-G\-L et initialise celui-\/ci. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4967547e0683bfdca700118df1c18bca}{void \hyperlink{class_facade_modele_a4967547e0683bfdca700118df1c18bca}{charger\-Configuration} () const }\label{class_facade_modele_a4967547e0683bfdca700118df1c18bca}
+
+\begin{DoxyCompactList}\small\item\em Charge la configuration à partir d'un fichier X\-M\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}{void \hyperlink{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}{enregistrer\-Configuration} () const }\label{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}
+
+\begin{DoxyCompactList}\small\item\em Enregistre la configuration courante dans un fichier X\-M\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}{void \hyperlink{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}{liberer\-Open\-G\-L} ()}\label{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}
+
+\begin{DoxyCompactList}\small\item\em Libère le contexte Open\-G\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}{void \hyperlink{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}{afficher} () const }\label{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}
+
+\begin{DoxyCompactList}\small\item\em Affiche le contenu du modèle. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}{void \hyperlink{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}{afficher\-Base} () const }\label{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}
+
+\begin{DoxyCompactList}\small\item\em Affiche la base du contenu du modèle. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}{\hyperlink{classvue_1_1_vue}{vue\-::\-Vue} $\ast$ \hyperlink{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}{obtenir\-Vue} ()}\label{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}
+
+\begin{DoxyCompactList}\small\item\em Retourne la vue courante. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}{const \hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} () const }\label{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}
+
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}{\hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} ()}\label{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}
+
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}{void \hyperlink{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}{ajouter\-Noeud} (std\-::string nom, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point)}\label{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}
+
+\begin{DoxyCompactList}\small\item\em ajoute un noeud à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}{void \hyperlink{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}{ajouter\-Noeud\-Mur} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point1, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point2)}\label{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}
+
+\begin{DoxyCompactList}\small\item\em ajoute un noeud mur à l'arbre de rendu \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga1f47bcbde70af1a02aebb6fa6f11e019}{ajouter\-Noeud\-Portail} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point1, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point2)
+\begin{DoxyCompactList}\small\item\em ajoute deux noeuds portail à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}{void \hyperlink{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}{selection\-Simple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}
+
+\begin{DoxyCompactList}\small\item\em selection par clique \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}{void \hyperlink{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}{selection\-Multiple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} min, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} max)}\label{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}
+
+\begin{DoxyCompactList}\small\item\em selection par rectangle élastique \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gac0aa518829c09c75e538c9efdb509fb1}{translation} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)
+\begin{DoxyCompactList}\small\item\em translation des objets sélectionnées \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga44f5d9cb44b7c002f2f494dd4b4392b2}{translation\-Souris} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)
+\begin{DoxyCompactList}\small\item\em translation de l'écran par la souris \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga77267232e45e1dddc97edb730fb17d3a}{mise\-Echelle} (double \hyperlink{group__inf2990_ga9a104d8c24fd5912c01db41ef4aaab0a}{scale})
+\begin{DoxyCompactList}\small\item\em mise a echellemanuelle \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga84ff45ec1f39f6d28ca1e31f0797ee2e}{rotation} (double angle)
+\begin{DoxyCompactList}\small\item\em rotation des objets sélectionnées \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga2dbc6e6f5218a5ddfbe3f6e2ae2f382e}{duplication} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)
+\begin{DoxyCompactList}\small\item\em duplication des objets selectionner \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}{void \hyperlink{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}{exit\-Duplication} ()}\label{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}
+
+\begin{DoxyCompactList}\small\item\em duplication des objets selectionner \end{DoxyCompactList}\item 
+\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \hyperlink{group__inf2990_ga5c8c9a13cb02e35213a3aa613d42fd9e}{obtenir\-Point\-Central} (std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ noeud\-Selectionnes)
+\begin{DoxyCompactList}\small\item\em retourne le centrer d'un groupede noeuds \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gaa6cdfa7c45999b2bccef2763407c6e36}{void \hyperlink{group__inf2990_gaa6cdfa7c45999b2bccef2763407c6e36}{validate\-Mouvement} ()}\label{group__inf2990_gaa6cdfa7c45999b2bccef2763407c6e36}
+
+\begin{DoxyCompactList}\small\item\em validation de deplacement \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gac5dcd3a7f0119c75ca403d7521581f72}{void \hyperlink{group__inf2990_gac5dcd3a7f0119c75ca403d7521581f72}{release\-Visiteurs} ()}\label{group__inf2990_gac5dcd3a7f0119c75ca403d7521581f72}
+
+\begin{DoxyCompactList}\small\item\em relache les Visiteurs \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}{void \hyperlink{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}{reinitialiser} ()}\label{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}
+
+\begin{DoxyCompactList}\small\item\em Réinitialise la scène. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga9a104d8c24fd5912c01db41ef4aaab0a}{scale} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)
+\begin{DoxyCompactList}\small\item\em Permet la mise à l'échelle des objets de la scène \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga41442a4f447d6214ad17d876e8722969}{supprimer} ()
+\begin{DoxyCompactList}\small\item\em Permet de supprimer les objets selectionnés \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga821999b85b678608bd6ff395ada3a39f}{obtenir\-Points\-Campagne} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points pour passer a la prochaine campagne. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga40fc6bbf9b04b38c1394e2da8189b4ed}{obtenir\-Points\-Bille} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir les points pour avoir une bille gratuite. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga4cba66e8ba23abc8e49d950496911c37}{obtenir\-Difficulté} ()
+\begin{DoxyCompactList}\small\item\em Permet d'obtenir la difficulté \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gaac4a7352132bfcd394eabf4fc7b04ec6}{assigner\-Points\-Campagne} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points pour passer a la prochaine campagne. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga44876c7efe56d606b84ef1eccd6f5e08}{assigner\-Points\-Bille} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner les points pour avoir une bille gratuite. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gac50deca560067231562477bd742c9a1e}{assigner\-Difficulte} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'assigner la difficulte. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}{void \hyperlink{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}{animer} (float temps)}\label{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}
+
+\begin{DoxyCompactList}\small\item\em Anime la scène. \end{DoxyCompactList}\item 
+bool \hyperlink{group__inf2990_ga6f34a62b9957f0bc720f365a3bfc07f7}{sauvegarde\-Possible} ()
+\begin{DoxyCompactList}\small\item\em X\-M\-L /////////////////////////////////////////////. \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gac434f93ae9e7e60f750d9fdb2f94cec3}{bool \hyperlink{group__inf2990_gac434f93ae9e7e60f750d9fdb2f94cec3}{sauvegarde\-Arbre\-X\-M\-L} (std\-::string nom\-Fichier)}\label{group__inf2990_gac434f93ae9e7e60f750d9fdb2f94cec3}
+
+\begin{DoxyCompactList}\small\item\em gère la sauvegarde de la zone de jeu en fichier X\-M\-L \end{DoxyCompactList}\item 
+bool \hyperlink{group__inf2990_ga0ed6fcfb0d111d809053ec153b9ba2f5}{lecture\-X\-M\-L} (char $\ast$nom\-Fichier)
+\begin{DoxyCompactList}\small\item\em lire le X\-M\-L \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga1114b7b717a44ee6eab96cbb1aa9a23f}{sortie\-Console\-Vitesse} (\hyperlink{class_noeud_bille}{Noeud\-Bille} $\ast$bille)
+\begin{DoxyCompactList}\small\item\em sortie console de la vitesse de la bille \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ab5166aac1c1403f82303c52039f20461}{void \hyperlink{class_facade_modele_ab5166aac1c1403f82303c52039f20461}{sortie\-Console\-Lumiere} ()}\label{class_facade_modele_ab5166aac1c1403f82303c52039f20461}
+
+\begin{DoxyCompactList}\small\item\em sortie console de la lumiere \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gad161ce075d7b55eeb41970185581a2df}{sortie\-Console\-Creation\-Bille} (\hyperlink{class_noeud_bille}{Noeud\-Bille} $\ast$bille)
+\begin{DoxyCompactList}\small\item\em sortie console de la creation de bille \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}{void \hyperlink{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}{initialiser\-Open\-G\-L} (H\-W\-N\-D h\-Wnd)}\label{class_facade_modele_abf12ccafbabf1049cb8327cf78699a1b}
+
+\begin{DoxyCompactList}\small\item\em Crée un contexte Open\-G\-L et initialise celui-\/ci. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4967547e0683bfdca700118df1c18bca}{void \hyperlink{class_facade_modele_a4967547e0683bfdca700118df1c18bca}{charger\-Configuration} () const }\label{class_facade_modele_a4967547e0683bfdca700118df1c18bca}
+
+\begin{DoxyCompactList}\small\item\em Charge la configuration à partir d'un fichier X\-M\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}{void \hyperlink{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}{enregistrer\-Configuration} () const }\label{class_facade_modele_a277d8d9cea21e20fb366a0d48525f2c9}
+
+\begin{DoxyCompactList}\small\item\em Enregistre la configuration courante dans un fichier X\-M\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}{void \hyperlink{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}{liberer\-Open\-G\-L} ()}\label{class_facade_modele_ac7b831ce13626514e9637c4533d7c15d}
+
+\begin{DoxyCompactList}\small\item\em Libère le contexte Open\-G\-L. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}{void \hyperlink{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}{afficher} () const }\label{class_facade_modele_ac884e818dab5fe049a37b3f6f1c5d8c6}
+
+\begin{DoxyCompactList}\small\item\em Affiche le contenu du modèle. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}{void \hyperlink{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}{afficher\-Base} () const }\label{class_facade_modele_a23bed5e3b226e446cfee30084150f7f7}
+
+\begin{DoxyCompactList}\small\item\em Affiche la base du contenu du modèle. \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga437c6e272561c4ffc47f3622694d0fa0}{void \hyperlink{group__inf2990_ga437c6e272561c4ffc47f3622694d0fa0}{afficher\-Texte\-Points} () const }\label{group__inf2990_ga437c6e272561c4ffc47f3622694d0fa0}
+
+\begin{DoxyCompactList}\small\item\em Affiche le texte F\-T\-G\-L de la scene pour le nombre de points. \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gaf3ca090a387fb32ff2da1d0472b1d282}{void \hyperlink{group__inf2990_gaf3ca090a387fb32ff2da1d0472b1d282}{afficher\-Texte\-Bille} () const }\label{group__inf2990_gaf3ca090a387fb32ff2da1d0472b1d282}
+
+\begin{DoxyCompactList}\small\item\em Affiche le texte F\-T\-G\-L de la scene pour le nombre de bille. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}{\hyperlink{classvue_1_1_vue}{vue\-::\-Vue} $\ast$ \hyperlink{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}{obtenir\-Vue} ()}\label{class_facade_modele_a84d9bb265e4f361079d45a9d3046b283}
+
+\begin{DoxyCompactList}\small\item\em Retourne la vue courante. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}{const \hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} () const }\label{class_facade_modele_ac2acf0b2bfa3036a4caf74ca060298ef}
+
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}{\hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$ \hyperlink{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}{obtenir\-Arbre\-Rendu\-I\-N\-F2990} ()}\label{class_facade_modele_a5ea7f206a10872a9c65db792334de7fc}
+
+\begin{DoxyCompactList}\small\item\em Retourne l'arbre de rendu. \end{DoxyCompactList}\item 
+\hyperlink{class_son}{Son} $\ast$ \hyperlink{group__inf2990_gafee4c4cb2e9f13ae102306210ca4ca94}{obtenir\-Son} () const 
+\begin{DoxyCompactList}\small\item\em Retourne le son. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}{void \hyperlink{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}{ajouter\-Noeud} (std\-::string nom, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point)}\label{class_facade_modele_a95523dfbf5e2ba135243e839882261a8}
+
+\begin{DoxyCompactList}\small\item\em ajoute un noeud à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}{void \hyperlink{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}{ajouter\-Noeud\-Mur} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point1, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point2)}\label{class_facade_modele_ac2bf7998153ed24c89d838c1a6de0251}
+
+\begin{DoxyCompactList}\small\item\em ajoute un noeud mur à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a1f47bcbde70af1a02aebb6fa6f11e019}{void \hyperlink{class_facade_modele_a1f47bcbde70af1a02aebb6fa6f11e019}{ajouter\-Noeud\-Portail} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point1, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&point2)}\label{class_facade_modele_a1f47bcbde70af1a02aebb6fa6f11e019}
+
+\begin{DoxyCompactList}\small\item\em ajoute deux noeuds portail à l'arbre de rendu \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}{void \hyperlink{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}{selection\-Simple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{class_facade_modele_a7767d8336c0ff82148d4f18a69bfe764}
+
+\begin{DoxyCompactList}\small\item\em selection par clique \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}{void \hyperlink{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}{selection\-Multiple} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} min, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} max)}\label{class_facade_modele_a4125d2d6269b3c660d797fd6ac2fb16c}
+
+\begin{DoxyCompactList}\small\item\em selection par rectangle élastique \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac0aa518829c09c75e538c9efdb509fb1}{void \hyperlink{class_facade_modele_ac0aa518829c09c75e538c9efdb509fb1}{translation} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{class_facade_modele_ac0aa518829c09c75e538c9efdb509fb1}
+
+\begin{DoxyCompactList}\small\item\em translation des objets sélectionnées \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a77267232e45e1dddc97edb730fb17d3a}{void \hyperlink{class_facade_modele_a77267232e45e1dddc97edb730fb17d3a}{mise\-Echelle} (double \hyperlink{group__inf2990_ga9a104d8c24fd5912c01db41ef4aaab0a}{scale})}\label{class_facade_modele_a77267232e45e1dddc97edb730fb17d3a}
+
+\begin{DoxyCompactList}\small\item\em mise a echellemanuelle \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a84ff45ec1f39f6d28ca1e31f0797ee2e}{void \hyperlink{class_facade_modele_a84ff45ec1f39f6d28ca1e31f0797ee2e}{rotation} (double angle)}\label{class_facade_modele_a84ff45ec1f39f6d28ca1e31f0797ee2e}
+
+\begin{DoxyCompactList}\small\item\em rotation des objets sélectionnées \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a2dbc6e6f5218a5ddfbe3f6e2ae2f382e}{void \hyperlink{class_facade_modele_a2dbc6e6f5218a5ddfbe3f6e2ae2f382e}{duplication} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{class_facade_modele_a2dbc6e6f5218a5ddfbe3f6e2ae2f382e}
+
+\begin{DoxyCompactList}\small\item\em duplication des objets selectionner \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}{void \hyperlink{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}{exit\-Duplication} ()}\label{class_facade_modele_a7c5a1ab4baea287482c754beab38a5a3}
+
+\begin{DoxyCompactList}\small\item\em duplication des objets selectionner \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a5c8c9a13cb02e35213a3aa613d42fd9e}{\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \hyperlink{class_facade_modele_a5c8c9a13cb02e35213a3aa613d42fd9e}{obtenir\-Point\-Central} (std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ noeud\-Selectionnes)}\label{class_facade_modele_a5c8c9a13cb02e35213a3aa613d42fd9e}
+
+\begin{DoxyCompactList}\small\item\em retourne le centrer d'un groupede noeuds \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_aa6cdfa7c45999b2bccef2763407c6e36}{void \hyperlink{class_facade_modele_aa6cdfa7c45999b2bccef2763407c6e36}{validate\-Mouvement} ()}\label{class_facade_modele_aa6cdfa7c45999b2bccef2763407c6e36}
+
+\begin{DoxyCompactList}\small\item\em validation de deplacement \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac5dcd3a7f0119c75ca403d7521581f72}{void \hyperlink{class_facade_modele_ac5dcd3a7f0119c75ca403d7521581f72}{release\-Visiteurs} ()}\label{class_facade_modele_ac5dcd3a7f0119c75ca403d7521581f72}
+
+\begin{DoxyCompactList}\small\item\em relache les visiteurs \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}{void \hyperlink{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}{reinitialiser} ()}\label{class_facade_modele_a4c2a991fe2297e44eeee0de111fb08d2}
+
+\begin{DoxyCompactList}\small\item\em Réinitialise la scène. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a9a104d8c24fd5912c01db41ef4aaab0a}{void \hyperlink{class_facade_modele_a9a104d8c24fd5912c01db41ef4aaab0a}{scale} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{class_facade_modele_a9a104d8c24fd5912c01db41ef4aaab0a}
+
+\begin{DoxyCompactList}\small\item\em Permet la mise à l'échelle des objets de la scène \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a41442a4f447d6214ad17d876e8722969}{void \hyperlink{class_facade_modele_a41442a4f447d6214ad17d876e8722969}{supprimer} ()}\label{class_facade_modele_a41442a4f447d6214ad17d876e8722969}
+
+\begin{DoxyCompactList}\small\item\em Permet de supprimer les objets selectionnés \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gade6e912e7d686b75659a46ca0f3b0145}{increment\-Points} (int points)
+\begin{DoxyCompactList}\small\item\em Permet d'incrementer les points. \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_gad6b4d24bf2a83272587ce437daa9dc5a}{obtenir\-Points} ()
+\begin{DoxyCompactList}\small\item\em retourne lenombre de points actuel \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga0da163c7e6d105c49f5f87d7da3552ee}{reset\-Points} ()
+\begin{DoxyCompactList}\small\item\em reinitialise lespoints \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga0f7e5e31bf8cf4594377c180ed32c014}{creer\-Bille} ()
+\begin{DoxyCompactList}\small\item\em cree une bille a partir d'un generateur de bille \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga36c8094cf751774ab9d25b538d4a8dcd}{obtenir\-Billes\-Restantes} () const 
+\begin{DoxyCompactList}\small\item\em retourne le nombre de billets restante \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga9a5c9d0534b349004057600c92b56d5c}{void \hyperlink{group__inf2990_ga9a5c9d0534b349004057600c92b56d5c}{assigner\-Nb\-Billes\-Restante} (int billes)}\label{group__inf2990_ga9a5c9d0534b349004057600c92b56d5c}
+
+\begin{DoxyCompactList}\small\item\em assigne le nombre de billes \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga174de4274ef56872fbc9fd076c674cfb}{decrementer\-Bille\-Sur\-La\-Table} ()
+\begin{DoxyCompactList}\small\item\em decremente le nombre de bille sur la table \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}{void \hyperlink{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}{animer} (float temps)}\label{class_facade_modele_a24dcb4e32cf104797158b398bafbfbb7}
+
+\begin{DoxyCompactList}\small\item\em Anime la scène. \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga4730475e8bd9937d64754defbc55ca67}{void \hyperlink{group__inf2990_ga4730475e8bd9937d64754defbc55ca67}{assigner\-Billes\-Max} (int billes)}\label{group__inf2990_ga4730475e8bd9937d64754defbc55ca67}
+
+\begin{DoxyCompactList}\small\item\em assigne le nombre maximale de bille sur la table \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga9560e8bac3df774cf865960cefe1c31b}{void \hyperlink{group__inf2990_ga9560e8bac3df774cf865960cefe1c31b}{assigner\-Affichage\-Debug} (bool affiche)}\label{group__inf2990_ga9560e8bac3df774cf865960cefe1c31b}
+
+\begin{DoxyCompactList}\small\item\em active/deactive les affichages consoles \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gaa5d192671de61b20ab889f1758f338e9}{void \hyperlink{group__inf2990_gaa5d192671de61b20ab889f1758f338e9}{assigner\-Affichage\-Vitesse} (bool affiche)}\label{group__inf2990_gaa5d192671de61b20ab889f1758f338e9}
+
+\begin{DoxyCompactList}\small\item\em active/deactive les affichages de vitesse apres collisions \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_gafa5c4b5652dc7b52ef1116b948b6c481}{void \hyperlink{group__inf2990_gafa5c4b5652dc7b52ef1116b948b6c481}{assigner\-Affichage\-Creation\-Bille} (bool affiche)}\label{group__inf2990_gafa5c4b5652dc7b52ef1116b948b6c481}
+
+\begin{DoxyCompactList}\small\item\em active/deactive les affichages de creation billes \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_afa0fb0d44929f446900ef366d8d6e6e2}{void \hyperlink{class_facade_modele_afa0fb0d44929f446900ef366d8d6e6e2}{assigner\-Affichage\-Lumiere} (bool affiche)}\label{class_facade_modele_afa0fb0d44929f446900ef366d8d6e6e2}
+
+\begin{DoxyCompactList}\small\item\em active/deactive les affichages de lumiere \end{DoxyCompactList}\item 
+\hypertarget{group__inf2990_ga0a12a28aa26878feb25b6ef92a75a793}{void \hyperlink{group__inf2990_ga0a12a28aa26878feb25b6ef92a75a793}{assigner\-Affichage\-Champ\-Portail} (bool affiche)}\label{group__inf2990_ga0a12a28aa26878feb25b6ef92a75a793}
+
+\begin{DoxyCompactList}\small\item\em active/deactive les affichages des champ portails \end{DoxyCompactList}\item 
+bool \hyperlink{group__inf2990_ga7051dcbf85c35a9e8e98b98627647d55}{obtenir\-Afficher\-Champ\-Portail} ()
+\begin{DoxyCompactList}\small\item\em permet de savoir si on oit afficher les champs des portails \end{DoxyCompactList}\item 
+int \hyperlink{group__inf2990_ga5e1cef8f93e4cb187399afe032057030}{obtenir\-Billes\-En\-Jeu} ()
+\begin{DoxyCompactList}\small\item\em retourne le nombre de billes en jeu \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_ga7ac6112775c710e9fd324476af1aa714}{assigner\-Joueur\-Virtuel} (bool valeur)
+\item 
+bool \hyperlink{group__inf2990_ga5604c039fdb1bce77546ffe0d308403f}{obtenir\-Joueur\-Virtuel} () const 
+\item 
+void \hyperlink{group__inf2990_ga6d8c1a9c3a23ca43c440c830284bef8b}{inverser\-Affichage\-Texte} ()
+\begin{DoxyCompactList}\small\item\em Inverse la condition d'affichage du texte. \end{DoxyCompactList}\item 
+void \hyperlink{group__inf2990_gaf4d817211356b3a5d4d47baf1d80b8e6}{assigner\-Lum\-Ambiante} ()
+\item 
+bool \hyperlink{group__inf2990_gab78c1b285becbe9fb012b4b069f393d9}{obtenir\-Lum\-Ambiante} () const 
+\item 
+void \hyperlink{group__inf2990_ga76129647d342bb0af322c9187d5a653c}{assigner\-Lum\-Direct} ()
+\item 
+bool \hyperlink{group__inf2990_gae7ac846dd17488b65ac9da3ed5955697}{obtenir\-Lum\-Direct} () const 
+\item 
+void \hyperlink{group__inf2990_gad1cc67db3d4d31b6d5e614d335afab30}{assigner\-Lum\-Spot} ()
+\item 
+bool \hyperlink{group__inf2990_ga503c70cf76cf89591c9499489bd351e1}{obtenir\-Lum\-Spot} () const 
+\item 
+bool \hyperlink{class_facade_modele_a6f34a62b9957f0bc720f365a3bfc07f7}{sauvegarde\-Possible} ()
+\begin{DoxyCompactList}\small\item\em X\-M\-L /////////////////////////////////////////////. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_ac434f93ae9e7e60f750d9fdb2f94cec3}{bool \hyperlink{class_facade_modele_ac434f93ae9e7e60f750d9fdb2f94cec3}{sauvegarde\-Arbre\-X\-M\-L} (std\-::string nom\-Fichier)}\label{class_facade_modele_ac434f93ae9e7e60f750d9fdb2f94cec3}
+
+\begin{DoxyCompactList}\small\item\em gère la sauvegarde de la zone de jeu en fichier X\-M\-L \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a0ed6fcfb0d111d809053ec153b9ba2f5}{bool \hyperlink{class_facade_modele_a0ed6fcfb0d111d809053ec153b9ba2f5}{lecture\-X\-M\-L} (char $\ast$nom\-Fichier)}\label{class_facade_modele_a0ed6fcfb0d111d809053ec153b9ba2f5}
+
+\begin{DoxyCompactList}\small\item\em lire le X\-M\-L \end{DoxyCompactList}\item 
+\hyperlink{class_quad_tree}{Quad\-Tree} $\ast$ \hyperlink{group__inf2990_ga441a24e0c0cc0ecdfefc0cc9e887df70}{obtenir\-Quad\-Tree} ()
+\item 
+void \hyperlink{group__inf2990_gad822d14dfb777a52754963ece003e4bd}{reinitialiser\-Partie} ()
+\item 
+int \hyperlink{group__inf2990_ga10e67e200ca5338e4113c8835715ca10}{obtenir\-Difficulte\-Du\-X\-M\-L} (char $\ast$nom\-Fichier)
+\item 
+\hypertarget{group__inf2990_gabc4b36a16486be771facbc2925df73f3}{void {\bfseries change\-To\-Perspective} ()}\label{group__inf2990_gabc4b36a16486be771facbc2925df73f3}
+
+\item 
+\hypertarget{group__inf2990_ga7850212ea19497ca168a6a730a0ab938}{void {\bfseries change\-To\-Ortho} ()}\label{group__inf2990_ga7850212ea19497ca168a6a730a0ab938}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_facade_modele}{Facade\-Modele} $\ast$ \hyperlink{group__inf2990_ga9d148f8472316f87cdd79baccc000de8}{obtenir\-Instance} ()
+\begin{DoxyCompactList}\small\item\em Obtient l'instance unique de la classe. \end{DoxyCompactList}\item 
+static void \hyperlink{group__inf2990_gacbf0495fda26f5be37089470dc5f4372}{liberer\-Instance} ()
+\begin{DoxyCompactList}\small\item\em Libère l'instance unique de la classe. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}{static \hyperlink{class_facade_modele}{Facade\-Modele} $\ast$ \hyperlink{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}{obtenir\-Instance} ()}\label{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}
+
+\begin{DoxyCompactList}\small\item\em Obtient l'instance unique de la classe. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}{static void \hyperlink{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}{liberer\-Instance} ()}\label{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}
+
+\begin{DoxyCompactList}\small\item\em Libère l'instance unique de la classe. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}{static \hyperlink{class_facade_modele}{Facade\-Modele} $\ast$ \hyperlink{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}{obtenir\-Instance} ()}\label{class_facade_modele_a66d9dfa034473c1e78a56ae4b146cf07}
+
+\begin{DoxyCompactList}\small\item\em Obtient l'instance unique de la classe. \end{DoxyCompactList}\item 
+\hypertarget{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}{static void \hyperlink{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}{liberer\-Instance} ()}\label{class_facade_modele_abbd2e488fe6295a47aa6b82fc0751fc9}
+
+\begin{DoxyCompactList}\small\item\em Libère l'instance unique de la classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe qui constitue une interface (une façade) sur l'ensemble du modèle et des classes qui le composent. 
+
+\begin{DoxyAuthor}{Author}
+Martin Bisson 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2007-\/02-\/20 
+\end{DoxyDate}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_facade_modele_a6f34a62b9957f0bc720f365a3bfc07f7}{\index{Facade\-Modele@{Facade\-Modele}!sauvegarde\-Possible@{sauvegarde\-Possible}}
+\index{sauvegarde\-Possible@{sauvegarde\-Possible}!FacadeModele@{Facade\-Modele}}
+\subsubsection[{sauvegarde\-Possible}]{\setlength{\rightskip}{0pt plus 5cm}bool Facade\-Modele\-::sauvegarde\-Possible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_facade_modele_a6f34a62b9957f0bc720f365a3bfc07f7}
+
+
+X\-M\-L /////////////////////////////////////////////. 
+
+verifier la présence des objets nécessaires 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/livrable0/\-D\-L\-L/\-Application/Facade\-Modele.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/livrable0/\-D\-L\-L/\-Application/Facade\-Modele.\-cpp\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/livrable0/\-D\-L\-L/\-Interface/Facade\-Interface\-Native.\-cpp\end{DoxyCompactItemize}

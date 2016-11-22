@@ -1,0 +1,146 @@
+\hypertarget{class_noeud_trou}{\section{Noeud\-Trou Class Reference}
+\label{class_noeud_trou}\index{Noeud\-Trou@{Noeud\-Trou}}
+}
+
+
+Classe qui représente un exemple de noeud de l'arbre de rendu.  
+
+
+
+
+{\ttfamily \#include $<$Noeud\-Trou.\-h$>$}
+
+Inheritance diagram for Noeud\-Trou\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_noeud_trou}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_noeud_trou_a7304db4fd3a4f25b6f61bbd1168cdaa7}{Noeud\-Trou} (const std\-::string \&type\-Noeud)
+\begin{DoxyCompactList}\small\item\em Constructeur à partir du type du noeud. \end{DoxyCompactList}\item 
+\hyperlink{class_noeud_trou_a38d7d138d75475f477f5447fc23afb01}{$\sim$\-Noeud\-Trou} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_noeud_trou_a0680fa708dae3abb97dc0e6bf9a25fbe}{afficher\-Concret} () const 
+\begin{DoxyCompactList}\small\item\em Affiche le cube. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_noeud_trou_ab6f4f1c8c9e10fc1625565e297722f7a}{animer} (float temps)
+\begin{DoxyCompactList}\small\item\em Effectue l'animation du cube. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_noeud_trou_acd88b7a4d38502dfadad4eecd80c098b}{accepte} (\hyperlink{class_visiteur_abstrait}{Visiteur\-Abstrait} $\ast$Visiteur)
+\begin{DoxyCompactList}\small\item\em Accepte le Visiteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe qui représente un exemple de noeud de l'arbre de rendu. 
+
+\begin{DoxyAuthor}{Author}
+Tommy Sagala 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2014-\/09-\/17 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_noeud_trou_a7304db4fd3a4f25b6f61bbd1168cdaa7}{\index{Noeud\-Trou@{Noeud\-Trou}!Noeud\-Trou@{Noeud\-Trou}}
+\index{Noeud\-Trou@{Noeud\-Trou}!NoeudTrou@{Noeud\-Trou}}
+\subsubsection[{Noeud\-Trou}]{\setlength{\rightskip}{0pt plus 5cm}Noeud\-Trou\-::\-Noeud\-Trou (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{type\-Noeud}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_trou_a7304db4fd3a4f25b6f61bbd1168cdaa7}
+
+
+Constructeur à partir du type du noeud. 
+
+Ce constructeur ne fait qu'appeler la version de la classe et base et donner des valeurs par défaut aux variables membres.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em type\-Noeud} & \-: Le type du noeud.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+Charger le modèle 3\-D \hypertarget{class_noeud_trou_a38d7d138d75475f477f5447fc23afb01}{\index{Noeud\-Trou@{Noeud\-Trou}!$\sim$\-Noeud\-Trou@{$\sim$\-Noeud\-Trou}}
+\index{$\sim$\-Noeud\-Trou@{$\sim$\-Noeud\-Trou}!NoeudTrou@{Noeud\-Trou}}
+\subsubsection[{$\sim$\-Noeud\-Trou}]{\setlength{\rightskip}{0pt plus 5cm}Noeud\-Trou\-::$\sim$\-Noeud\-Trou (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_trou_a38d7d138d75475f477f5447fc23afb01}
+
+
+Destructeur. 
+
+Ce destructeur désallouee la liste d'affichage du cube.
+
+\begin{DoxyReturn}{Returns}
+Aucune (destructeur). 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_noeud_trou_acd88b7a4d38502dfadad4eecd80c098b}{\index{Noeud\-Trou@{Noeud\-Trou}!accepte@{accepte}}
+\index{accepte@{accepte}!NoeudTrou@{Noeud\-Trou}}
+\subsubsection[{accepte}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Trou\-::accepte (
+\begin{DoxyParamCaption}
+\item[{{\bf Visiteur\-Abstrait} $\ast$}]{Visiteur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_noeud_trou_acd88b7a4d38502dfadad4eecd80c098b}
+
+
+Accepte le Visiteur. 
+
+
+
+Reimplemented from \hyperlink{group__inf2990_gab0f486a6ff58b4f4048549f37fbfde48}{Noeud\-Abstrait}.
+
+\hypertarget{class_noeud_trou_a0680fa708dae3abb97dc0e6bf9a25fbe}{\index{Noeud\-Trou@{Noeud\-Trou}!afficher\-Concret@{afficher\-Concret}}
+\index{afficher\-Concret@{afficher\-Concret}!NoeudTrou@{Noeud\-Trou}}
+\subsubsection[{afficher\-Concret}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Trou\-::afficher\-Concret (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_trou_a0680fa708dae3abb97dc0e6bf9a25fbe}
+
+
+Affiche le cube. 
+
+Cette fonction effectue le véritable rendu de l'objet.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_gad440d00734a92e1bd99cdee2ac62bb68}{Noeud\-Composite}.
+
+\hypertarget{class_noeud_trou_ab6f4f1c8c9e10fc1625565e297722f7a}{\index{Noeud\-Trou@{Noeud\-Trou}!animer@{animer}}
+\index{animer@{animer}!NoeudTrou@{Noeud\-Trou}}
+\subsubsection[{animer}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Trou\-::animer (
+\begin{DoxyParamCaption}
+\item[{float}]{temps}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_trou_ab6f4f1c8c9e10fc1625565e297722f7a}
+
+
+Effectue l'animation du cube. 
+
+
+
+Reimplemented from \hyperlink{group__inf2990_ga57f31e1a0fd79628d04651001014fd41}{Noeud\-Composite}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_trou_8h}{Noeud\-Trou.\-h}\item 
+X\-:/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_trou_8cpp}{Noeud\-Trou.\-cpp}\end{DoxyCompactItemize}

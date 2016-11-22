@@ -1,0 +1,74 @@
+\hypertarget{class_f_t_tesselation}{\section{F\-T\-Tesselation Class Reference}
+\label{class_f_t_tesselation}\index{F\-T\-Tesselation@{F\-T\-Tesselation}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Vectoriser.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_tesselation_a8ae81852ffa0dfb1bc65e85dc6d35df2}{F\-T\-Tesselation} (G\-Lenum m)
+\item 
+\hyperlink{class_f_t_tesselation_a55bd008edbf969720fa3dc083bce1ac0}{$\sim$\-F\-T\-Tesselation} ()
+\item 
+void \hyperlink{class_f_t_tesselation_a204a9e646cee25f374faad125d71d5e6}{Add\-Point} (const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E x, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E y, const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E z)
+\item 
+size\-\_\-t \hyperlink{class_f_t_tesselation_aa3cb26a53c3534576339f946acdc0cc7}{Point\-Count} () const 
+\item 
+\hypertarget{class_f_t_tesselation_a964ae8f16f216ca545f44a087f31e827}{const F\-T\-Point \& {\bfseries Point} (unsigned int index) const }\label{class_f_t_tesselation_a964ae8f16f216ca545f44a087f31e827}
+
+\item 
+G\-Lenum \hyperlink{class_f_t_tesselation_a06c290061a75bad0d38a2d5b2f6b09a1}{Polygon\-Type} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_tesselation}{F\-T\-Tesselation} captures points that are output by Open\-G\-L's glu\-Tesselator. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_tesselation_a8ae81852ffa0dfb1bc65e85dc6d35df2}{\index{F\-T\-Tesselation@{F\-T\-Tesselation}!F\-T\-Tesselation@{F\-T\-Tesselation}}
+\index{F\-T\-Tesselation@{F\-T\-Tesselation}!FTTesselation@{F\-T\-Tesselation}}
+\subsubsection[{F\-T\-Tesselation}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Tesselation\-::\-F\-T\-Tesselation (
+\begin{DoxyParamCaption}
+\item[{G\-Lenum}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_tesselation_a8ae81852ffa0dfb1bc65e85dc6d35df2}
+Default constructor \hypertarget{class_f_t_tesselation_a55bd008edbf969720fa3dc083bce1ac0}{\index{F\-T\-Tesselation@{F\-T\-Tesselation}!$\sim$\-F\-T\-Tesselation@{$\sim$\-F\-T\-Tesselation}}
+\index{$\sim$\-F\-T\-Tesselation@{$\sim$\-F\-T\-Tesselation}!FTTesselation@{F\-T\-Tesselation}}
+\subsubsection[{$\sim$\-F\-T\-Tesselation}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Tesselation\-::$\sim$\-F\-T\-Tesselation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_tesselation_a55bd008edbf969720fa3dc083bce1ac0}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_tesselation_a204a9e646cee25f374faad125d71d5e6}{\index{F\-T\-Tesselation@{F\-T\-Tesselation}!Add\-Point@{Add\-Point}}
+\index{Add\-Point@{Add\-Point}!FTTesselation@{F\-T\-Tesselation}}
+\subsubsection[{Add\-Point}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Tesselation\-::\-Add\-Point (
+\begin{DoxyParamCaption}
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{x, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{y, }
+\item[{const F\-T\-G\-L\-\_\-\-D\-O\-U\-B\-L\-E}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_tesselation_a204a9e646cee25f374faad125d71d5e6}
+Add a point to the mesh. \hypertarget{class_f_t_tesselation_aa3cb26a53c3534576339f946acdc0cc7}{\index{F\-T\-Tesselation@{F\-T\-Tesselation}!Point\-Count@{Point\-Count}}
+\index{Point\-Count@{Point\-Count}!FTTesselation@{F\-T\-Tesselation}}
+\subsubsection[{Point\-Count}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Tesselation\-::\-Point\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_tesselation_aa3cb26a53c3534576339f946acdc0cc7}
+The number of points in this mesh \hypertarget{class_f_t_tesselation_a06c290061a75bad0d38a2d5b2f6b09a1}{\index{F\-T\-Tesselation@{F\-T\-Tesselation}!Polygon\-Type@{Polygon\-Type}}
+\index{Polygon\-Type@{Polygon\-Type}!FTTesselation@{F\-T\-Tesselation}}
+\subsubsection[{Polygon\-Type}]{\setlength{\rightskip}{0pt plus 5cm}G\-Lenum F\-T\-Tesselation\-::\-Polygon\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_tesselation_a06c290061a75bad0d38a2d5b2f6b09a1}
+Return the Open\-G\-L polygon type. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Vectoriser.\-h\end{DoxyCompactItemize}

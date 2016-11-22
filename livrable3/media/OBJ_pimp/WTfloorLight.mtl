@@ -1,0 +1,21 @@
+#
+# WTfloorLight.mtl
+#
+
+newmtl material1
+illum 2
+Kd 0.700000 0.700000 0.700000
+Ka 0.300000 0.300000 0.300000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ns 50.000001
+map_Kd D:\Game\pinball\FP\WorldTour/C:\Softimage\XSI_7.01\Application\rsrc\noIcon.pic
+
+newmtl material2
+illum 2
+Kd 0.700000 0.700000 0.700000
+Ka 0.300000 0.300000 0.300000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ns 50.000001
+map_Kd D:\Game\pinball\FP\WorldTour/C:\Softimage\XSI_7.01\Application\rsrc\noIcon.pic

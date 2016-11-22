@@ -1,0 +1,180 @@
+\hypertarget{class_f_t_size}{\section{F\-T\-Size Class Reference}
+\label{class_f_t_size}\index{F\-T\-Size@{F\-T\-Size}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Size.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_size_ae1b459031c2ab7fe6ef98530c0251700}{F\-T\-Size} ()
+\item 
+virtual \hyperlink{class_f_t_size_a7bf23332d879f3e9d76675290012b275}{$\sim$\-F\-T\-Size} ()
+\item 
+bool \hyperlink{class_f_t_size_a15c6c82655544d1edb101e00e42ffad9}{Char\-Size} (\hyperlink{struct_f_t___face_rec__}{F\-T\-\_\-\-Face} $\ast$face, unsigned int point\-\_\-size, unsigned int x\-\_\-resolution, unsigned int y\-\_\-resolution)
+\item 
+unsigned int \hyperlink{class_f_t_size_a489fba0a722afd8dfa2a67142cd51767}{Char\-Size} () const 
+\item 
+float \hyperlink{class_f_t_size_a7865c27cb979feace5ccce2fb544a490}{Ascender} () const 
+\item 
+float \hyperlink{class_f_t_size_a75c1b86d32c5ea1d296234edb1e4b7ab}{Descender} () const 
+\item 
+float \hyperlink{class_f_t_size_af0e7398f27936ffe4cbed04c3cfa889d}{Height} () const 
+\item 
+float \hyperlink{class_f_t_size_a8fe639fa29815a89cdd84138b2564840}{Width} () const 
+\item 
+float \hyperlink{class_f_t_size_ab85fb58156a855d01b5a4e9e1b91e0e2}{Underline} () const 
+\item 
+F\-T\-\_\-\-Error \hyperlink{class_f_t_size_a990a2df40c9c1ed06db8d34b2ac3580b}{Error} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_size}{F\-T\-Size} class provides an abstraction layer for the Freetype Size.
+
+\begin{DoxySeeAlso}{See Also}
+\char`\"{}\-Freetype 2 Documentation\char`\"{} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_size_ae1b459031c2ab7fe6ef98530c0251700}{\index{F\-T\-Size@{F\-T\-Size}!F\-T\-Size@{F\-T\-Size}}
+\index{F\-T\-Size@{F\-T\-Size}!FTSize@{F\-T\-Size}}
+\subsubsection[{F\-T\-Size}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Size\-::\-F\-T\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_size_ae1b459031c2ab7fe6ef98530c0251700}
+Default Constructor \hypertarget{class_f_t_size_a7bf23332d879f3e9d76675290012b275}{\index{F\-T\-Size@{F\-T\-Size}!$\sim$\-F\-T\-Size@{$\sim$\-F\-T\-Size}}
+\index{$\sim$\-F\-T\-Size@{$\sim$\-F\-T\-Size}!FTSize@{F\-T\-Size}}
+\subsubsection[{$\sim$\-F\-T\-Size}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Size\-::$\sim$\-F\-T\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_f_t_size_a7bf23332d879f3e9d76675290012b275}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_size_a7865c27cb979feace5ccce2fb544a490}{\index{F\-T\-Size@{F\-T\-Size}!Ascender@{Ascender}}
+\index{Ascender@{Ascender}!FTSize@{F\-T\-Size}}
+\subsubsection[{Ascender}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Size\-::\-Ascender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_a7865c27cb979feace5ccce2fb544a490}
+Gets the global ascender height for the face in pixels.
+
+\begin{DoxyReturn}{Returns}
+Ascender height 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_a15c6c82655544d1edb101e00e42ffad9}{\index{F\-T\-Size@{F\-T\-Size}!Char\-Size@{Char\-Size}}
+\index{Char\-Size@{Char\-Size}!FTSize@{F\-T\-Size}}
+\subsubsection[{Char\-Size}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Size\-::\-Char\-Size (
+\begin{DoxyParamCaption}
+\item[{{\bf F\-T\-\_\-\-Face} $\ast$}]{face, }
+\item[{unsigned int}]{point\-\_\-size, }
+\item[{unsigned int}]{x\-\_\-resolution, }
+\item[{unsigned int}]{y\-\_\-resolution}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_size_a15c6c82655544d1edb101e00e42ffad9}
+Sets the char size for the current face.
+
+This doesn't guarantee that the size was set correctly. Clients should check errors. If an error does occur the size object isn't modified.
+
+
+\begin{DoxyParams}{Parameters}
+{\em face} & Parent face for this size object \\
+\hline
+{\em point\-\_\-size} & the face size in points (1/72 inch) \\
+\hline
+{\em x\-\_\-resolution} & the horizontal resolution of the target device. \\
+\hline
+{\em y\-\_\-resolution} & the vertical resolution of the target device. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the size has been set. Clients should check \hyperlink{class_f_t_size_a990a2df40c9c1ed06db8d34b2ac3580b}{Error()} for more information if this function returns false() 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_a489fba0a722afd8dfa2a67142cd51767}{\index{F\-T\-Size@{F\-T\-Size}!Char\-Size@{Char\-Size}}
+\index{Char\-Size@{Char\-Size}!FTSize@{F\-T\-Size}}
+\subsubsection[{Char\-Size}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Size\-::\-Char\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_a489fba0a722afd8dfa2a67142cd51767}
+get the char size for the current face.
+
+\begin{DoxyReturn}{Returns}
+The char size in points 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_a75c1b86d32c5ea1d296234edb1e4b7ab}{\index{F\-T\-Size@{F\-T\-Size}!Descender@{Descender}}
+\index{Descender@{Descender}!FTSize@{F\-T\-Size}}
+\subsubsection[{Descender}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Size\-::\-Descender (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_a75c1b86d32c5ea1d296234edb1e4b7ab}
+Gets the global descender height for the face in pixels.
+
+\begin{DoxyReturn}{Returns}
+Ascender height 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_a990a2df40c9c1ed06db8d34b2ac3580b}{\index{F\-T\-Size@{F\-T\-Size}!Error@{Error}}
+\index{Error@{Error}!FTSize@{F\-T\-Size}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Error F\-T\-Size\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_size_a990a2df40c9c1ed06db8d34b2ac3580b}
+Queries for errors.
+
+\begin{DoxyReturn}{Returns}
+The current error code. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_af0e7398f27936ffe4cbed04c3cfa889d}{\index{F\-T\-Size@{F\-T\-Size}!Height@{Height}}
+\index{Height@{Height}!FTSize@{F\-T\-Size}}
+\subsubsection[{Height}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Size\-::\-Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_af0e7398f27936ffe4cbed04c3cfa889d}
+Gets the global face height for the face.
+
+If the face is scalable this returns the height of the global bounding box which ensures that any glyph will be less than or equal to this height. If the font isn't scalable there is no guarantee that glyphs will not be taller than this value.
+
+\begin{DoxyReturn}{Returns}
+height in pixels. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_ab85fb58156a855d01b5a4e9e1b91e0e2}{\index{F\-T\-Size@{F\-T\-Size}!Underline@{Underline}}
+\index{Underline@{Underline}!FTSize@{F\-T\-Size}}
+\subsubsection[{Underline}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Size\-::\-Underline (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_ab85fb58156a855d01b5a4e9e1b91e0e2}
+Gets the underline position for the face.
+
+\begin{DoxyReturn}{Returns}
+underline position in pixels 
+\end{DoxyReturn}
+\hypertarget{class_f_t_size_a8fe639fa29815a89cdd84138b2564840}{\index{F\-T\-Size@{F\-T\-Size}!Width@{Width}}
+\index{Width@{Width}!FTSize@{F\-T\-Size}}
+\subsubsection[{Width}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Size\-::\-Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_size_a8fe639fa29815a89cdd84138b2564840}
+Gets the global face width for the face.
+
+If the face is scalable this returns the width of the global bounding box which ensures that any glyph will be less than or equal to this width. If the font isn't scalable this value is the max\-\_\-advance for the face.
+
+\begin{DoxyReturn}{Returns}
+width in pixels. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Size.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Size.\-cpp\end{DoxyCompactItemize}

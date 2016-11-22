@@ -1,0 +1,89 @@
+\hypertarget{class_usine_noeud_butoir_triangulaire_droit}{\section{Usine\-Noeud\-Butoir\-Triangulaire\-Droit Class Reference}
+\label{class_usine_noeud_butoir_triangulaire_droit}\index{Usine\-Noeud\-Butoir\-Triangulaire\-Droit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}}
+}
+
+
+Classe qui représente une usine capable de créer des noeuds de type \hyperlink{class_noeud_butoir_triangulaire}{Noeud\-Butoir\-Triangulaire}.  
+
+
+
+
+{\ttfamily \#include $<$Usine\-Noeud\-Butoir\-Triangulaire\-Droit.\-h$>$}
+
+Inheritance diagram for Usine\-Noeud\-Butoir\-Triangulaire\-Droit\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_usine_noeud_butoir_triangulaire_droit}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_usine_noeud_butoir_triangulaire_droit_a4d1944f691b2904428ae36c236e5e31e}{Usine\-Noeud\-Butoir\-Triangulaire\-Droit} (const std\-::string \&nom)
+\begin{DoxyCompactList}\small\item\em Constructeur par paramètres. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ \hyperlink{class_usine_noeud_butoir_triangulaire_droit_ac727aefea2ad1bf362a57133d930cc9d}{creer\-Noeud} () const 
+\begin{DoxyCompactList}\small\item\em Fonction à surcharger pour la création d'un noeud. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe qui représente une usine capable de créer des noeuds de type \hyperlink{class_noeud_butoir_triangulaire}{Noeud\-Butoir\-Triangulaire}. 
+
+\begin{DoxyAuthor}{Author}
+Tommy Sagala 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2014-\/09-\/17 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_usine_noeud_butoir_triangulaire_droit_a4d1944f691b2904428ae36c236e5e31e}{\index{Usine\-Noeud\-Butoir\-Triangulaire\-Droit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}!Usine\-Noeud\-Butoir\-Triangulaire\-Droit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}}
+\index{Usine\-Noeud\-Butoir\-Triangulaire\-Droit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}!UsineNoeudButoirTriangulaireDroit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}}
+\subsubsection[{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}]{\setlength{\rightskip}{0pt plus 5cm}Usine\-Noeud\-Butoir\-Triangulaire\-Droit\-::\-Usine\-Noeud\-Butoir\-Triangulaire\-Droit (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{nom}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_usine_noeud_butoir_triangulaire_droit_a4d1944f691b2904428ae36c236e5e31e}
+
+
+Constructeur par paramètres. 
+
+Ce constructeur ne fait qu'appeler la version de la classe et base et donner des valeurs par défaut aux variables membres..
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em nom} & \-: Le nom de l'usine qui correspond au type de noeuds créés.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_usine_noeud_butoir_triangulaire_droit_ac727aefea2ad1bf362a57133d930cc9d}{\index{Usine\-Noeud\-Butoir\-Triangulaire\-Droit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}!creer\-Noeud@{creer\-Noeud}}
+\index{creer\-Noeud@{creer\-Noeud}!UsineNoeudButoirTriangulaireDroit@{Usine\-Noeud\-Butoir\-Triangulaire\-Droit}}
+\subsubsection[{creer\-Noeud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Noeud\-Abstrait} $\ast$ Usine\-Noeud\-Butoir\-Triangulaire\-Droit\-::creer\-Noeud (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_usine_noeud_butoir_triangulaire_droit_ac727aefea2ad1bf362a57133d930cc9d}
+
+
+Fonction à surcharger pour la création d'un noeud. 
+
+Cette fonction retourne un noeud nouvellement créé du type produit par cette usine, soit une araignée.
+
+\begin{DoxyReturn}{Returns}
+Le noeud nouvellement créé. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_usine_noeud_a47c1970af3739268f5e4a35cb451d528}{Usine\-Noeud}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Usines/\hyperlink{_usine_noeud_butoir_triangulaire_droit_8h}{Usine\-Noeud\-Butoir\-Triangulaire\-Droit.\-h}\end{DoxyCompactItemize}

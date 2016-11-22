@@ -1,0 +1,17 @@
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.exe.config
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.exe
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Exe\InterfaceGraphique.pdb
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.csprojResolveAssemblyReference.cache
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.Configuration.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.KeyPress.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.LoadScreen.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.MenuCampagne.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.ConfigurerPartieRapide.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.ModeEditeur.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.MenuPrincipal.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.PartieRapide.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.Properties.Resources.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.Propriete.resources
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.csproj.GenerateResource.Cache
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.exe
+C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\InterfaceGraphique\obj\Release\InterfaceGraphique.pdb

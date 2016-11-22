@@ -1,0 +1,444 @@
+\hypertarget{classvue_1_1_vue_perspective}{\section{vue\-:\-:Vue\-Perspective Class Reference}
+\label{classvue_1_1_vue_perspective}\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}}
+}
+Inheritance diagram for vue\-:\-:Vue\-Perspective\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvue_1_1_vue_perspective}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvue_1_1_vue_perspective_afeec49adcbc5912013a35acc31d2ed68}{Vue\-Perspective} (\hyperlink{classvue_1_1_camera}{Camera} const \&camera, \hyperlink{classvue_1_1_projection_perspective}{Projection\-Perspective} const \&projection)
+\item 
+virtual const \\*
+\hyperlink{classvue_1_1_projection_perspective}{Projection\-Perspective} \& \hyperlink{classvue_1_1_vue_perspective_aa4cde13fd3f5d0bc3730485b7a0aadb6}{obtenir\-Projection} () const 
+\begin{DoxyCompactList}\small\item\em Obtention de la projection. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a717793b0e0c2a31815ed44dc839dfd65}{appliquer\-Projection} () const 
+\begin{DoxyCompactList}\small\item\em Application de la projection. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a99f5b5848bf574cabf15a718d3246ba6}{appliquer\-Camera} () const 
+\begin{DoxyCompactList}\small\item\em Application de la caméra. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_ade2b39e3ea81f9bf8e05f60f7cd4ac96}{redimensionner\-Fenetre} (const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&coin\-Min, const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&coin\-Max)
+\begin{DoxyCompactList}\small\item\em Modification de la clotûre. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_ab5be45f8eec9df1e073cf3b4080e4a5e}{zoomer\-In} ()
+\begin{DoxyCompactList}\small\item\em Zoom in, c'est-\/à-\/dire un agrandissement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a76fd0e038828c7343056c1ec0fd21b62}{zoomer\-Out} ()
+\begin{DoxyCompactList}\small\item\em Zoom out, c'est-\/à-\/dire un rapetissement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a043bc29c1b1f56a5300cf22ecc7c99a7}{zoomer\-In\-Elastique} (const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin1, const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin2)
+\begin{DoxyCompactList}\small\item\em Zoom in élastique. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a7836e80691d189a9544e3f6e0fb7701b}{zoomer\-Out\-Elastique} (const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin1, const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin2)
+\begin{DoxyCompactList}\small\item\em Zoom out élastique. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a713c63e2261c9ccc7fe0e8071cee39d2}{deplacer\-X\-Y} (double deplacement\-X, double deplacement\-Y)
+\begin{DoxyCompactList}\small\item\em Déplacement dans le plan X\-Y par rapport à la vue. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a83cfe28750d029b18d1da77ee50fbf01}{deplacer\-X\-Y} (const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&deplacement)
+\begin{DoxyCompactList}\small\item\em Déplacement dans le plan X\-Y par rapport à la vue. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a160675df8fe04b8f73e1909f7c371efe}{deplacer\-Z} (double deplacement)
+\begin{DoxyCompactList}\small\item\em Déplacement selon l'axe des Z par rapport à la vue. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_a79f498194c06da26613afac30d7d3f39}{rotater\-X\-Y} (double rotation\-X, double rotation\-Y)
+\begin{DoxyCompactList}\small\item\em Rotation selon les axes des X et des Y par rapport à la vue. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_aa58ee5f9cdf8ed9c41bad7978ff79650}{rotater\-X\-Y} (const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&rotation)
+\begin{DoxyCompactList}\small\item\em Rotation selon les axes des X et des Y par rapport à la vue. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_vue_perspective_af2503495dcbee7a8b30a87223a9e37b8}{rotater\-Z} (double rotation)
+\begin{DoxyCompactList}\small\item\em Rotation selon l'axe des Z par rapport à la vue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classvue_1_1_vue_perspective_afeec49adcbc5912013a35acc31d2ed68}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!Vue\-Perspective@{Vue\-Perspective}}
+\index{Vue\-Perspective@{Vue\-Perspective}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{Vue\-Perspective}]{\setlength{\rightskip}{0pt plus 5cm}vue\-::\-Vue\-Perspective\-::\-Vue\-Perspective (
+\begin{DoxyParamCaption}
+\item[{{\bf Camera} const \&}]{camera, }
+\item[{{\bf Projection\-Perspective} const \&}]{projection}
+\end{DoxyParamCaption}
+)}}\label{classvue_1_1_vue_perspective_afeec49adcbc5912013a35acc31d2ed68}
+Constructeur d'une vue orthogonale. Ne fait que créer les objets \hyperlink{classvue_1_1_projection}{Projection} et \hyperlink{classvue_1_1_camera}{Camera} correspondant.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em camera} & \-: Caméra à utiliser au départ pour cette vue. \\
+\hline
+\mbox{\tt in}  & {\em x\-Min\-Cloture} & \-: coordonnée minimale en {\itshape x} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em x\-Max\-Cloture} & \-: coordonnée maximale en {\itshape x} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em y\-Min\-Cloture} & \-: coordonnée minimale en {\itshape y} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em y\-Max\-Cloture} & \-: coordonnée maximale en {\itshape y} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em z\-Avant} & \-: distance du plan avant (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em z\-Arriere} & \-: distance du plan arrière (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em zoom\-In\-Max} & \-: facteur de zoom in maximal. \\
+\hline
+\mbox{\tt in}  & {\em zoom\-Out\-Max} & \-: facteur de zoom out maximal. \\
+\hline
+\mbox{\tt in}  & {\em increment\-Zoom} & \-: distance du plan arrière (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em x\-Min\-Fenetre} & \-: coordonnée minimale en {\itshape x} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em x\-Max\-Fenetre} & \-: coordonnée maximale en {\itshape x} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em y\-Min\-Fenetre} & \-: coordonnée minimale en {\itshape y} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em y\-Max\-Fenetre} & \-: coordonnée maximale en {\itshape y} de la fenêtre virtuelle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classvue_1_1_vue_perspective_a99f5b5848bf574cabf15a718d3246ba6}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!appliquer\-Camera@{appliquer\-Camera}}
+\index{appliquer\-Camera@{appliquer\-Camera}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{appliquer\-Camera}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::appliquer\-Camera (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a99f5b5848bf574cabf15a718d3246ba6}
+
+
+Application de la caméra. 
+
+Applique la matrice correspondant à cette vue selon la position de la caméra (eventuellement un glu\-Look\-At()).
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a478eb021e357d22ef5e349ee895581ab}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a717793b0e0c2a31815ed44dc839dfd65}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!appliquer\-Projection@{appliquer\-Projection}}
+\index{appliquer\-Projection@{appliquer\-Projection}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{appliquer\-Projection}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::appliquer\-Projection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a717793b0e0c2a31815ed44dc839dfd65}
+
+
+Application de la projection. 
+
+Applique la matrice de projection correspondant à cette vue.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a725bd3f8d78f4a412e2e9ee10e544295}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a713c63e2261c9ccc7fe0e8071cee39d2}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!deplacer\-X\-Y@{deplacer\-X\-Y}}
+\index{deplacer\-X\-Y@{deplacer\-X\-Y}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{deplacer\-X\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::deplacer\-X\-Y (
+\begin{DoxyParamCaption}
+\item[{double}]{deplacement\-X, }
+\item[{double}]{deplacement\-Y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a713c63e2261c9ccc7fe0e8071cee39d2}
+
+
+Déplacement dans le plan X\-Y par rapport à la vue. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em deplacement\-X} & \-: Déplacement en pourcentage de la largeur. \\
+\hline
+\mbox{\tt in}  & {\em deplacement\-Y} & \-: Déplacement en pourcentage de la hauteur.\\
+\hline
+\end{DoxyParams}
+Permet de faire un \char`\"{}pan\char`\"{} d'un certain pourcentage.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a8e4dec26a65250ec721b044333bf62ce}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a83cfe28750d029b18d1da77ee50fbf01}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!deplacer\-X\-Y@{deplacer\-X\-Y}}
+\index{deplacer\-X\-Y@{deplacer\-X\-Y}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{deplacer\-X\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::deplacer\-X\-Y (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::ivec2} \&}]{deplacement}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a83cfe28750d029b18d1da77ee50fbf01}
+
+
+Déplacement dans le plan X\-Y par rapport à la vue. 
+
+Permet de faire un \char`\"{}pan\char`\"{} équivalent à la distance du déplacement spécifié en coordonnées de clôture.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em deplacement} & \-: Déplacement en coordonnées de clôture (pixels).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a4019b90a0a76ca3eb3633dda3bcb397a}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a160675df8fe04b8f73e1909f7c371efe}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!deplacer\-Z@{deplacer\-Z}}
+\index{deplacer\-Z@{deplacer\-Z}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{deplacer\-Z}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::deplacer\-Z (
+\begin{DoxyParamCaption}
+\item[{double}]{deplacement}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a160675df8fe04b8f73e1909f7c371efe}
+
+
+Déplacement selon l'axe des Z par rapport à la vue. 
+
+Ne fait rien, car se déplacer dans l'axe de la profondeur n'a pas vraiment de signification avec une vue orthogonale.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em deplacement} & \-: Déplacement selon l'axe Z.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_aa54f93fe75f0df62893e7f92f1466a33}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_aa4cde13fd3f5d0bc3730485b7a0aadb6}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!obtenir\-Projection@{obtenir\-Projection}}
+\index{obtenir\-Projection@{obtenir\-Projection}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{obtenir\-Projection}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Projection\-Perspective} \& vue\-::\-Vue\-Perspective\-::obtenir\-Projection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_aa4cde13fd3f5d0bc3730485b7a0aadb6}
+
+
+Obtention de la projection. 
+
+Retourne la projection orthogonale associée à cette vue.
+
+\begin{DoxyReturn}{Returns}
+La projection orthogonale associée à cette vue. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_ade2b39e3ea81f9bf8e05f60f7cd4ac96}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!redimensionner\-Fenetre@{redimensionner\-Fenetre}}
+\index{redimensionner\-Fenetre@{redimensionner\-Fenetre}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{redimensionner\-Fenetre}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::redimensionner\-Fenetre (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::ivec2} \&}]{coin\-Min, }
+\item[{const {\bf glm\-::ivec2} \&}]{coin\-Max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_ade2b39e3ea81f9bf8e05f60f7cd4ac96}
+
+
+Modification de la clotûre. 
+
+Permet d'ajuster les coordonnées de la fenêtre virtuelle en fonction d'un redimensionnement de la fenêtre.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em coin\-Min} & \-: Coin contenant les coordonnées minimales de la nouvelle clôture. \\
+\hline
+\mbox{\tt in}  & {\em coin\-Max} & \-: Coin contenant les coordonnées maximales de la nouvelle clôture.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_aee55f95ee78ff1588baf1cb1768b6bfe}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a79f498194c06da26613afac30d7d3f39}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!rotater\-X\-Y@{rotater\-X\-Y}}
+\index{rotater\-X\-Y@{rotater\-X\-Y}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{rotater\-X\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::rotater\-X\-Y (
+\begin{DoxyParamCaption}
+\item[{double}]{rotation\-X, }
+\item[{double}]{rotation\-Y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a79f498194c06da26613afac30d7d3f39}
+
+
+Rotation selon les axes des X et des Y par rapport à la vue. 
+
+Permet de faire une rotation de la caméra autour du point vers lequel elle regarde en modifiant l'angle de rotation et l'angle d'élévation.
+
+Une rotation de 100\% correspondant à 360 degrés en X (angle de rotation) ou 180 degrés en Y (angle d'élévation).
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rotation\-X} & \-: Rotation en pourcentage de la largeur. \\
+\hline
+\mbox{\tt in}  & {\em rotation\-Y} & \-: Rotation en pourcentage de la hauteur.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a07067586589d8a391a18c3e1a4e9482e}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_aa58ee5f9cdf8ed9c41bad7978ff79650}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!rotater\-X\-Y@{rotater\-X\-Y}}
+\index{rotater\-X\-Y@{rotater\-X\-Y}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{rotater\-X\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::rotater\-X\-Y (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::ivec2} \&}]{rotation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_aa58ee5f9cdf8ed9c41bad7978ff79650}
+
+
+Rotation selon les axes des X et des Y par rapport à la vue. 
+
+Permet de faire une rotation de la caméra autour du point vers lequel elle regarde en modifiant l'angle de rotation et l'angle d'élévation.
+
+Un déplacement de la taille de la fenêtre correspond à 100\%.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rotation} & \-: Rotation en coordonnées de clotûre (pixels).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a39c80e5438dfe09f70baded5b1442b9a}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_af2503495dcbee7a8b30a87223a9e37b8}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!rotater\-Z@{rotater\-Z}}
+\index{rotater\-Z@{rotater\-Z}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{rotater\-Z}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::rotater\-Z (
+\begin{DoxyParamCaption}
+\item[{double}]{rotation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_af2503495dcbee7a8b30a87223a9e37b8}
+
+
+Rotation selon l'axe des Z par rapport à la vue. 
+
+Ne fait rien, car tourner autour de l'axe de la profondeur correspondrait à un rouli et n'est pas souhaitable pour cette vue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em rotation} & \-: Rotation selon l'axe Z.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a0b06a4b099a3bb953a672d84295556d9}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_ab5be45f8eec9df1e073cf3b4080e4a5e}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!zoomer\-In@{zoomer\-In}}
+\index{zoomer\-In@{zoomer\-In}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{zoomer\-In}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::zoomer\-In (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_ab5be45f8eec9df1e073cf3b4080e4a5e}
+
+
+Zoom in, c'est-\/à-\/dire un agrandissement. 
+
+Permet de faire un zoom in selon l'incrément de zoom.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_af2fbeaeb97b40dc71d755d4f5e185ab2}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a043bc29c1b1f56a5300cf22ecc7c99a7}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!zoomer\-In\-Elastique@{zoomer\-In\-Elastique}}
+\index{zoomer\-In\-Elastique@{zoomer\-In\-Elastique}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{zoomer\-In\-Elastique}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::zoomer\-In\-Elastique (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::dvec3} \&}]{coin1, }
+\item[{const {\bf glm\-::dvec3} \&}]{coin2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a043bc29c1b1f56a5300cf22ecc7c99a7}
+
+
+Zoom in élastique. 
+
+Permet de faire un zoom in élastique.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em coin1} & \-: Coin contenant les coordonnées du premier coin du rectangle. \\
+\hline
+\mbox{\tt in}  & {\em coin2} & \-: Coin contenant les coordonnées du second coin du rectangle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a1710d4ec5cd39e7921b6aee8711eb6a0}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a76fd0e038828c7343056c1ec0fd21b62}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!zoomer\-Out@{zoomer\-Out}}
+\index{zoomer\-Out@{zoomer\-Out}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{zoomer\-Out}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::zoomer\-Out (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a76fd0e038828c7343056c1ec0fd21b62}
+
+
+Zoom out, c'est-\/à-\/dire un rapetissement. 
+
+Permet de faire un zoom out selon l'incrément de zoom.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_a90d184491ccfb6a93839a2e9bd48bac1}{vue\-::\-Vue}.
+
+\hypertarget{classvue_1_1_vue_perspective_a7836e80691d189a9544e3f6e0fb7701b}{\index{vue\-::\-Vue\-Perspective@{vue\-::\-Vue\-Perspective}!zoomer\-Out\-Elastique@{zoomer\-Out\-Elastique}}
+\index{zoomer\-Out\-Elastique@{zoomer\-Out\-Elastique}!vue::VuePerspective@{vue\-::\-Vue\-Perspective}}
+\subsubsection[{zoomer\-Out\-Elastique}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Vue\-Perspective\-::zoomer\-Out\-Elastique (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::dvec3} \&}]{coin1, }
+\item[{const {\bf glm\-::dvec3} \&}]{coin2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_vue_perspective_a7836e80691d189a9544e3f6e0fb7701b}
+
+
+Zoom out élastique. 
+
+Permet de faire un zoom out élastique.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em coin1} & \-: Coin contenant les coordonnées du premier coin du rectangle. \\
+\hline
+\mbox{\tt in}  & {\em coin2} & \-: Coin contenant les coordonnées du second coin du rectangle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_vue_ab455a2824da48a7b2f8a62da6c828c41}{vue\-::\-Vue}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Utilitaire/\-Vue/Vue\-Perspective.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Utilitaire/\-Vue/\hyperlink{_vue_perspective_8cpp}{Vue\-Perspective.\-cpp}\end{DoxyCompactItemize}

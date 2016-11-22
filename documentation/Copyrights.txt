@@ -1,0 +1,35 @@
+Vous trouverez ci-dessous tous les sources pour les différents fichiers utilisés dans la conception de notre projet de billard électronique.
+
+Réalisé dans le cadre du cours INF2990 - Projet de logiciel graphique interactif
+
+Équipe 06
+
+Sons:
+
+Tous les sons utilisés dans le projet proviennent de
+
+http://noproblo.dayjo.org/ZeldaSounds/ et http://www.gamethemesongs.com/Zelda_-_Ocarina_of_Time_-_Gerudo_Valley.html
+
+Skybox:
+
+https://github.com/srad/LiquidSands/tree/master/data/textures/skybox/dunes
+
+Logo:
+
+http://img4.wikia.nocookie.net/__cb20100711181552/wikiconsolanintendo/es/images/e/e6/Triforce.png
+
+Butoir Circulaire:
+
+http://www.futurepinball.com/
+
+Image menu principal:
+
+http://iam.yellingontheinternet.com/category/ocarina-of-time/
+
+Icônes:
+
+https://www.iconfinder.com/
+
+Librairie d'interface :
+
+http://officeribbon.codeplex.com/

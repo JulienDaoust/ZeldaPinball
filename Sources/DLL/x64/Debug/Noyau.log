@@ -1,0 +1,90 @@
+﻿La génération a démarré 2014-12-05 12:42:32.
+     1>Projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Noyau.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../Commun/Externe/FTGL/include /I..\..\Commun\Externe\FreeImage\include /I../../Commun/Utilitaire /I../../Commun/Utilitaire/OpenGL /I../../Commun/Utilitaire/Modele /I../../Commun/Utilitaire/Vue /I../../Commun/Chargeur3ds/Chargeur3ds/Sources /IApplication /IArbre /IArbre/Noeuds /IArbre/Usines /IArbre/Rendering /IConfiguration /IEnvironnement /IInterface /I../../Commun/Externe/tinyxml/include /I../../Commun/Externe/assimp/include /I../../Commun/Externe/glm/include /I../../Commun/Externe/GLEW/include /I../../Commun/Externe/cppunit/include /ITests /I../../Commun/Externe/FreeType/include /Zi /nologo /W3 /WX- /Od /D WIN32 /D GLEW_BUILD /D _DEBUG /D _WINDOWS /D _USRDLL /D INF2990_EXPORTS /D FTGL_LIBRARY_STATIC /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Application\FacadeModele.cpp Application\son.cpp Arbre\Noeuds\NoeudAbstrait.cpp Arbre\Noeuds\NoeudBille.cpp Arbre\Noeuds\NoeudCible.cpp Arbre\Noeuds\NoeudPaletteJoueur1Droite.cpp Arbre\Noeuds\NoeudPaletteJoueur2Droite.cpp Arbre\Noeuds\NoeudPaletteJoueur2Gauche.cpp Arbre\Noeuds\NoeudPlaque.cpp Arbre\Visiteurs\VisiteurCollision.cpp Interface\FacadeInterfaceNative.cpp Tests\ConfigSceneTest.cpp
+         FacadeInterfaceNative.cpp
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>Interface\FacadeInterfaceNative.cpp(634): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+         VisiteurCollision.cpp
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+         NoeudPlaque.cpp
+         NoeudPaletteJoueur2Droite.cpp
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+         NoeudPaletteJoueur1Droite.cpp
+         NoeudCible.cpp
+         NoeudBille.cpp
+         NoeudAbstrait.cpp
+         son.cpp
+         FacadeModele.cpp
+     1>c:\users\julien daoust\documents\inf2990-06\cadriciel\sources\dll\application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>c:\users\julien daoust\documents\inf2990-06\cadriciel\sources\dll\application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\julien daoust\documents\inf2990-06\cadriciel\sources\dll\application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\julien daoust\documents\inf2990-06\cadriciel\sources\dll\application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>Application\FacadeModele.cpp(418): warning C4244: 'initialisation' : conversion de 'double' en 'GLfloat', perte possible de données
+         Génération de code en cours...
+         Compilation en cours...
+         ConfigSceneTest.cpp
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+         NoeudPaletteJoueur2Gauche.cpp
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(414): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(415): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(416): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Application\FacadeModele.h(417): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../Exe/Noyau.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../Commun/Externe/FMOD/Include /LIBPATH:"../../Commun/Externe/xerces-c/lib" /LIBPATH:../../Commun/Externe/FreeType/lib /LIBPATH:../../Commun/Externe/GLEW/lib /LIBPATH:../../Commun/Externe/tinyxml/lib /LIBPATH:../../Commun/Externe/assimp/lib /LIBPATH:../../Commun/Externe/cppunit/lib /LIBPATH:../../Commun/Externe/FMOD/lib /LIBPATH:../../Commun/Externe/FTGL/lib fmodex64_vc.lib fmodexL64_vc.lib opengl32.lib glu32.lib freetype246_D_x64.lib glew32s.lib tinyxml_D_x64.lib assimp.lib cppunit_D_x64.lib ftgl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\Exe\Noyau.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\Exe\Noyau.lib" /MACHINE:X64 /NODEFAULTLIB:LIBCMT /DLL x64\Debug\FacadeModele.obj
+         x64\Debug\QuadTree.obj
+         x64\Debug\son.obj
+         x64\Debug\NoeudAraignee.obj
+         x64\Debug\NoeudBille.obj
+         x64\Debug\NoeudButoirCirculaire.obj
+         x64\Debug\NoeudButoirTriangulaireGauche.obj
+         x64\Debug\NoeudButoirTriangulaireDroit.obj
+         x64\Debug\NoeudCible.obj
+         x64\Debug\NoeudConeCube.obj
+         x64\Debug\NoeudGenerateurBille.obj
+         x64\Debug\NoeudMur.obj
+         x64\Debug\NoeudPaletteJoueur1Droite.obj
+         x64\Debug\NoeudPaletteJoueur2Droite.obj
+         x64\Debug\NoeudPortail.obj
+         x64\Debug\NoeudRessort.obj
+         x64\Debug\NoeudTrou.obj
+         x64\Debug\NoeudPlaque.obj
+         x64\Debug\VisiteurCollision.obj
+         x64\Debug\VisiteurDuplication.obj
+         x64\Debug\VisiteurEcrireXML.obj
+         x64\Debug\VisiteurLireXML.obj
+         x64\Debug\VisiteurRotation.obj
+         x64\Debug\VisiteurTranslation.obj
+         x64\Debug\VisteurScale.obj
+         x64\Debug\ConfigScene.obj
+         x64\Debug\ArbreRendu.obj
+         x64\Debug\ArbreRenduINF2990.obj
+         x64\Debug\NoeudAbstrait.obj
+         x64\Debug\NoeudComposite.obj
+         x64\Debug\NoeudpaletteJoueur1Gauche.obj
+         x64\Debug\NoeudPaletteJoueur2Gauche.obj
+         x64\Debug\BancTests.obj
+         x64\Debug\FacadeInterfaceNative.obj
+         x64\Debug\ConfigSceneTest.obj
+         x64\Debug\NoeudAbstraitTest.obj
+         "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Commun\Utilitaire\x64\Debug\Utilitaire.lib"
+            CrΘation de la bibliothΦque ..\..\Exe\Noyau.lib et de l'objet ..\..\Exe\Noyau.exp
+         Noyau.vcxproj -> C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\..\..\Exe\Noyau.dll
+     1>Génération du projet "C:\Users\Julien Daoust\Documents\inf2990-06\Cadriciel\Sources\DLL\Noyau.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:14.39

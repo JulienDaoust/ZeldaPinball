@@ -1,0 +1,207 @@
+\hypertarget{class_f_t_glyph_container}{\section{F\-T\-Glyph\-Container Class Reference}
+\label{class_f_t_glyph_container}\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Glyph\-Container.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_glyph_container_a277feb3b5aec44774f34957405f8bd33}{F\-T\-Glyph\-Container} (\hyperlink{class_f_t_face}{F\-T\-Face} $\ast$face)
+\item 
+\hyperlink{class_f_t_glyph_container_a37389dc7c5764dbeb97d0e89ca92337a}{$\sim$\-F\-T\-Glyph\-Container} ()
+\item 
+bool \hyperlink{class_f_t_glyph_container_af733b9a0df70930abc1091571287e820}{Char\-Map} (F\-T\-\_\-\-Encoding encoding)
+\item 
+unsigned int \hyperlink{class_f_t_glyph_container_a65f816bf2a49eb378a006c17e69455a7}{Font\-Index} (const unsigned int character\-Code) const 
+\item 
+void \hyperlink{class_f_t_glyph_container_ae8f085d829fce8d00479873058bc5ebe}{Add} (F\-T\-Glyph $\ast$glyph, const unsigned int character\-Code)
+\item 
+const F\-T\-Glyph $\ast$const \hyperlink{class_f_t_glyph_container_a87feabeda7c963135f5618912f9dd483}{Glyph} (const unsigned int character\-Code) const 
+\item 
+F\-T\-B\-Box \hyperlink{class_f_t_glyph_container_acb4b272ab8234d70091a3c79a373d4e0}{B\-Box} (const unsigned int character\-Code) const 
+\item 
+float \hyperlink{class_f_t_glyph_container_ab57f99b48c5991558284bd85504291b1}{Advance} (const unsigned int character\-Code, const unsigned int next\-Character\-Code)
+\item 
+F\-T\-Point \hyperlink{class_f_t_glyph_container_a4c3f9e0cd676f07a249a6dc18bea5d05}{Render} (const unsigned int character\-Code, const unsigned int next\-Character\-Code, F\-T\-Point pen\-Position, int render\-Mode)
+\item 
+F\-T\-\_\-\-Error \hyperlink{class_f_t_glyph_container_a4b0b0368c93f3db09d6fcadaddde2a18}{Error} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_glyph_container}{F\-T\-Glyph\-Container} holds the post processed F\-T\-Glyph objects.
+
+\begin{DoxySeeAlso}{See Also}
+F\-T\-Glyph 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_glyph_container_a277feb3b5aec44774f34957405f8bd33}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}}
+\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{F\-T\-Glyph\-Container}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Glyph\-Container\-::\-F\-T\-Glyph\-Container (
+\begin{DoxyParamCaption}
+\item[{{\bf F\-T\-Face} $\ast$}]{face}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_a277feb3b5aec44774f34957405f8bd33}
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em face} & The Freetype face \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_glyph_container_a37389dc7c5764dbeb97d0e89ca92337a}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!$\sim$\-F\-T\-Glyph\-Container@{$\sim$\-F\-T\-Glyph\-Container}}
+\index{$\sim$\-F\-T\-Glyph\-Container@{$\sim$\-F\-T\-Glyph\-Container}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{$\sim$\-F\-T\-Glyph\-Container}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Glyph\-Container\-::$\sim$\-F\-T\-Glyph\-Container (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_a37389dc7c5764dbeb97d0e89ca92337a}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_glyph_container_ae8f085d829fce8d00479873058bc5ebe}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Add@{Add}}
+\index{Add@{Add}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Glyph\-Container\-::\-Add (
+\begin{DoxyParamCaption}
+\item[{F\-T\-Glyph $\ast$}]{glyph, }
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_ae8f085d829fce8d00479873058bc5ebe}
+Adds a glyph to this glyph list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em glyph} & The F\-T\-Glyph to be inserted into the container \\
+\hline
+{\em character\-Code} & The char code of the glyph N\-O\-T the glyph index. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_glyph_container_ab57f99b48c5991558284bd85504291b1}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Advance@{Advance}}
+\index{Advance@{Advance}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Advance}]{\setlength{\rightskip}{0pt plus 5cm}float F\-T\-Glyph\-Container\-::\-Advance (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code, }
+\item[{const unsigned int}]{next\-Character\-Code}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_ab57f99b48c5991558284bd85504291b1}
+Returns the kerned advance width for a glyph.
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & glyph index of the character \\
+\hline
+{\em next\-Character\-Code} & the next glyph in a string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+advance width 
+\end{DoxyReturn}
+\hypertarget{class_f_t_glyph_container_acb4b272ab8234d70091a3c79a373d4e0}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!B\-Box@{B\-Box}}
+\index{B\-Box@{B\-Box}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{B\-Box}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-B\-Box F\-T\-Glyph\-Container\-::\-B\-Box (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_glyph_container_acb4b272ab8234d70091a3c79a373d4e0}
+Get the bounding box for a character. 
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The char code of the glyph N\-O\-T the glyph index \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_glyph_container_af733b9a0df70930abc1091571287e820}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Char\-Map@{Char\-Map}}
+\index{Char\-Map@{Char\-Map}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Char\-Map}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Glyph\-Container\-::\-Char\-Map (
+\begin{DoxyParamCaption}
+\item[{F\-T\-\_\-\-Encoding}]{encoding}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_af733b9a0df70930abc1091571287e820}
+Sets the character map for the face.
+
+
+\begin{DoxyParams}{Parameters}
+{\em encoding} & the Freetype encoding symbol. See above. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if charmap was valid and set correctly 
+\end{DoxyReturn}
+\hypertarget{class_f_t_glyph_container_a4b0b0368c93f3db09d6fcadaddde2a18}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Error@{Error}}
+\index{Error@{Error}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Error F\-T\-Glyph\-Container\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_glyph_container_a4b0b0368c93f3db09d6fcadaddde2a18}
+Queries the Font for errors.
+
+\begin{DoxyReturn}{Returns}
+The current error code. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_glyph_container_a65f816bf2a49eb378a006c17e69455a7}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Font\-Index@{Font\-Index}}
+\index{Font\-Index@{Font\-Index}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Font\-Index}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Glyph\-Container\-::\-Font\-Index (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_glyph_container_a65f816bf2a49eb378a006c17e69455a7}
+Get the font index of the input character.
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The character code of the requested glyph in the current encoding eg apple roman. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The font index for the character. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_glyph_container_a87feabeda7c963135f5618912f9dd483}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Glyph@{Glyph}}
+\index{Glyph@{Glyph}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Glyph}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-Glyph $\ast$const F\-T\-Glyph\-Container\-::\-Glyph (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_glyph_container_a87feabeda7c963135f5618912f9dd483}
+Get a glyph from the glyph list
+
+
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & The char code of the glyph N\-O\-T the glyph index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An F\-T\-Glyph or {\ttfamily null} is it hasn't been loaded. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_glyph_container_a4c3f9e0cd676f07a249a6dc18bea5d05}{\index{F\-T\-Glyph\-Container@{F\-T\-Glyph\-Container}!Render@{Render}}
+\index{Render@{Render}!FTGlyphContainer@{F\-T\-Glyph\-Container}}
+\subsubsection[{Render}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Point F\-T\-Glyph\-Container\-::\-Render (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{character\-Code, }
+\item[{const unsigned int}]{next\-Character\-Code, }
+\item[{F\-T\-Point}]{pen\-Position, }
+\item[{int}]{render\-Mode}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_glyph_container_a4c3f9e0cd676f07a249a6dc18bea5d05}
+Renders a character 
+\begin{DoxyParams}{Parameters}
+{\em character\-Code} & the glyph to be Rendered \\
+\hline
+{\em next\-Character\-Code} & the next glyph in the string. Used for kerning. \\
+\hline
+{\em pen\-Position} & the position to Render the glyph \\
+\hline
+{\em render\-Mode} & Render mode to display \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The distance to advance the pen position after Rendering 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Glyph\-Container.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Glyph\-Container.\-cpp\end{DoxyCompactItemize}

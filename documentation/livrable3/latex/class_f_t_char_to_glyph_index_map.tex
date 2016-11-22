@@ -1,0 +1,54 @@
+\hypertarget{class_f_t_char_to_glyph_index_map}{\section{F\-T\-Char\-To\-Glyph\-Index\-Map Class Reference}
+\label{class_f_t_char_to_glyph_index_map}\index{F\-T\-Char\-To\-Glyph\-Index\-Map@{F\-T\-Char\-To\-Glyph\-Index\-Map}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Char\-To\-Glyph\-Index\-Map.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries Number\-Of\-Buckets} = 256, 
+{\bfseries Bucket\-Size} = 256, 
+{\bfseries Index\-Not\-Found} = -\/1
+ \}
+\item 
+\hypertarget{class_f_t_char_to_glyph_index_map_a0c3d673d5c3e978b7c04ea367f82e624}{typedef unsigned long {\bfseries Character\-Code}}\label{class_f_t_char_to_glyph_index_map_a0c3d673d5c3e978b7c04ea367f82e624}
+
+\item 
+\hypertarget{class_f_t_char_to_glyph_index_map_a54a7eca7f7b06f9389c12ab96db36a25}{typedef signed long {\bfseries Glyph\-Index}}\label{class_f_t_char_to_glyph_index_map_a54a7eca7f7b06f9389c12ab96db36a25}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_f_t_char_to_glyph_index_map_adc045f0ce5b32fa84681d63e35ac7369}{void {\bfseries clear} ()}\label{class_f_t_char_to_glyph_index_map_adc045f0ce5b32fa84681d63e35ac7369}
+
+\item 
+\hypertarget{class_f_t_char_to_glyph_index_map_a94a2e63c8689298ac8dffdc90f290bb2}{const Glyph\-Index {\bfseries find} (Character\-Code c)}\label{class_f_t_char_to_glyph_index_map_a94a2e63c8689298ac8dffdc90f290bb2}
+
+\item 
+\hypertarget{class_f_t_char_to_glyph_index_map_aa5ee6e5371094dfa05fa69145c33547f}{void {\bfseries insert} (Character\-Code c, Glyph\-Index g)}\label{class_f_t_char_to_glyph_index_map_aa5ee6e5371094dfa05fa69145c33547f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides a non-\/\-S\-T\-L alternative to the S\-T\-L map$<$unsigned long, unsigned long$>$ which maps character codes to glyph indices inside \hyperlink{class_f_t_charmap}{F\-T\-Charmap}.
+
+Implementation\-:
+\begin{DoxyItemize}
+\item Number\-Of\-Buckets buckets are considered.
+\item Each bucket has Bucket\-Size entries.
+\item When the glyph index for the character code C has to be stored, the bucket this character belongs to is found using 'C div Bucket\-Size'. If this bucket has not been allocated yet, do it now. The entry in the bucked is found using 'C mod Bucket\-Size'. If it is set to Index\-Not\-Found, then the glyph entry has not been set.
+\item Try to mimic the calls made to the S\-T\-L map A\-P\-I.
+\end{DoxyItemize}
+
+Caveats\-:
+\begin{DoxyItemize}
+\item The glyph index is now a signed long instead of unsigned long, so the special value Index\-Not\-Found (= -\/1) can be used to specify that the glyph index has not been stored yet. 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Char\-To\-Glyph\-Index\-Map.\-h\end{DoxyCompactItemize}

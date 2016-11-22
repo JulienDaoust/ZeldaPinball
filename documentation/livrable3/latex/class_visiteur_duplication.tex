@@ -1,0 +1,92 @@
+\hypertarget{class_visiteur_duplication}{\section{Visiteur\-Duplication Class Reference}
+\label{class_visiteur_duplication}\index{Visiteur\-Duplication@{Visiteur\-Duplication}}
+}
+Inheritance diagram for Visiteur\-Duplication\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_visiteur_duplication}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_visiteur_duplication_a8414468ed98104dc0021bac950ae024e}{{\bfseries Visiteur\-Duplication} (\hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$arbre, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} centre, std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ noeuds)}\label{class_visiteur_duplication_a8414468ed98104dc0021bac950ae024e}
+
+\item 
+\hypertarget{class_visiteur_duplication_a90724e00899dbefc0709dc74bda25f9e}{std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ {\bfseries get\-Copies} ()}\label{class_visiteur_duplication_a90724e00899dbefc0709dc74bda25f9e}
+
+\item 
+\hypertarget{group__inf2990_ga8414468ed98104dc0021bac950ae024e}{{\bfseries Visiteur\-Duplication} (\hyperlink{class_arbre_rendu_i_n_f2990}{Arbre\-Rendu\-I\-N\-F2990} $\ast$arbre, \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} centre, std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ noeuds)}\label{group__inf2990_ga8414468ed98104dc0021bac950ae024e}
+
+\item 
+\hypertarget{group__inf2990_ga5fb08c9779e47f2242f17c3901a9e5f0}{void {\bfseries visite} (\hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$objet)}\label{group__inf2990_ga5fb08c9779e47f2242f17c3901a9e5f0}
+
+\item 
+\hypertarget{group__inf2990_ga9a9e38fcb3587b612537f52c92911fa6}{void {\bfseries visite\-All} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)}\label{group__inf2990_ga9a9e38fcb3587b612537f52c92911fa6}
+
+\item 
+\hypertarget{group__inf2990_ga3482b5c805172df88b04f233947997ed}{void {\bfseries revert} ()}\label{group__inf2990_ga3482b5c805172df88b04f233947997ed}
+
+\item 
+\hypertarget{group__inf2990_ga90724e00899dbefc0709dc74bda25f9e}{std\-::vector$<$ \hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$ $>$ {\bfseries get\-Copies} ()}\label{group__inf2990_ga90724e00899dbefc0709dc74bda25f9e}
+
+\end{DoxyCompactItemize}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_visiteur_duplication_ga5fb08c9779e47f2242f17c3901a9e5f0}{visite} (\hyperlink{class_noeud_abstrait}{Noeud\-Abstrait} $\ast$objet)
+\item 
+void \hyperlink{class_visiteur_duplication_ga9a9e38fcb3587b612537f52c92911fa6}{visite\-All} (\hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} point)
+\item 
+\hypertarget{class_visiteur_duplication_ga3482b5c805172df88b04f233947997ed}{void {\bfseries revert} ()}\label{class_visiteur_duplication_ga3482b5c805172df88b04f233947997ed}
+
+\end{DoxyCompactItemize}
+
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_visiteur_duplication_ga5fb08c9779e47f2242f17c3901a9e5f0}{\index{Visiteur\-Duplication@{Visiteur\-Duplication}!visite@{visite}}
+\index{visite@{visite}!VisiteurDuplication@{Visiteur\-Duplication}}
+\subsubsection[{visite}]{\setlength{\rightskip}{0pt plus 5cm}void Visiteur\-Duplication\-::visite (
+\begin{DoxyParamCaption}
+\item[{{\bf Noeud\-Abstrait} $\ast$}]{objet}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_visiteur_duplication_ga5fb08c9779e47f2242f17c3901a9e5f0}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Noeud\-Abstrait$\ast$} & objet \-: objet a visiter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_visiteur_abstrait}{Visiteur\-Abstrait}.
+
+\hypertarget{class_visiteur_duplication_ga9a9e38fcb3587b612537f52c92911fa6}{\index{Visiteur\-Duplication@{Visiteur\-Duplication}!visite\-All@{visite\-All}}
+\index{visite\-All@{visite\-All}!VisiteurDuplication@{Visiteur\-Duplication}}
+\subsubsection[{visite\-All}]{\setlength{\rightskip}{0pt plus 5cm}void Visiteur\-Duplication\-::visite\-All (
+\begin{DoxyParamCaption}
+\item[{{\bf glm\-::dvec3}}]{nouveau\-Centre}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_visiteur_duplication_ga9a9e38fcb3587b612537f52c92911fa6}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3}} & \-: nouveau centre des objets.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_visiteur_mouvement}{Visiteur\-Mouvement}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/livrable1/\-D\-L\-L/\-Arbre/\-Visiteurs/Visiteur\-Duplication.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/livrable1/\-D\-L\-L/\-Arbre/\-Visiteurs/Visiteur\-Duplication.\-cpp\end{DoxyCompactItemize}

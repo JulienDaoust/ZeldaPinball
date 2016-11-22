@@ -1,0 +1,294 @@
+\hypertarget{classvue_1_1_projection_perspective}{\section{vue\-:\-:Projection\-Perspective Class Reference}
+\label{classvue_1_1_projection_perspective}\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}}
+}
+
+
+Classe implantant une projection orthogonale.  
+
+
+
+
+{\ttfamily \#include $<$Projection\-Perspective.\-h$>$}
+
+Inheritance diagram for vue\-:\-:Projection\-Perspective\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvue_1_1_projection_perspective}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvue_1_1_projection_perspective_a29ac42a37ddadf28bd6f9e87c285e20d}{Projection\-Perspective} (int x\-Min\-Cloture, int x\-Max\-Cloture, int y\-Min\-Cloture, int y\-Max\-Cloture, double z\-Avant, double z\-Arriere, double zoom\-In\-Max, double zoom\-Out\-Max, double increment\-Zoom, double x\-Min\-Fenetre, double x\-Max\-Fenetre, double y\-Min\-Fenetre, double y\-Max\-Fenetre)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_projection_perspective_ae9191189dc5beeccb9a5bd36f01c2810}{zoomer\-In} ()
+\begin{DoxyCompactList}\small\item\em Zoom in, c'est-\/à-\/dire un agrandissement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_projection_perspective_a8ba8b36ef438fbf7261b496ed4b2016e}{zoomer\-Out} ()
+\begin{DoxyCompactList}\small\item\em Zoom out, c'est-\/à-\/dire un rapetissement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_projection_perspective_a2f5070449526d0bc1bea6c4ef0622cd5}{redimensionner\-Fenetre} (const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&coin\-Min, const \hyperlink{group__core__types_ga9e6ce9cfc7919976b318197e18d8a065}{glm\-::ivec2} \&coin\-Max)
+\begin{DoxyCompactList}\small\item\em Modification de la clôture. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classvue_1_1_projection_perspective_ad84636f5d14a0687d876567f917f80fb}{appliquer} () const 
+\begin{DoxyCompactList}\small\item\em Application de la projection. \end{DoxyCompactList}\item 
+\hypertarget{classvue_1_1_projection_perspective_af69629c7623175ac5b6e9b2ef51a8f57}{void \hyperlink{classvue_1_1_projection_perspective_af69629c7623175ac5b6e9b2ef51a8f57}{zoomer\-Out} (const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin1, const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin2)}\label{classvue_1_1_projection_perspective_af69629c7623175ac5b6e9b2ef51a8f57}
+
+\begin{DoxyCompactList}\small\item\em Zoom out élastique, sur un rectangle. \end{DoxyCompactList}\item 
+\hypertarget{classvue_1_1_projection_perspective_a1f197acb4b00c2c19d7d1e991f9df305}{void \hyperlink{classvue_1_1_projection_perspective_a1f197acb4b00c2c19d7d1e991f9df305}{zoomer\-In} (const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin1, const \hyperlink{group__core__types_ga7f3287f952e6ccb481231368091702ac}{glm\-::dvec3} \&coin2)}\label{classvue_1_1_projection_perspective_a1f197acb4b00c2c19d7d1e991f9df305}
+
+\begin{DoxyCompactList}\small\item\em Zoom in élatique, sur un rectangle. \end{DoxyCompactList}\item 
+void \hyperlink{classvue_1_1_projection_perspective_ab92b91c7f6bfeb219570bb7d96122ba7}{translater} (double deplacement\-X, double deplacement\-Y)
+\begin{DoxyCompactList}\small\item\em Translater la fenêtre virtuelle d'un pourcentage en {\itshape X} ou en {\itshape Y}. \end{DoxyCompactList}\item 
+\hypertarget{classvue_1_1_projection_perspective_a7586b34175fc6da779253a3449c708f6}{void \hyperlink{classvue_1_1_projection_perspective_a7586b34175fc6da779253a3449c708f6}{translater} (const \hyperlink{group__core__types_gae6727259898288cae197724d5f172b3b}{glm\-::dvec2} \&deplacement)}\label{classvue_1_1_projection_perspective_a7586b34175fc6da779253a3449c708f6}
+
+\begin{DoxyCompactList}\small\item\em Translater la fenêtre virtuelle d'un vecteur. \end{DoxyCompactList}\item 
+void \hyperlink{classvue_1_1_projection_perspective_ad58eb6333b6dc854090b479c76e0803f}{centrer\-Sur\-Point} (const \hyperlink{group__core__types_gae6727259898288cae197724d5f172b3b}{glm\-::dvec2} \&point\-Centre)
+\begin{DoxyCompactList}\small\item\em Centrer la fenêtre virtuelle sur un point. \end{DoxyCompactList}\item 
+void \hyperlink{classvue_1_1_projection_perspective_a8b0182992c0620d37e9669f541fca32e}{obtenir\-Coordonnees\-Fenetre\-Virtuelle} (double \&x\-Min, double \&x\-Max, double \&y\-Min, double \&y\-Max) const 
+\begin{DoxyCompactList}\small\item\em Obtenir les coordonnées de la fenêtre virtuelle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe implantant une projection orthogonale. 
+
+Cette classe implante l'interface de projection définie par la classe de base \hyperlink{classvue_1_1_projection}{Projection} et ajoute certaines fonctionnalitées spécifiques à la projection orthogonale, comme le zoom autour d'un point en particulier et le zoom élastique.
+
+\begin{DoxyAuthor}{Author}
+Martin Bisson 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2006-\/12-\/15 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classvue_1_1_projection_perspective_a29ac42a37ddadf28bd6f9e87c285e20d}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!Projection\-Perspective@{Projection\-Perspective}}
+\index{Projection\-Perspective@{Projection\-Perspective}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{Projection\-Perspective}]{\setlength{\rightskip}{0pt plus 5cm}vue\-::\-Projection\-Perspective\-::\-Projection\-Perspective (
+\begin{DoxyParamCaption}
+\item[{int}]{x\-Min\-Cloture, }
+\item[{int}]{x\-Max\-Cloture, }
+\item[{int}]{y\-Min\-Cloture, }
+\item[{int}]{y\-Max\-Cloture, }
+\item[{double}]{z\-Avant, }
+\item[{double}]{z\-Arriere, }
+\item[{double}]{zoom\-In\-Max, }
+\item[{double}]{zoom\-Out\-Max, }
+\item[{double}]{increment\-Zoom, }
+\item[{double}]{x\-Min\-Fenetre, }
+\item[{double}]{x\-Max\-Fenetre, }
+\item[{double}]{y\-Min\-Fenetre, }
+\item[{double}]{y\-Max\-Fenetre}
+\end{DoxyParamCaption}
+)}}\label{classvue_1_1_projection_perspective_a29ac42a37ddadf28bd6f9e87c285e20d}
+
+
+Constructeur. 
+
+Constructeur d'une projection orthogonale. Ne fait qu'assigner les variables membres et ajuste ensuite le rapport d'aspect.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x\-Min\-Cloture} & \-: coordonnée minimale en {\itshape x} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em x\-Max\-Cloture} & \-: coordonnée maximale en {\itshape x} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em y\-Min\-Cloture} & \-: coordonnée minimale en {\itshape y} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em y\-Max\-Cloture} & \-: coordonnée maximale en {\itshape y} de la clôture. \\
+\hline
+\mbox{\tt in}  & {\em z\-Avant} & \-: distance du plan avant (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em z\-Arriere} & \-: distance du plan arrière (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em zoom\-In\-Max} & \-: facteur de zoom in maximal. \\
+\hline
+\mbox{\tt in}  & {\em zoom\-Out\-Max} & \-: facteur de zoom out maximal. \\
+\hline
+\mbox{\tt in}  & {\em increment\-Zoom} & \-: distance du plan arrière (en {\itshape z}). \\
+\hline
+\mbox{\tt in}  & {\em x\-Min\-Fenetre} & \-: coordonnée minimale en {\itshape x} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em x\-Max\-Fenetre} & \-: coordonnée maximale en {\itshape x} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em y\-Min\-Fenetre} & \-: coordonnée minimale en {\itshape y} de la fenêtre virtuelle. \\
+\hline
+\mbox{\tt in}  & {\em y\-Max\-Fenetre} & \-: coordonnée maximale en {\itshape y} de la fenêtre virtuelle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classvue_1_1_projection_perspective_ad84636f5d14a0687d876567f917f80fb}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!appliquer@{appliquer}}
+\index{appliquer@{appliquer}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{appliquer}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::appliquer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_projection_perspective_ad84636f5d14a0687d876567f917f80fb}
+
+
+Application de la projection. 
+
+Cette fonction permet d'appliquer la fenêtre virtuelle en appelant les fonctions d'Open\-G\-L selon le type de projection et les propriétés de la fenêtre.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_projection_a88c8ee9ae0a1d08b48b94f6c093ee563}{vue\-::\-Projection}.
+
+\hypertarget{classvue_1_1_projection_perspective_ad58eb6333b6dc854090b479c76e0803f}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!centrer\-Sur\-Point@{centrer\-Sur\-Point}}
+\index{centrer\-Sur\-Point@{centrer\-Sur\-Point}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{centrer\-Sur\-Point}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::centrer\-Sur\-Point (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::dvec2} \&}]{point\-Centre}
+\end{DoxyParamCaption}
+)}}\label{classvue_1_1_projection_perspective_ad58eb6333b6dc854090b479c76e0803f}
+
+
+Centrer la fenêtre virtuelle sur un point. 
+
+Permet de centrer la fenêtre virtuelle sur un point de l'écran. Le point de l'écran est convertit en coordonnées virtuelles et il devient le centre de la fenêtre virtuelle.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em point\-Centre} & \-: Le point sur lequel on doit centrer.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+\hypertarget{classvue_1_1_projection_perspective_a8b0182992c0620d37e9669f541fca32e}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!obtenir\-Coordonnees\-Fenetre\-Virtuelle@{obtenir\-Coordonnees\-Fenetre\-Virtuelle}}
+\index{obtenir\-Coordonnees\-Fenetre\-Virtuelle@{obtenir\-Coordonnees\-Fenetre\-Virtuelle}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{obtenir\-Coordonnees\-Fenetre\-Virtuelle}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::obtenir\-Coordonnees\-Fenetre\-Virtuelle (
+\begin{DoxyParamCaption}
+\item[{double \&}]{x\-Min, }
+\item[{double \&}]{x\-Max, }
+\item[{double \&}]{y\-Min, }
+\item[{double \&}]{y\-Max}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classvue_1_1_projection_perspective_a8b0182992c0620d37e9669f541fca32e}
+
+
+Obtenir les coordonnées de la fenêtre virtuelle. 
+
+Cette fonction retourne les coordonnées de la fenêtre virtuelle associée à cette projection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt out}  & {\em x\-Min} & \-: La variable qui contiendra l'abcsisse minimale. \\
+\hline
+\mbox{\tt out}  & {\em x\-Max} & \-: La variable qui contiendra l'abcsisse maximale. \\
+\hline
+\mbox{\tt out}  & {\em y\-Min} & \-: La variable qui contiendra l'ordonnée minimale. \\
+\hline
+\mbox{\tt out}  & {\em y\-Max} & \-: La variable qui contiendra l'ordonnée maximale.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Les coordonnées de la fenêtre virtuelle. 
+\end{DoxyReturn}
+\hypertarget{classvue_1_1_projection_perspective_a2f5070449526d0bc1bea6c4ef0622cd5}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!redimensionner\-Fenetre@{redimensionner\-Fenetre}}
+\index{redimensionner\-Fenetre@{redimensionner\-Fenetre}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{redimensionner\-Fenetre}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::redimensionner\-Fenetre (
+\begin{DoxyParamCaption}
+\item[{const {\bf glm\-::ivec2} \&}]{coin\-Min, }
+\item[{const {\bf glm\-::ivec2} \&}]{coin\-Max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_projection_perspective_a2f5070449526d0bc1bea6c4ef0622cd5}
+
+
+Modification de la clôture. 
+
+Permet d'ajuster les coordonnées de la fenêtre virtuelle en fonction d'un redimensionnement de la fenêtre.
+
+L'agrandissement de la fenêtre virtuelle est proportionnel à l'agrandissement de la clotûre afin que les objets gardent la même grandeur apparente lorsque la fenêtre est redimensionnée.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em coin\-Min} & \-: Coin contenant les coordonnées minimales de la nouvelle clôture \\
+\hline
+\mbox{\tt in}  & {\em coin\-Max} & \-: Coin contenant les coordonnées maximales de la nouvelle clôture\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_projection_a27a880285b985a370000944044f07a21}{vue\-::\-Projection}.
+
+\hypertarget{classvue_1_1_projection_perspective_ab92b91c7f6bfeb219570bb7d96122ba7}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!translater@{translater}}
+\index{translater@{translater}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{translater}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::translater (
+\begin{DoxyParamCaption}
+\item[{double}]{deplacement\-X, }
+\item[{double}]{deplacement\-Y}
+\end{DoxyParamCaption}
+)}}\label{classvue_1_1_projection_perspective_ab92b91c7f6bfeb219570bb7d96122ba7}
+
+
+Translater la fenêtre virtuelle d'un pourcentage en {\itshape X} ou en {\itshape Y}. 
+
+Permet de déplacer la fenêtre virtuelle en {\itshape x} et en {\itshape y}. Les déplacement doivent être exprimés en proportion de la fenêtre virtuelle.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em deplacement\-X} & \-: le déplacement en {\itshape x}. \\
+\hline
+\mbox{\tt in}  & {\em deplacement\-Y} & \-: le déplacement en {\itshape y}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+\hypertarget{classvue_1_1_projection_perspective_ae9191189dc5beeccb9a5bd36f01c2810}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!zoomer\-In@{zoomer\-In}}
+\index{zoomer\-In@{zoomer\-In}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{zoomer\-In}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::zoomer\-In (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_projection_perspective_ae9191189dc5beeccb9a5bd36f01c2810}
+
+
+Zoom in, c'est-\/à-\/dire un agrandissement. 
+
+Permet de faire un zoom in selon l'incrément de zoom.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_projection_ac3cd77fd93595b6844bd1b3b66867f55}{vue\-::\-Projection}.
+
+\hypertarget{classvue_1_1_projection_perspective_a8ba8b36ef438fbf7261b496ed4b2016e}{\index{vue\-::\-Projection\-Perspective@{vue\-::\-Projection\-Perspective}!zoomer\-Out@{zoomer\-Out}}
+\index{zoomer\-Out@{zoomer\-Out}!vue::ProjectionPerspective@{vue\-::\-Projection\-Perspective}}
+\subsubsection[{zoomer\-Out}]{\setlength{\rightskip}{0pt plus 5cm}void vue\-::\-Projection\-Perspective\-::zoomer\-Out (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classvue_1_1_projection_perspective_a8ba8b36ef438fbf7261b496ed4b2016e}
+
+
+Zoom out, c'est-\/à-\/dire un rapetissement. 
+
+Permet de faire un zoom out selon l'incrément de zoom.
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classvue_1_1_projection_a2f411375817ca560d31a66f2da5e51eb}{vue\-::\-Projection}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Utilitaire/\-Vue/\hyperlink{_projection_perspective_8h}{Projection\-Perspective.\-h}\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Utilitaire/\-Vue/\hyperlink{_projection_perspective_8cpp}{Projection\-Perspective.\-cpp}\end{DoxyCompactItemize}

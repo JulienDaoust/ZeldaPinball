@@ -1,0 +1,161 @@
+\hypertarget{class_noeud_palette_joueur2_gauche}{\section{Noeud\-Palette\-Joueur2\-Gauche Class Reference}
+\label{class_noeud_palette_joueur2_gauche}\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+}
+
+
+Classe qui représente un exemple de noeud de l'arbre de rendu.  
+
+
+
+
+{\ttfamily \#include $<$Noeud\-Palette\-Joueur2\-Gauche.\-h$>$}
+
+Inheritance diagram for Noeud\-Palette\-Joueur2\-Gauche\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_noeud_palette_joueur2_gauche}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_noeud_palette_joueur2_gauche_a0e7adb2f18ca48d9763a2098081d505b}{Noeud\-Palette\-Joueur2\-Gauche} (const std\-::string \&type\-Noeud)
+\begin{DoxyCompactList}\small\item\em Constructeur à partir du type du noeud. \end{DoxyCompactList}\item 
+\hypertarget{class_noeud_palette_joueur2_gauche_afd1fb0e3afb0d97a628dc880f70e1e73}{\hyperlink{class_noeud_palette_joueur2_gauche_afd1fb0e3afb0d97a628dc880f70e1e73}{$\sim$\-Noeud\-Palette\-Joueur2\-Gauche} ()}\label{class_noeud_palette_joueur2_gauche_afd1fb0e3afb0d97a628dc880f70e1e73}
+
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\hypertarget{class_noeud_palette_joueur2_gauche_a18ad09bb43f183ae790b75c07cee701c}{virtual void \hyperlink{class_noeud_palette_joueur2_gauche_a18ad09bb43f183ae790b75c07cee701c}{afficher\-Concret} () const }\label{class_noeud_palette_joueur2_gauche_a18ad09bb43f183ae790b75c07cee701c}
+
+\begin{DoxyCompactList}\small\item\em Affiche le cube. \end{DoxyCompactList}\item 
+\hypertarget{class_noeud_palette_joueur2_gauche_a6710906da6961552839028af8fc9985c}{virtual void \hyperlink{class_noeud_palette_joueur2_gauche_a6710906da6961552839028af8fc9985c}{animer} (float temps)}\label{class_noeud_palette_joueur2_gauche_a6710906da6961552839028af8fc9985c}
+
+\begin{DoxyCompactList}\small\item\em Effectue l'animation du cube. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_noeud_palette_joueur2_gauche_aca61823042474f4a22829f43abde416f}{est\-Scaleable} () const 
+\begin{DoxyCompactList}\small\item\em Verifie si le noeud peut etremis alechelle. \end{DoxyCompactList}\item 
+void \hyperlink{class_noeud_palette_joueur2_gauche_a9187b35ed4e04bb34337b4979f062cac}{set\-Animation} ()
+\item 
+virtual void \hyperlink{class_noeud_palette_joueur2_gauche_a98532a61d6ca8151f046575f07a61110}{calcul\-Boite\-Englobante} ()
+\begin{DoxyCompactList}\small\item\em Calcule la Boite englobante du noeud. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_noeud_palette_joueur2_gauche_a892c9c84be23c4a93d620b29e6373940}{accepte} (\hyperlink{class_visiteur_abstrait}{Visiteur\-Abstrait} $\ast$Visiteur)
+\begin{DoxyCompactList}\small\item\em Accepte le Visiteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Classe qui représente un exemple de noeud de l'arbre de rendu. 
+
+\begin{DoxyAuthor}{Author}
+Julien Gascon-\/\-Samson 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2014-\/09-\/17 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_noeud_palette_joueur2_gauche_a0e7adb2f18ca48d9763a2098081d505b}{\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!NoeudPaletteJoueur2Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\subsubsection[{Noeud\-Palette\-Joueur2\-Gauche}]{\setlength{\rightskip}{0pt plus 5cm}Noeud\-Palette\-Joueur2\-Gauche\-::\-Noeud\-Palette\-Joueur2\-Gauche (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{type\-Noeud}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_palette_joueur2_gauche_a0e7adb2f18ca48d9763a2098081d505b}
+
+
+Constructeur à partir du type du noeud. 
+
+Ce constructeur ne fait qu'appeler la version de la classe et base et donner des valeurs par défaut aux variables membres.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em type\-Noeud} & \-: Le type du noeud.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Aucune (constructeur). 
+\end{DoxyReturn}
+Charger le modèle 3\-D 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_noeud_palette_joueur2_gauche_a892c9c84be23c4a93d620b29e6373940}{\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!accepte@{accepte}}
+\index{accepte@{accepte}!NoeudPaletteJoueur2Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\subsubsection[{accepte}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Palette\-Joueur2\-Gauche\-::accepte (
+\begin{DoxyParamCaption}
+\item[{{\bf Visiteur\-Abstrait} $\ast$}]{Visiteur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_noeud_palette_joueur2_gauche_a892c9c84be23c4a93d620b29e6373940}
+
+
+Accepte le Visiteur. 
+
+Cette fonction permet au Visiteur de traverse l'arbre
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_gadf082638acb6fdeac95ec0e88474bff5}{Noeud\-Abstrait}.
+
+\hypertarget{class_noeud_palette_joueur2_gauche_a98532a61d6ca8151f046575f07a61110}{\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!calcul\-Boite\-Englobante@{calcul\-Boite\-Englobante}}
+\index{calcul\-Boite\-Englobante@{calcul\-Boite\-Englobante}!NoeudPaletteJoueur2Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\subsubsection[{calcul\-Boite\-Englobante}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Palette\-Joueur2\-Gauche\-::calcul\-Boite\-Englobante (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_palette_joueur2_gauche_a98532a61d6ca8151f046575f07a61110}
+
+
+Calcule la Boite englobante du noeud. 
+
+Cette fonction calcule la boite englobant un noeud (hitbox)
+
+\begin{DoxyReturn}{Returns}
+Aucune. 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_gaebecbb2d5e6bf5adf1992d9c25e227ce}{Noeud\-Abstrait}.
+
+\hypertarget{class_noeud_palette_joueur2_gauche_aca61823042474f4a22829f43abde416f}{\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!est\-Scaleable@{est\-Scaleable}}
+\index{est\-Scaleable@{est\-Scaleable}!NoeudPaletteJoueur2Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\subsubsection[{est\-Scaleable}]{\setlength{\rightskip}{0pt plus 5cm}bool Noeud\-Palette\-Joueur2\-Gauche\-::est\-Scaleable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_noeud_palette_joueur2_gauche_aca61823042474f4a22829f43abde416f}
+
+
+Verifie si le noeud peut etremis alechelle. 
+
+Cette fonction verifie si un noeudpeut etre mis alechelle
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{struct_boite_englobante}{Boite\-Englobante} 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{group__inf2990_ga383c87bdc93f1cdaf5ed953c1bf7f9c5}{Noeud\-Abstrait}.
+
+\hypertarget{class_noeud_palette_joueur2_gauche_a9187b35ed4e04bb34337b4979f062cac}{\index{Noeud\-Palette\-Joueur2\-Gauche@{Noeud\-Palette\-Joueur2\-Gauche}!set\-Animation@{set\-Animation}}
+\index{set\-Animation@{set\-Animation}!NoeudPaletteJoueur2Gauche@{Noeud\-Palette\-Joueur2\-Gauche}}
+\subsubsection[{set\-Animation}]{\setlength{\rightskip}{0pt plus 5cm}void Noeud\-Palette\-Joueur2\-Gauche\-::set\-Animation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_noeud_palette_joueur2_gauche_a9187b35ed4e04bb34337b4979f062cac}
+Cette fonction change l'animation selon si la palette foit monter ou descendre
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{struct_boite_englobante}{Boite\-Englobante} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_palette_joueur2_gauche_8h}{Noeud\-Palette\-Joueur2\-Gauche.\-h}\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Sources/\-D\-L\-L/\-Arbre/\-Noeuds/\hyperlink{_noeud_palette_joueur2_gauche_8cpp}{Noeud\-Palette\-Joueur2\-Gauche.\-cpp}\end{DoxyCompactItemize}

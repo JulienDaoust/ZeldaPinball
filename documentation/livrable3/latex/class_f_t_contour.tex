@@ -1,0 +1,177 @@
+\hypertarget{class_f_t_contour}{\section{F\-T\-Contour Class Reference}
+\label{class_f_t_contour}\index{F\-T\-Contour@{F\-T\-Contour}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Contour.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_contour_a1a682c070617bf9023ea38c65b32ade3}{F\-T\-Contour} (\hyperlink{struct_f_t___vector__}{F\-T\-\_\-\-Vector} $\ast$contour, char $\ast$point\-Tags, unsigned int number\-Of\-Points)
+\item 
+\hyperlink{class_f_t_contour_a89ac638fc2bbe641d730af84bf13b242}{$\sim$\-F\-T\-Contour} ()
+\item 
+const F\-T\-Point \& \hyperlink{class_f_t_contour_a055f10124231687d7647d56ee6b680ef}{Point} (size\-\_\-t index) const 
+\item 
+const F\-T\-Point \& \hyperlink{class_f_t_contour_a5b720df9b54e3564d762a6fe8eee3143}{Outset} (size\-\_\-t index) const 
+\item 
+const F\-T\-Point \& \hyperlink{class_f_t_contour_a89f7120855b97ae91c63d13cd22f3e04}{Front\-Point} (size\-\_\-t index) const 
+\item 
+const F\-T\-Point \& \hyperlink{class_f_t_contour_add4587cac25790725e704fdd7e9fa9fe}{Back\-Point} (size\-\_\-t index) const 
+\item 
+size\-\_\-t \hyperlink{class_f_t_contour_ab31ce24e66d9534b5e0b052b0b6f408b}{Point\-Count} () const 
+\item 
+void \hyperlink{class_f_t_contour_a7129afbf6bde74d5c9c46ad47bf6e049}{Set\-Parity} (int parity)
+\item 
+\hypertarget{class_f_t_contour_ab91b659e8de1dc915679d0152adfa38a}{void {\bfseries build\-Front\-Outset} (float outset)}\label{class_f_t_contour_ab91b659e8de1dc915679d0152adfa38a}
+
+\item 
+\hypertarget{class_f_t_contour_aff16d21542506b738c7f883b7c40b738}{void {\bfseries build\-Back\-Outset} (float outset)}\label{class_f_t_contour_aff16d21542506b738c7f883b7c40b738}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_contour}{F\-T\-Contour} class is a container of points that describe a vector font outline. It is used as a container for the output of the bezier curve evaluator in \hyperlink{class_f_t_vectoriser}{F\-T\-Vectoriser}.
+
+\begin{DoxySeeAlso}{See Also}
+F\-T\-Outline\-Glyph 
+
+F\-T\-Polygon\-Glyph 
+
+F\-T\-Point 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_contour_a1a682c070617bf9023ea38c65b32ade3}{\index{F\-T\-Contour@{F\-T\-Contour}!F\-T\-Contour@{F\-T\-Contour}}
+\index{F\-T\-Contour@{F\-T\-Contour}!FTContour@{F\-T\-Contour}}
+\subsubsection[{F\-T\-Contour}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Contour\-::\-F\-T\-Contour (
+\begin{DoxyParamCaption}
+\item[{{\bf F\-T\-\_\-\-Vector} $\ast$}]{contour, }
+\item[{char $\ast$}]{point\-Tags, }
+\item[{unsigned int}]{number\-Of\-Points}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_contour_a1a682c070617bf9023ea38c65b32ade3}
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em contour} & \\
+\hline
+{\em point\-Tags} & \\
+\hline
+{\em number\-Of\-Points} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_contour_a89ac638fc2bbe641d730af84bf13b242}{\index{F\-T\-Contour@{F\-T\-Contour}!$\sim$\-F\-T\-Contour@{$\sim$\-F\-T\-Contour}}
+\index{$\sim$\-F\-T\-Contour@{$\sim$\-F\-T\-Contour}!FTContour@{F\-T\-Contour}}
+\subsubsection[{$\sim$\-F\-T\-Contour}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Contour\-::$\sim$\-F\-T\-Contour (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_a89ac638fc2bbe641d730af84bf13b242}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_contour_add4587cac25790725e704fdd7e9fa9fe}{\index{F\-T\-Contour@{F\-T\-Contour}!Back\-Point@{Back\-Point}}
+\index{Back\-Point@{Back\-Point}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Back\-Point}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-Point\& F\-T\-Contour\-::\-Back\-Point (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_add4587cac25790725e704fdd7e9fa9fe}
+Return a point at index of the back outset contour.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & of the point in the curve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const point reference 
+\end{DoxyReturn}
+\hypertarget{class_f_t_contour_a89f7120855b97ae91c63d13cd22f3e04}{\index{F\-T\-Contour@{F\-T\-Contour}!Front\-Point@{Front\-Point}}
+\index{Front\-Point@{Front\-Point}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Front\-Point}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-Point\& F\-T\-Contour\-::\-Front\-Point (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_a89f7120855b97ae91c63d13cd22f3e04}
+Return a point at index of the front outset contour.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & of the point in the curve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const point reference 
+\end{DoxyReturn}
+\hypertarget{class_f_t_contour_a5b720df9b54e3564d762a6fe8eee3143}{\index{F\-T\-Contour@{F\-T\-Contour}!Outset@{Outset}}
+\index{Outset@{Outset}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Outset}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-Point\& F\-T\-Contour\-::\-Outset (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_a5b720df9b54e3564d762a6fe8eee3143}
+Return a point at index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & of the point in the outset curve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const point reference 
+\end{DoxyReturn}
+\hypertarget{class_f_t_contour_a055f10124231687d7647d56ee6b680ef}{\index{F\-T\-Contour@{F\-T\-Contour}!Point@{Point}}
+\index{Point@{Point}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}const F\-T\-Point\& F\-T\-Contour\-::\-Point (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_a055f10124231687d7647d56ee6b680ef}
+Return a point at index.
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & of the point in the curve. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const point reference 
+\end{DoxyReturn}
+\hypertarget{class_f_t_contour_ab31ce24e66d9534b5e0b052b0b6f408b}{\index{F\-T\-Contour@{F\-T\-Contour}!Point\-Count@{Point\-Count}}
+\index{Point\-Count@{Point\-Count}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Point\-Count}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t F\-T\-Contour\-::\-Point\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_contour_ab31ce24e66d9534b5e0b052b0b6f408b}
+How many points define this contour
+
+\begin{DoxyReturn}{Returns}
+the number of points in this contour 
+\end{DoxyReturn}
+\hypertarget{class_f_t_contour_a7129afbf6bde74d5c9c46ad47bf6e049}{\index{F\-T\-Contour@{F\-T\-Contour}!Set\-Parity@{Set\-Parity}}
+\index{Set\-Parity@{Set\-Parity}!FTContour@{F\-T\-Contour}}
+\subsubsection[{Set\-Parity}]{\setlength{\rightskip}{0pt plus 5cm}void F\-T\-Contour\-::\-Set\-Parity (
+\begin{DoxyParamCaption}
+\item[{int}]{parity}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_contour_a7129afbf6bde74d5c9c46ad47bf6e049}
+Make sure the glyph has the proper parity and create the front/back outset contour.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parity} & The contour's parity within the glyph. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Contour.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Contour.\-cpp\end{DoxyCompactItemize}

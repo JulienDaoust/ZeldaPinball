@@ -1,0 +1,228 @@
+\hypertarget{class_f_t_face}{\section{F\-T\-Face Class Reference}
+\label{class_f_t_face}\index{F\-T\-Face@{F\-T\-Face}}
+}
+
+
+{\ttfamily \#include $<$F\-T\-Face.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_f_t_face_a26907a8a50a1316799054454523f13b4}{F\-T\-Face} (const char $\ast$font\-File\-Path, bool precompute\-Kerning=true)
+\item 
+\hyperlink{class_f_t_face_a0c39392976775b415743326d2e478d57}{F\-T\-Face} (const unsigned char $\ast$p\-Buffer\-Bytes, size\-\_\-t buffer\-Size\-In\-Bytes, bool precompute\-Kerning=true)
+\item 
+virtual \hyperlink{class_f_t_face_aa7087c9bcd6a8c212bfe5048743d7872}{$\sim$\-F\-T\-Face} ()
+\item 
+bool \hyperlink{class_f_t_face_ac8521d2dc370555fea58a842bc4e8a65}{Attach} (const char $\ast$font\-File\-Path)
+\item 
+bool \hyperlink{class_f_t_face_a0ceddf4a66cb56457949307b613d0992}{Attach} (const unsigned char $\ast$p\-Buffer\-Bytes, size\-\_\-t buffer\-Size\-In\-Bytes)
+\item 
+\hyperlink{struct_f_t___face_rec__}{F\-T\-\_\-\-Face} $\ast$ \hyperlink{class_f_t_face_ad3e6e4dcd0d84ad3e80f6c0a4e12f233}{Face} () const 
+\item 
+const \hyperlink{class_f_t_size}{F\-T\-Size} \& \hyperlink{class_f_t_face_a9fb537b25a678a783aa07da8acf1280b}{Size} (const unsigned int size, const unsigned int res)
+\item 
+unsigned int \hyperlink{class_f_t_face_ab1ee1e2906909c8d42e1c143d23b2f5d}{Char\-Map\-Count} () const 
+\item 
+F\-T\-\_\-\-Encoding $\ast$ \hyperlink{class_f_t_face_ae937a2a2c94f933bddb2619d96cad74e}{Char\-Map\-List} ()
+\item 
+F\-T\-Point \hyperlink{class_f_t_face_af57bd3a3122e0e54acb04b348380ed7e}{Kern\-Advance} (unsigned int index1, unsigned int index2)
+\item 
+\hyperlink{struct_f_t___glyph_slot_rec__}{F\-T\-\_\-\-Glyph\-Slot} \hyperlink{class_f_t_face_aad153f57e7eb55ff42755b0512b01854}{Glyph} (unsigned int index, F\-T\-\_\-\-Int load\-\_\-flags)
+\item 
+unsigned int \hyperlink{class_f_t_face_a58805c5cf39daeb8d3fa11e2f791c31a}{Glyph\-Count} () const 
+\item 
+F\-T\-\_\-\-Error \hyperlink{class_f_t_face_a7caba7cdfdc277dc377aed97ab1b36b4}{Error} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_f_t_face}{F\-T\-Face} class provides an abstraction layer for the Freetype Face.
+
+\begin{DoxySeeAlso}{See Also}
+\char`\"{}\-Freetype 2 Documentation\char`\"{} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_f_t_face_a26907a8a50a1316799054454523f13b4}{\index{F\-T\-Face@{F\-T\-Face}!F\-T\-Face@{F\-T\-Face}}
+\index{F\-T\-Face@{F\-T\-Face}!FTFace@{F\-T\-Face}}
+\subsubsection[{F\-T\-Face}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Face\-::\-F\-T\-Face (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{font\-File\-Path, }
+\item[{bool}]{precompute\-Kerning = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_a26907a8a50a1316799054454523f13b4}
+Opens and reads a face file. Error is set.
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\-File\-Path} & font file path. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_face_a0c39392976775b415743326d2e478d57}{\index{F\-T\-Face@{F\-T\-Face}!F\-T\-Face@{F\-T\-Face}}
+\index{F\-T\-Face@{F\-T\-Face}!FTFace@{F\-T\-Face}}
+\subsubsection[{F\-T\-Face}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Face\-::\-F\-T\-Face (
+\begin{DoxyParamCaption}
+\item[{const unsigned char $\ast$}]{p\-Buffer\-Bytes, }
+\item[{size\-\_\-t}]{buffer\-Size\-In\-Bytes, }
+\item[{bool}]{precompute\-Kerning = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_a0c39392976775b415743326d2e478d57}
+Read face data from an in-\/memory buffer. Error is set.
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Buffer\-Bytes} & the in-\/memory buffer \\
+\hline
+{\em buffer\-Size\-In\-Bytes} & the length of the buffer in bytes \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_f_t_face_aa7087c9bcd6a8c212bfe5048743d7872}{\index{F\-T\-Face@{F\-T\-Face}!$\sim$\-F\-T\-Face@{$\sim$\-F\-T\-Face}}
+\index{$\sim$\-F\-T\-Face@{$\sim$\-F\-T\-Face}!FTFace@{F\-T\-Face}}
+\subsubsection[{$\sim$\-F\-T\-Face}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Face\-::$\sim$\-F\-T\-Face (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_f_t_face_aa7087c9bcd6a8c212bfe5048743d7872}
+Destructor
+
+Disposes of the current Freetype Face. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_f_t_face_ac8521d2dc370555fea58a842bc4e8a65}{\index{F\-T\-Face@{F\-T\-Face}!Attach@{Attach}}
+\index{Attach@{Attach}!FTFace@{F\-T\-Face}}
+\subsubsection[{Attach}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Face\-::\-Attach (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{font\-File\-Path}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_ac8521d2dc370555fea58a842bc4e8a65}
+Attach auxilliary file to font (e.\-g., font metrics).
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\-File\-Path} & auxilliary font file path. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if file has opened successfully. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_a0ceddf4a66cb56457949307b613d0992}{\index{F\-T\-Face@{F\-T\-Face}!Attach@{Attach}}
+\index{Attach@{Attach}!FTFace@{F\-T\-Face}}
+\subsubsection[{Attach}]{\setlength{\rightskip}{0pt plus 5cm}bool F\-T\-Face\-::\-Attach (
+\begin{DoxyParamCaption}
+\item[{const unsigned char $\ast$}]{p\-Buffer\-Bytes, }
+\item[{size\-\_\-t}]{buffer\-Size\-In\-Bytes}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_a0ceddf4a66cb56457949307b613d0992}
+Attach auxilliary data to font (e.\-g., font metrics) from memory
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-Buffer\-Bytes} & the in-\/memory buffer \\
+\hline
+{\em buffer\-Size\-In\-Bytes} & the length of the buffer in bytes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if file has opened successfully. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_ab1ee1e2906909c8d42e1c143d23b2f5d}{\index{F\-T\-Face@{F\-T\-Face}!Char\-Map\-Count@{Char\-Map\-Count}}
+\index{Char\-Map\-Count@{Char\-Map\-Count}!FTFace@{F\-T\-Face}}
+\subsubsection[{Char\-Map\-Count}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Face\-::\-Char\-Map\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_f_t_face_ab1ee1e2906909c8d42e1c143d23b2f5d}
+Get the number of character maps in this face.
+
+\begin{DoxyReturn}{Returns}
+character map count. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_ae937a2a2c94f933bddb2619d96cad74e}{\index{F\-T\-Face@{F\-T\-Face}!Char\-Map\-List@{Char\-Map\-List}}
+\index{Char\-Map\-List@{Char\-Map\-List}!FTFace@{F\-T\-Face}}
+\subsubsection[{Char\-Map\-List}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Encoding $\ast$ F\-T\-Face\-::\-Char\-Map\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_ae937a2a2c94f933bddb2619d96cad74e}
+Get a list of character maps in this face.
+
+\begin{DoxyReturn}{Returns}
+pointer to the first encoding. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_a7caba7cdfdc277dc377aed97ab1b36b4}{\index{F\-T\-Face@{F\-T\-Face}!Error@{Error}}
+\index{Error@{Error}!FTFace@{F\-T\-Face}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-\_\-\-Error F\-T\-Face\-::\-Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_face_a7caba7cdfdc277dc377aed97ab1b36b4}
+Queries for errors.
+
+\begin{DoxyReturn}{Returns}
+The current error code. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_ad3e6e4dcd0d84ad3e80f6c0a4e12f233}{\index{F\-T\-Face@{F\-T\-Face}!Face@{Face}}
+\index{Face@{Face}!FTFace@{F\-T\-Face}}
+\subsubsection[{Face}]{\setlength{\rightskip}{0pt plus 5cm}{\bf F\-T\-\_\-\-Face}$\ast$ F\-T\-Face\-::\-Face (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_face_ad3e6e4dcd0d84ad3e80f6c0a4e12f233}
+Get the freetype face object..
+
+\begin{DoxyReturn}{Returns}
+pointer to an F\-T\-\_\-\-Face. 
+\end{DoxyReturn}
+\hypertarget{class_f_t_face_aad153f57e7eb55ff42755b0512b01854}{\index{F\-T\-Face@{F\-T\-Face}!Glyph@{Glyph}}
+\index{Glyph@{Glyph}!FTFace@{F\-T\-Face}}
+\subsubsection[{Glyph}]{\setlength{\rightskip}{0pt plus 5cm}{\bf F\-T\-\_\-\-Glyph\-Slot} F\-T\-Face\-::\-Glyph (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{F\-T\-\_\-\-Int}]{load\-\_\-flags}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_aad153f57e7eb55ff42755b0512b01854}
+Loads and creates a Freetype glyph. \hypertarget{class_f_t_face_a58805c5cf39daeb8d3fa11e2f791c31a}{\index{F\-T\-Face@{F\-T\-Face}!Glyph\-Count@{Glyph\-Count}}
+\index{Glyph\-Count@{Glyph\-Count}!FTFace@{F\-T\-Face}}
+\subsubsection[{Glyph\-Count}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int F\-T\-Face\-::\-Glyph\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_f_t_face_a58805c5cf39daeb8d3fa11e2f791c31a}
+Gets the number of glyphs in the current face. \hypertarget{class_f_t_face_af57bd3a3122e0e54acb04b348380ed7e}{\index{F\-T\-Face@{F\-T\-Face}!Kern\-Advance@{Kern\-Advance}}
+\index{Kern\-Advance@{Kern\-Advance}!FTFace@{F\-T\-Face}}
+\subsubsection[{Kern\-Advance}]{\setlength{\rightskip}{0pt plus 5cm}F\-T\-Point F\-T\-Face\-::\-Kern\-Advance (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index1, }
+\item[{unsigned int}]{index2}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_af57bd3a3122e0e54acb04b348380ed7e}
+Gets the kerning vector between two glyphs \hypertarget{class_f_t_face_a9fb537b25a678a783aa07da8acf1280b}{\index{F\-T\-Face@{F\-T\-Face}!Size@{Size}}
+\index{Size@{Size}!FTFace@{F\-T\-Face}}
+\subsubsection[{Size}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf F\-T\-Size} \& F\-T\-Face\-::\-Size (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{size, }
+\item[{const unsigned int}]{res}
+\end{DoxyParamCaption}
+)}}\label{class_f_t_face_a9fb537b25a678a783aa07da8acf1280b}
+Sets the char size for the current face.
+
+This doesn't guarantee that the size was set correctly. Clients should check errors.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the face size in points (1/72 inch) \\
+\hline
+{\em res} & the resolution of the target device. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily \hyperlink{class_f_t_size}{F\-T\-Size}} object 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Face.\-h\item 
+X\-:/\-Git\-\_\-\-Repository/inf2990-\/06/\-Cadriciel/\-Commun/\-Externe/\-F\-T\-G\-L/include/F\-T\-Face.\-cpp\end{DoxyCompactItemize}
